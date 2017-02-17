@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52D6F2A1-C126-41DF-8F18-68DF73AC71D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Model.App</RootNamespace>
+    <AssemblyName>Enterprise.Model.App</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSuperModel.cs" />
+    <Compile Include="Archives\ArchivesAnjuanModel.cs" />
+    <Compile Include="Archives\ArchivesJuanneiModel.cs" />
+    <Compile Include="Archives\ArchivesKindModel.cs" />
+    <Compile Include="Crm\CrmFbcontractModel.cs" />
+    <Compile Include="Crm\CrmFbhtjeModel.cs" />
+    <Compile Include="Crm\CrmFbreqformModel.cs" />
+    <Compile Include="Crm\CrmFbsinfoModel.cs" />
+    <Compile Include="Crm\CrmFbspersonsModel.cs" />
+    <Compile Include="Crm\CrmInfoModel.cs" />
+    <Compile Include="Crm\CrmPbinfoModel.cs" />
+    <Compile Include="Crm\CrmPbkindModel.cs" />
+    <Compile Include="Crm\CrmPbsurveyitemModel.cs" />
+    <Compile Include="Crm\CrmPbsurveyModel.cs" />
+    <Compile Include="Crm\CrmPersonModel.cs" />
+    <Compile Include="Dmgl\DmglPlanModel.cs" />
+    <Compile Include="Dmgl\DmglSgjdModel.cs" />
+    <Compile Include="Document\DocumentConfigModel.cs" />
+    <Compile Include="Document\DocumentConvertModel.cs" />
+    <Compile Include="Document\DocumentDownloadsModel.cs" />
+    <Compile Include="Document\DocumentKindModel.cs" />
+    <Compile Include="Document\DocumentOfficialModel.cs" />
+    <Compile Include="Document\DocumentProjModel.cs" />
+    <Compile Include="Examine\ExamineCostitemModel.cs" />
+    <Compile Include="Examine\ExamineCostModel.cs" />
+    <Compile Include="Examine\ExamineKindModel.cs" />
+    <Compile Include="Examine\ExamineNodesModel.cs" />
+    <Compile Include="Examine\ExamineProcessModel.cs" />
+    <Compile Include="Goods\GoodsDeviceModel.cs" />
+    <Compile Include="Goods\GoodsKindModel.cs" />
+    <Compile Include="Hr\HrChizhengModel.cs" />
+    <Compile Include="Hr\HrChizhengwpModel.cs" />
+    <Compile Include="Hr\HrZigeModel.cs" />
+    <Compile Include="Hse\HseSectcheckdetlModel.cs" />
+    <Compile Include="Hse\HseSectcheckModel.cs" />
+    <Compile Include="Project\MemberStatus.cs" />
+    <Compile Include="Project\ProjectArchiveModel.cs" />
+    <Compile Include="Project\ProjectBhModel.cs" />
+    <Compile Include="Project\ProjectCarModel.cs" />
+    <Compile Include="Project\ProjectChangeModel.cs" />
+    <Compile Include="Project\ProjectCheckModel.cs" />
+    <Compile Include="Project\ProjectCommunicationModel.cs" />
+    <Compile Include="Project\ProjectCompletionModel.cs" />
+    <Compile Include="Project\ProjectContractModel.cs" />
+    <Compile Include="Project\ProjectCostModel.cs" />
+    <Compile Include="Project\ProjectCostplanModel.cs" />
+    <Compile Include="Project\ProjectCprzzsModel.cs" />
+    <Compile Include="Project\ProjectCpsjscModel.cs" />
+    <Compile Include="Project\ProjectCptzdjModel.cs" />
+    <Compile Include="Project\ProjectDailyviewModel.cs" />
+    <Compile Include="Project\ProjectDeliveryModel.cs" />
+    <Compile Include="Project\ProjectDeptincomeviewModel.cs" />
+    <Compile Include="Project\ProjectDeviceModel.cs" />
+    <Compile Include="Project\ProjectFwsModel.cs" />
+    <Compile Include="Project\ProjectFzjyqzbModel.cs" />
+    <Compile Include="Project\ProjectFzscyjModel.cs" />
+    <Compile Include="Project\ProjectFzsjbajlModel.cs" />
+    <Compile Include="Project\ProjectFzstchModel.cs" />
+    <Compile Include="Project\ProjectFztswjModel.cs" />
+    <Compile Include="Project\ProjectFztsyjModel.cs" />
+    <Compile Include="Project\ProjectFztzdjModel.cs" />
+    <Compile Include="Project\ProjectFztzjfjlModel.cs" />
+    <Compile Include="Project\ProjectFztzlviewModel.cs" />
+    <Compile Include="Project\ProjectFzzjpsModel.cs" />
+    <Compile Include="Project\ProjectGdjsfaModel.cs" />
+    <Compile Include="Project\ProjectGdjszlModel.cs" />
+    <Compile Include="Project\ProjectGlzdModel.cs" />
+    <Compile Include="Project\ProjectHsehdjlModel.cs" />
+    <Compile Include="Project\ProjectHsezzjgModel.cs" />
+    <Compile Include="Project\ProjectIncomeModel.cs" />
+    <Compile Include="Project\ProjectIncomeviewModel.cs" />
+    <Compile Include="Project\ProjectInfoModel.cs" />
+    <Compile Include="Project\ProjectJbjggsModel.cs" />
+    <Compile Include="Project\ProjectKbhqdbModel.cs" />
+    <Compile Include="Project\ProjectKbhycModel.cs" />
+    <Compile Include="Project\ProjectKbjlModel.cs" />
+    <Compile Include="Project\ProjectKbpbgzjlModel.cs" />
+    <Compile Include="Project\ProjectMaterialModel.cs" />
+    <Compile Include="Project\ProjectMbrattendanceModel.cs" />
+    <Compile Include="Project\ProjectMbroutsideModel.cs" />
+    <Compile Include="Project\ProjectMemberModel.cs" />
+    <Compile Include="Project\ProjectOrderModel.cs" />
+    <Compile Include="Project\ProjectPbbgModel.cs" />
+    <Compile Include="Project\ProjectPbhqdbModel.cs" />
+    <Compile Include="Project\ProjectPbywhxyModel.cs" />
+    <Compile Include="Project\ProjectPfbzmModel.cs" />
+    <Compile Include="Project\ProjectPfbzModel.cs" />
+    <Compile Include="Project\ProjectPfhzModel.cs" />
+    <Compile Include="Project\ProjectPfmbModel.cs" />
+    <Compile Include="Project\ProjectPlanModel.cs" />
+    <Compile Include="Project\ProjectProfitModel.cs" />
+    <Compile Include="Project\ProjectPszjModel.cs" />
+    <Compile Include="Project\ProjectQhsecheckitemModel.cs" />
+    <Compile Include="Project\ProjectQhsecheckModel.cs" />
+    <Compile Include="Project\ProjectQualityModel.cs" />
+    <Compile Include="Project\ProjectReportModel.cs" />
+    <Compile Include="Project\ProjectRequirementModel.cs" />
+    <Compile Include="Project\ProjectRunninganalyzeviewModel.cs" />
+    <Compile Include="Project\ProjectRunningModel.cs" />
+    <Compile Include="Project\ProjectRwchModel.cs" />
+    <Compile Include="Project\ProjectRwgzlModel.cs" />
+    <Compile Include="Project\ProjectSettlementModel.cs" />
+    <Compile Include="Project\ProjectTbrcbsxModel.cs" />
+    <Compile Include="Project\ProjectTbyqhModel.cs" />
+    <Compile Include="Project\ProjectTpinfoModel.cs" />
+    <Compile Include="Project\ProjectTzwjjsjlbModel.cs" />
+    <Compile Include="Project\ProjectWssjdjModel.cs" />
+    <Compile Include="Project\ProjectWsxmbsModel.cs" />
+    <Compile Include="Project\ProjectXfsbModel.cs" />
+    <Compile Include="Project\ProjectYhzlModel.cs" />
+    <Compile Include="Project\ProjectYjyaModel.cs" />
+    <Compile Include="Project\ProjectZbjgspbModel.cs" />
+    <Compile Include="Project\ProjectZbtzsModel.cs" />
+    <Compile Include="Project\ProjectZbwjfjModel.cs" />
+    <Compile Include="Project\ProjectZbwjlqdjbModel.cs" />
+    <Compile Include="Project\ProjectZbwjModel.cs" />
+    <Compile Include="Project\ProjectZbwjshModel.cs" />
+    <Compile Include="Project\ProjectZjpfModel.cs" />
+    <Compile Include="Project\ProjectZlglModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publicize\PublicizeInfoModel.cs" />
+    <Compile Include="Publicize\PublicizeKindModel.cs" />
+    <Compile Include="Publicize\PublicizeSigningModel.cs" />
+    <Compile Include="Sbgl\SbglTzModel.cs" />
+    <Compile Include="Sbgl\SbglWxdwModel.cs" />
+    <Compile Include="Sbgl\SbglWxjhbModel.cs" />
+    <Compile Include="Sbgl\SbglYsbgdModel.cs" />
+    <Compile Include="Ui\UiCustomModel.cs" />
+    <Compile Include="Ui\UiDefaultModel.cs" />
+    <Compile Include="Ui\UiTabModel.cs" />
+    <Compile Include="Zygl\ZyglJsModel.cs" />
+    <Compile Include="Zygl\ZyglPlanModel.cs" />
+    <Compile Include="Zygl\ZyglWgqtfyModel.cs" />
+    <Compile Include="Zygl\ZyglWgysModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Crm\Mapping\CrmInfoModel.hbm.xml" />
+    <EmbeddedResource Include="Crm\Mapping\CrmPersonModel.hbm.xml" />
+    <EmbeddedResource Include="Examine\Mapping\ExamineCostModel.hbm.xml" />
+    <EmbeddedResource Include="Examine\Mapping\ExamineKindModel.hbm.xml" />
+    <EmbeddedResource Include="Examine\Mapping\ExamineNodesModel.hbm.xml" />
+    <EmbeddedResource Include="Examine\Mapping\ExamineProcessModel.hbm.xml" />
+    <EmbeddedResource Include="Goods\Mapping\GoodsDeviceModel.hbm.xml" />
+    <EmbeddedResource Include="Goods\Mapping\GoodsKindModel.hbm.xml" />
+    <EmbeddedResource Include="Hr\Mapping\HrChizhengModel.hbm.xml" />
+    <EmbeddedResource Include="Hr\Mapping\HrZigeModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectArchiveModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectChangeModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectCheckModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectCommunicationModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectCompletionModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectContractModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectCostModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectCostplanModel.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Mapping\ProjectCprzzsModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectCpsjscModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectCptzdjModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectDeliveryModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectGdjsfaModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectGdjszlModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectIncomeModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectInfoModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectMemberModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectOrderModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectPlanModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectProfitModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectReportModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectRequirementModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectRunningModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectRwchModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectRwgzlModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectSettlementModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectWsxmbsModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Examine\Mapping\ExamineCostitemModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Model.Basis\Enterprise.Model.Basis.csproj">
+      <Project>{D00F0FA7-8175-40C8-815C-07BED22BE517}</Project>
+      <Name>Enterprise.Model.Basis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectHsehdjlModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectHsezzjgModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectWssjdjModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectXfsbModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectYhzlModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectYjyaModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectQhsecheckitemModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectQhsecheckModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectFzjyqzbModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectFzscyjModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectFzsjbajlModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectFzstchModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectFztswjModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectFztsyjModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectFztzdjModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectFztzjfjlModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectFzzjpsModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ui\Mapping\UiCustomModel.hbm.xml" />
+    <EmbeddedResource Include="Ui\Mapping\UiDefaultModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ui\Mapping\UiTabModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectRunninganalyzeviewModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectIncomeviewModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectDeptincomeviewModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Crm\Mapping\CrmFbcontractModel.hbm.xml" />
+    <EmbeddedResource Include="Crm\Mapping\CrmFbhtjeModel.hbm.xml" />
+    <EmbeddedResource Include="Crm\Mapping\CrmFbreqformModel.hbm.xml" />
+    <EmbeddedResource Include="Crm\Mapping\CrmFbsinfoModel.hbm.xml" />
+    <EmbeddedResource Include="Crm\Mapping\CrmFbspersonsModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectDailyviewModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectFztzlviewModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Archives\Mapping\ArchivesAnjuanModel.hbm.xml" />
+    <EmbeddedResource Include="Archives\Mapping\ArchivesJuanneiModel.hbm.xml" />
+    <EmbeddedResource Include="Archives\Mapping\ArchivesKindModel.hbm.xml" />
+    <EmbeddedResource Include="Document\Mapping\DocumentConvertModel.hbm.xml" />
+    <EmbeddedResource Include="Document\Mapping\DocumentDownloadsModel.hbm.xml" />
+    <EmbeddedResource Include="Document\Mapping\DocumentProjModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Publicize\Mapping\PublicizeInfoModel.hbm.xml" />
+    <EmbeddedResource Include="Publicize\Mapping\PublicizeKindModel.hbm.xml" />
+    <EmbeddedResource Include="Publicize\Mapping\PublicizeSigningModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Hr\Mapping\HrChizhengwpModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Document\Mapping\DocumentConfigModel.hbm.xml" />
+    <EmbeddedResource Include="Document\Mapping\DocumentKindModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Crm\Mapping\CrmPbinfoModel.hbm.xml" />
+    <EmbeddedResource Include="Crm\Mapping\CrmPbkindModel.hbm.xml" />
+    <EmbeddedResource Include="Crm\Mapping\CrmPbsurveyitemModel.hbm.xml" />
+    <EmbeddedResource Include="Crm\Mapping\CrmPbsurveyModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectCarModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectDeviceModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectMaterialModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectMbrattendanceModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectMbroutsideModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectQualityModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectGlzdModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectZlglModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Document\Mapping\DocumentOfficialModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sbgl\Mapping\SbglTzModel.hbm.xml" />
+    <EmbeddedResource Include="Sbgl\Mapping\SbglWxdwModel.hbm.xml" />
+    <EmbeddedResource Include="Sbgl\Mapping\SbglWxjhbModel.hbm.xml" />
+    <EmbeddedResource Include="Sbgl\Mapping\SbglYsbgdModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Hse\Mapping\HseSectcheckdetlModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Hse\Mapping\HseSectcheckModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dmgl\Mapping\DmglPlanModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dmgl\Mapping\DmglSgjdModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zygl\Mapping\ZyglPlanModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zygl\Mapping\ZyglWgqtfyModel.hbm.xml" />
+    <EmbeddedResource Include="Zygl\Mapping\ZyglWgysModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zygl\Mapping\ZyglJsModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectFwsModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectPfbzModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectPfmbModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectPszjModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectTbyqhModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectZbwjlqdjbModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectTzwjjsjlbModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectKbhqdbModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectPbhqdbModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectKbhycModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectKbpbgzjlModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectPbywhxyModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectTbrcbsxModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectKbjlModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectZjpfModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectPfhzModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectZbwjModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectZbwjshModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectZbwjfjModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectJbjggsModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectPbbgModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectZbjgspbModel.hbm.xml" />
+    <EmbeddedResource Include="Project\Mapping\ProjectZbtzsModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectPfbzmModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectBhModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Mapping\ProjectTpinfoModel.hbm.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

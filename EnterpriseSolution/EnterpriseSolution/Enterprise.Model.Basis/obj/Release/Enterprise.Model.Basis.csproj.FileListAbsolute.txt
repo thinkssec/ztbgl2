@@ -1,0 +1,5 @@
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\bin\Release\Enterprise.Model.Basis.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\bin\Release\Enterprise.Model.Basis.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\obj\Release\Enterprise.Model.Basis.csprojResolveAssemblyReference.cache
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\obj\Release\Enterprise.Model.Basis.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\obj\Release\Enterprise.Model.Basis.pdb

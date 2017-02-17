@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Examine">
+    <class name="ExamineCostitemModel" table="APP_EXAMINE_COSTITEM">
+        
+			<id name="ITEMCODE" column="ITEMCODE" type="string">			</id>
+			<property name="ITEMNAME" column="ITEMNAME" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="ITEMORDER" column="ITEMORDER" type="int" />
+			<property name="ACCORDINGTO" column="ACCORDINGTO" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfTrustusersModel" table="BASIS_BF_TRUSTUSERS">
+        
+			<id name="BF_TRUSTID" column="BF_TRUSTID" type="string">			
+                
+            </id>
+			<property name="BF_FROMUSER" column="BF_FROMUSER" type="int" />
+			<property name="BF_TRUSTSTATUS" column="BF_TRUSTSTATUS" type="int" />
+			<property name="BF_TRUSTEND" column="BF_TRUSTEND" type="DateTime" />
+			<property name="BF_TRUSTDESC" column="BF_TRUSTDESC" type="string" />
+			<property name="BF_TRUSTSTART" column="BF_TRUSTSTART" type="DateTime" />
+			<property name="BF_TRUSTDATE" column="BF_TRUSTDATE" type="DateTime" />
+			<property name="BF_TOUSER" column="BF_TOUSER" type="int" />
+
+    </class>
+</hibernate-mapping>

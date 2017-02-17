@@ -1,0 +1,11 @@
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.BF\bin\Debug\Enterprise.Component.BF.XML
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.BF\bin\Debug\Enterprise.Component.BF.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.BF\bin\Debug\Enterprise.Component.BF.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.BF\obj\Debug\Enterprise.Component.BF.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.BF\obj\Debug\Enterprise.Component.BF.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.BF\obj\Debug\Enterprise.Component.BF.csprojResolveAssemblyReference.cache
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.BF\bin\Debug\Enterprise.Component.BF.XML
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.BF\bin\Debug\Enterprise.Component.BF.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.BF\bin\Debug\Enterprise.Component.BF.pdb
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.BF\obj\Debug\Enterprise.Component.BF.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.BF\obj\Debug\Enterprise.Component.BF.pdb

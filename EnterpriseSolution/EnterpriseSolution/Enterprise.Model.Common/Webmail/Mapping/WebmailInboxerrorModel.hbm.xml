@@ -1,0 +1,9 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Webmail">
+    <class name="WebmailInboxerrorModel" table="COMMON_WEBMAIL_INBOXERROR">
+        
+			<id name="MESSAGEID" column="MESSAGEID" type="string">			</id>
+			<property name="EMAIL" column="EMAIL" type="string" />
+
+    </class>
+</hibernate-mapping>

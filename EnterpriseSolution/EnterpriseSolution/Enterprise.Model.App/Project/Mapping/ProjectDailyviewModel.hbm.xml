@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectDailyviewModel" table="APP_PROJECT_DAILYVIEW">
+
+      <composite-id>
+        <key-property name="PROJID" column="PROJID" type="string" />
+        <key-property name="RQ" column="RQ" type="DateTime" />
+      </composite-id>      
+			<property name="XMCB" column="XMCB" type="decimal" />
+			<property name="XMCZ" column="XMCZ" type="decimal" />
+			<property name="JSSR" column="JSSR" type="decimal" />
+      <property name="HKSR" column="HKSR" type="decimal" />
+
+    </class>
+</hibernate-mapping>

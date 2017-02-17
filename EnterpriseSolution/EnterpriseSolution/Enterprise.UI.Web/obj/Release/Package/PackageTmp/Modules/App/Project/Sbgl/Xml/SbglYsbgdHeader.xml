@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--By Supcan TreeList -->
+<TreeList>
+	<Properties alpha="150" autoBreakLine="1" editAble="true" id="BGDID" key="BGDID" 
+              Title="设备维修验收报告单" HeaderFontIndex="2" HeaderHeight="34" RowHeight="28" 
+              alternateColor="#eefdff" totalOption="verticalLine=dotLine">
+  </Properties>
+	<Fonts>
+		<Font faceName="Consolas"/>
+		<Font />
+		<Font faceName="微软雅黑" bold="1"/>
+		<Font bold="true" />
+	</Fonts>
+	<Cols>
+    <Col name="KGRQ" width="100" datatype="date" totalExpress="='合计(元)'" totalAlign="center" displayMask="YYYY-MM">送修年月</Col>
+    <Col name="JHBID" width="100" droplistID="SBWXJH" edittype="droptreelist">设备信息</Col>
+    <Col name="BGDPH" width="100" editAble="false">验收单批号</Col>
+    <Col name="GGXH" width="70" editAble="false" backcolor="#eeeeee">规格型号</Col>
+    <Col name="CLPH" width="70" editAble="false" backcolor="#eeeeee">车辆牌号</Col>
+    <Col name="WXXMMC" width="100">设备维修项目名称</Col>
+    <Col name="JLDW" width="100">计量单位</Col>
+    <Col name="SL" width="50" datatype="int">数量</Col>
+    <Col name="SZDD" width="100">所在地点</Col>
+    <Col name="GZLMS" width="300">维修工作量描述</Col>
+    <Col name="SBYZ" width="100" datatype="double" decimal="2" displayMask="=data+'元';">原值</Col>
+    <Col name="SBDJ" width="100" datatype="double" decimal="2" displayMask="=data+'元';">单价</Col>
+    <Col name="SBZJ" width="100" datatype="double" decimal="2" displayMask="=data+'元';" totalExpress="=@sum+'元'">总价</Col>
+    <Col name="JFRQ" width="100" datatype="date">交付使用日期</Col>
+    <Col name="YSYJBZ" width="200">验收意见及备注</Col>
+    <Col name="WXDW" width="150" droplistID="SJWXDW" edittype="droptreelist">维修单位</Col>
+    <Col name="SHZT" editAble="false" width="100" droplistID="ZT"  edittype="droplist" defaultValue="0">审核状态</Col>
+    <Col name="BGDID" width="100" isHide="true">验收报告单ID</Col>
+    <Col name="YSFJ" width="100" isHide="true">验收附件</Col>
+  </Cols>
+  <DropLists>
+    <DropList id="SJWXDW" treelist="/Modules/App/Project/Sbgl/Xml/SbwxdwDtLst.xml" DataCol="CJBH" DisplayCol="CJMC"/>
+    <DropList id="SBWXJH" treelist="/Modules/App/Project/Sbgl/SbglDataHandler.ashx?type=DL_WXJH" DataCol="JHBID" DisplayCol="SBLX"/>
+    <DropList id="DW" treelist="/Modules/App/Project/Xml/SysDept.xml" DataCol="DEPTID" DisplayCol="DNAME"/>
+    <DropList id="ZT">
+      <item key="1">已通过</item>
+      <item key="0">待审核</item>
+      <item key="-1">不通过</item>
+    </DropList>
+  </DropLists>
+</TreeList>

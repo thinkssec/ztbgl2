@@ -1,0 +1,26 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Busitravel">
+    <class name="BusitravelSummaryModel" table="COMMON_BUSITRAVEL_SUMMARY">
+
+        <id name="BID" column="BID" type="string">			</id>
+        <property name="BCLOSE" column="BCLOSE" type="DateTime" />
+        <property name="BREQSNUM" column="BREQSNUM" type="int" />
+        <property name="BEND" column="BEND" type="DateTime" />
+        <property name="BILL" column="BILL" type="string" />
+        <property name="BDESTINATION" column="BDESTINATION" type="string" />
+        <property name="BTYPE" column="BTYPE" type="int" />
+        <property name="BSUBJECT" column="BSUBJECT" type="string" />
+        <property name="BTRANSDATE" column="BTRANSDATE" type="DateTime" />
+        <property name="BREQUSER" column="BREQUSER" type="int" />
+        <property name="BAPPROVEDATE" column="BAPPROVEDATE" type="DateTime" />
+        <property name="BSTART" column="BSTART" type="DateTime" />
+        <property name="BUSERNAME" column="BUSERNAME" type="string" />
+        <property name="BSTATE" column="BSTATE" type="int" />
+        <property name="BTICKETUSER" column="BTICKETUSER" type="int" />
+        <property name="BDAYS" column="BDAYS" type="int" />
+        <property name="BMAXDAYS" column="BMAXDAYS" type="int" />
+        <property name="BLANG" column="BLANG" type="string" />
+        <property name="BDEPTID" column="BDEPTID" type="int" />
+        
+    </class>
+</hibernate-mapping>

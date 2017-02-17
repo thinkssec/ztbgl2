@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Article">
+    <class name="ArticleClobModel" table="COMMON_ARTICLE_CLOB">
+        
+			<id name="ARCID" column="ARCID" type="string">			</id>
+			<property name="ARCCONTENTOTHER" column="ARCCONTENTOTHER" type="Enterprise.Component.ORM.OracleClobField,Enterprise.Component.ORM" />
+			<property name="ASSOCIATIONID" column="ASSOCIATIONID" type="string" />
+			<property name="ARCCONTENTCN" column="ARCCONTENTCN" type="Enterprise.Component.ORM.OracleClobField,Enterprise.Component.ORM" />
+			<property name="ARCBZ" column="ARCBZ" type="string" />
+
+    </class>
+</hibernate-mapping>

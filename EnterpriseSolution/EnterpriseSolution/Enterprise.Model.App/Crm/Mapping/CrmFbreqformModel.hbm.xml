@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmFbreqformModel" table="APP_CRM_FBREQFORM">
+        
+			<id name="REQID" column="REQID" type="string">			</id>
+			<property name="FBJE" column="FBJE" type="decimal" />
+			<property name="FBBH" column="FBBH" type="string" />
+			<property name="FBGZ" column="FBGZ" type="string" />
+			<property name="BP" column="BP" type="int" />
+			<property name="SQR" column="SQR" type="int" />
+			<property name="FBFA" column="FBFA" type="string" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="FJ" column="FJ" type="string" />
+			<property name="SQRQ" column="SQRQ" type="DateTime" />
+			<property name="SHZT" column="SHZT" type="int" />
+			<property name="SHRQ" column="SHRQ" type="DateTime" />
+			<property name="GZL" column="GZL" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="SQDW" column="SQDW" type="int" />
+      <property name="FBSID" column="FBSID" type="string" />
+
+    </class>
+</hibernate-mapping>

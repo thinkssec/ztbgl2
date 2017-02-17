@@ -1,0 +1,28 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Sbgl">
+    <class name="SbglWxjhbModel" table="APP_SBGL_WXJHB">
+        
+			<id name="JHBID" column="JHBID" type="string">			</id>
+			<property name="SBWXPH" column="SBWXPH" type="string" />
+			<property name="SBSYDW" column="SBSYDW" type="string" />
+			<property name="SBLX" column="SBLX" type="string" />
+			<property name="GGXH" column="GGXH" type="string" />
+			<property name="CLXH" column="CLXH" type="string" />
+			<property name="SBBH" column="SBBH" type="string" />
+			<property name="SBYZ" column="SBYZ" type="decimal" />
+			<property name="SBJZ" column="SBJZ" type="decimal" />
+			<property name="AZDD" column="AZDD" type="string" />
+			<property name="TCRQ" column="TCRQ" type="DateTime" />
+			<property name="YXSJLC" column="YXSJLC" type="string" />
+			<property name="SCXLRQ" column="SCXLRQ" type="DateTime" />
+			<property name="SXRQ" column="SXRQ" type="DateTime" />
+			<property name="SBWXNR" column="SBWXNR" type="string" />
+			<property name="YJWXFY" column="YJWXFY" type="decimal" />
+			<property name="JYWXDW" column="JYWXDW" type="string" />
+			<property name="SQZT" column="SQZT" type="int" />
+			<property name="TBR" column="TBR" type="string" />
+			<property name="TBRQ" column="TBRQ" type="DateTime" />
+			<property name="BZ" column="BZ" type="string" />
+
+    </class>
+</hibernate-mapping>

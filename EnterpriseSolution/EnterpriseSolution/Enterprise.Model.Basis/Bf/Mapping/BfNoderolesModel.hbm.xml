@@ -1,0 +1,20 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfNoderolesModel" table="BASIS_BF_NODEROLES">
+        
+		<id name="BF_ROLEID" column="BF_ROLEID" type="string">			
+                
+        </id>
+		<property name="BF_ID" column="BF_ID" type="string" />
+		<property name="BF_NODEID" column="BF_NODEID" type="string" />
+		<property name="BF_ROLENAME" column="BF_ROLENAME" type="string" />
+		<property name="BF_ROLETYPE" column="BF_ROLETYPE" type="int" />
+		<property name="BF_OPERATIONTYPE" column="BF_OPERATIONTYPE" type="int" />
+		<property name="USERID" column="USERID" type="int" />
+		<property name="BF_VERSION" column="BF_VERSION" type="int" />
+		<property name="BF_CLSID" column="BF_CLSID" type="string" />
+
+        <many-to-one name='BfClsmethod' class='BfClsmethodsModel' lazy='false' column='BF_CLSID' insert='false' update='false' />
+
+    </class>
+</hibernate-mapping>

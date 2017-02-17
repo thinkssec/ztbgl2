@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfClsmethodsModel" table="BASIS_BF_CLSMETHODS">
+        
+			<id name="BF_CLSID" column="BF_CLSID" type="string">			</id>
+			<property name="BF_CLSNAME" column="BF_CLSNAME" type="string" />
+			<property name="BF_METHODDESC" column="BF_METHODDESC" type="string" />
+			<property name="BF_METHOD" column="BF_METHOD" type="string" />
+
+    </class>
+</hibernate-mapping>

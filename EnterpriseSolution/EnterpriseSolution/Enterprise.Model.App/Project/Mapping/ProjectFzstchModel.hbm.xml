@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectFzstchModel" table="APP_PROJECT_FZSTCH">
+        
+			<id name="ID" column="ID" type="string">			</id>
+			<property name="STZT" column="STZT" type="int" />
+			<property name="BJDM" column="BJDM" type="string" />
+			<property name="TZMC" column="TZMC" type="string" />
+			<property name="BC" column="BC" type="string" />
+			<property name="YJWCSJ" column="YJWCSJ" type="DateTime" />
+			<property name="STR" column="STR" type="int" />
+			<property name="ZHTZL" column="ZHTZL" type="decimal" />
+			<property name="SJWCSJ" column="SJWCSJ" type="DateTime" />
+			<property name="DAH" column="DAH" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

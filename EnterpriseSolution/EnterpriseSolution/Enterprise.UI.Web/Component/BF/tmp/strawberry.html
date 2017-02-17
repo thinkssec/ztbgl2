@@ -1,0 +1,502 @@
+﻿<html>
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>xjwGraphDemo</title>
+	
+	<link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
+	<link href="css/flowPath.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="themes/icon.css">
+	<script type="text/javascript" src="js/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="js/bf.logic.js"></script>
+	<STYLE>
+		v\:*{behavior:url(#default#VML);}
+	</STYLE>
+
+</head>
+
+<body class="easyui-layout bodySelectNone" id="body" onselectstart="return false">
+	
+	<div id="title" region="north" split="true" border="false" title="工具栏" class="titleTool">
+		<div id="message" class="message"></div>
+		<img alt="选择" title="选择" src="images/0.png" onclick="graphUtils.toSelect()" class="buttonStyle" />	
+		<img alt="合并" title="合并" src="images/1.png" onclick="graphUtils.toMerge()" class="buttonStyle" />
+		<img alt="拆分" title="拆分" src="images/2.png" onclick="graphUtils.toSplit()" class="buttonStyle"/>
+		<img alt="置顶"	title="置顶" src="images/4.png" onclick="graphUtils.toTop()" class="buttonStyle"/>
+		<img alt="置底"	title="置底" src="images/3.png" onclick="graphUtils.toBottom()" class="buttonStyle"/>
+		<img alt="预览"	title="预览" src="images/zoom.png" onclick="graphUtils.printView()" class="buttonStyle"/>
+		<!--img alt="打印" title="打印" src="images/printer.png"  class="buttonStyle"/-->
+		<img alt="撤销"	title="撤销" src="images/back.png" onclick="graphUtils.undo();" class="buttonStyle"/>
+		<img alt="重做"	title="重做" src="images/next.png" onclick="graphUtils.redo();" class="buttonStyle"/>
+		<img alt="保存"	title="保存" src="images/save.png" onclick="graphUtils.saveXml();" class="buttonStyle"/>
+		<img alt="加载"	title="加载" src="images/download_page.png" onclick="graphUtils.loadXml();" class="buttonStyle"/>
+		<img alt="清空"	title="清空" src="images/trash.png" onclick="graphUtils.clearHtml();" class="buttonStyle"/>
+		<img alt="复制"	title="复制" src="images/copy.png" onclick="graphUtils.copyNode();" class="buttonStyle"/>
+		<img alt="删除"	title="删除" src="images/delete.png" onclick="graphUtils.removeNode();" class="buttonStyle"/>
+		<!--img alt="左对齐"	title="左对齐" src="images/toLeft.png" onclick="graphUtils.alignLeft();" class="buttonStyle"/>
+		<img alt="垂直居中"	title="垂直居中" src="images/toMiddleWidth.png" onclick="graphUtils.verticalCenter();" class="buttonStyle"/>
+		<img alt="右对齐"	title="右对齐" src="images/toRight.png" onclick="graphUtils.alignRight();" class="buttonStyle"/-->
+		<img alt="顶对齐"	title="顶对齐" src="images/toTop.png" onclick="graphUtils.alignTop();" class="buttonStyle"/>
+		<img alt="水平居中"	title="水平居中" src="images/toMiddleHeight.png" onclick="graphUtils.horizontalCenter();" class="buttonStyle"/>
+		<img alt="底对齐"	title="底对齐" src="images/toBottom.png" onclick="graphUtils.bottomAlignment();" class="buttonStyle"/>
+		
+	</div>
+	
+	<div id="leftContent" region="west" split="true" title="图元区" class="leftContent">
+		
+		<div class="easyui-accordion overflowHidden" fit="true" border="false">
+			
+				<div title="基本图形" style="overflow:hidden;background-color:#c7dbfc;">
+					
+					<div id="baseLine2" style="position:absolute;left:20px;top:30px !important;top:10px">
+		 				<div class="title">折线1</div>
+						<img id="backGroundImg" src="images/line3.png" class="nodeStyle"/>
+					</div>
+			
+					<div id="baseLine3" style="position:absolute;left:60px;top:30px !important;top:10px">
+						<div class="title">折线2</div>
+						<img id="backGroundImg" src="images/line2.png" class="nodeStyle"/>
+					</div>
+			
+					<div id="baseLine1" style="position:absolute;left:20px;top:70px !important;top:70px">
+						<div class="title">直线</div>
+						<img id="backGroundImg" src="images/line1.png" class="nodeStyle"/>
+					</div>
+			
+					<div id="baseMode4" divType="mode" style="position:absolute;left:60px;top:70px !important;top:70px">
+						<div class="title">开始节点</div>
+						<img id="backGroundImg" src="images/wf/startNode.gif" class="nodeStyle"/>
+					</div>
+			
+					<div id="baseMode5" divType="mode" style="position:absolute;left:20px;top:140px !important;top:140px">
+						<div class="title">完成节点</div>
+						<img id="backGroundImg" src="images/wf/endNode.gif" class="nodeStyle"/>
+					</div>
+			
+					<div id="baseMode6" divType="mode" style="position:absolute;left:60px;top:140px !important;top:140px">
+						<div class="title">子流程</div>
+						<img id="backGroundImg" src="images/wf/subflowNode.gif" class="nodeStyle"/>
+					</div>
+					
+					<div id="baseMode3" divType="mode" style="position:absolute;left:20px;top:200px !important;top:200px">
+						<div class="title">汇合节点</div>
+						<img id="backGroundImg" src="images/wf/joinNode.gif" class="nodeStyle"/>
+					</div>
+			
+					<div id="baseMode7" divType="mode" style="position:absolute;left:60px;top:200px !important;top:200px">
+						<div class="title">业务节点</div>
+						<img id="backGroundImg" src="images/wf/processNode.gif" class="nodeStyle"/>
+					</div>
+				</div>
+				
+				
+				<div title="历史操作" class="flowImag">
+					<div id="historyMessage" class="historyMessage"></div>
+				</div>
+								
+			</div>
+						
+	</div>
+	
+	<div region="center" title="绘图区" id="contextBody" class="mapContext" >
+			<div id="showLineXH" class="message"></div>
+			<!-- Line右键菜单 -->
+			<div id="lineRightMenu" class="modeRight">
+				<div class="modeRightTop">123</div>
+				<div class="modeRightDel" onmousemove="this.style.backgroundColor='#c5e7f6'" onclick="graphUtils.removeNode();" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">删 除</span></div>
+				<div class="modeRightPro" onmousemove="this.style.backgroundColor='#c5e7f6'" onclick="graphUtils.showLinePro();" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">属 性</span></div>
+				<div class="modeRightButtom"></div>
+			</div>
+					
+			<!-- Mode右键菜单 -->
+			<div id="rightMenu" class="modeRight">
+				<div class="modeRightTop"></div>
+				<div class="modeRightCopy" onmousemove="this.style.backgroundColor='#c5e7f6'" onclick="graphUtils.copyNode();" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">复 制</span></div>
+				<div class="modeRightDel" onmousemove="this.style.backgroundColor='#c5e7f6'" onclick="graphUtils.removeNode();" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">删 除</span></div>
+				<div class="modeRightPro" onmousemove="this.style.backgroundColor='#c5e7f6'" onclick="graphUtils.showModePro();" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">属 性</span></div>
+				<div class="modeRightButtom"></div>
+			</div>
+			
+			<!-- PathBody右键菜单 
+			<div id="pathBodyRightMenu" class="modeRight">
+				<div class="modeRightTop"></div>
+				<div class="modeRightPixel" id="isPixel" onclick="global.baseTool.changStyle(this);" onmousemove="this.style.backgroundColor='#c5e7f6'" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">Pixel</span></div>
+				<div class="modeRightLeft" onclick="graphUtils.alignLeft();" onmousemove="this.style.backgroundColor='#c5e7f6'" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">左对齐</span></div>
+				<div class="modeRightCenter" onclick="graphUtils.verticalCenter();" onmousemove="this.style.backgroundColor='#c5e7f6'" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">垂直居中</span></div>
+				<div class="modeRightRight" onclick="graphUtils.alignRight();" onmousemove="this.style.backgroundColor='#c5e7f6'" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">右对齐</span></div>
+				<div class="modeRightHead" onclick="graphUtils.alignTop();" onmousemove="this.style.backgroundColor='#c5e7f6'" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">顶部对齐</span></div>
+				<div class="modeRightMiddle" onclick="graphUtils.horizontalCenter();" onmousemove="this.style.backgroundColor='#c5e7f6'" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">水平居中</span></div>
+				<div class="modeRightFoot" onclick="graphUtils.bottomAlignment();" onmousemove="this.style.backgroundColor='#c5e7f6'" onmouseout="this.style.backgroundColor=''"><span class="menuSpan">底端对齐</span></div>
+				<div class="modeRightButtom"></div>
+			</div>-->
+			
+		 	<div id="topCross"></div>
+      <div id="leftCross"></div>
+	
+	</div>
+
+
+	<!--div region="east" split="true" title="属性区" class="history">
+		<div style="padding:5px;background:#fafafa;text-align:left;">
+			<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-save" onclick="BFHandler.saveData();">保存</a>
+			<a href="#" class="easyui-linkbutton" plain="true" iconCls="icon-cancel" onclick="BFHandler.cancel();">取消</a>
+		</div>
+		<table id="tt"></table>
+	</div-->
+
+	
+	<div region="south"  split="true" title="辅助区" class="auxiliaryArea" >
+		<!-- 小地图 -->	
+		<div id="smallMap"></div> 
+		
+		<div id="mainControl">
+			
+			<div id="tab" class="control">
+	
+				<h3 id="h1" class="hclass" onClick="hOnMouseOver(this, '1')">
+					&nbsp;<img src="images/img1.png" style="vertical-align:middle;" />&nbsp;&nbsp;模型名称
+				</h3>
+					<div id="tab1" class="htabup">
+						
+						<table cellpadding="0" cellspacing="0">
+							<tr>
+									<td style="text-align:center;height:25px;">
+										标题
+									</td>									
+									<td colspan="7">
+										<input type="text" id="inputTitle" class="inputComm" style="width:300px;"/>
+									</td>
+							</tr>
+							
+
+								<tr>
+									<td style="width:70px;text-align:center;">
+										内容
+									</td>									
+									<td colspan="7">
+										<textarea rows="3" id="modeContent" class="contextArea" ></textarea>
+									</td>
+								</tr>
+								
+						</table>	
+
+					</div>
+				
+			 <h3 id="h2" class="hclass" onClick="hOnMouseOver(this, '2')">
+			 	&nbsp;<img src="images/img2.png" style="vertical-align:middle;" />&nbsp;&nbsp;模型属性
+			 	</h3>
+					<div id="tab2" class="htab">
+						<table cellpadding="0" cellspacing="0">
+							<tr>
+									<td style="width:70px;height:25px;text-align:center;">
+										宽
+									</td>									
+									<td>
+										<input type="text" id="inputWidth" class="inputComm" style="width:50px;"/>
+									</td>
+									<td style="width:70px;text-align:center;">
+										高
+									</td>									
+									<td>
+										<input type="text" id="inputHeight" class="inputComm" style="width:50px;" />
+									</td>
+									
+							</tr>
+							<tr>
+									<td style="text-align:center;">
+										上边距
+									</td>									
+									<td>
+										<input type="text" id="inputTop" class="inputComm" style="width:50px;" />
+									</td>
+									<td style="text-align:center;">
+										左边距
+									</td>									
+									<td>
+										<input type="text" id="inputLeft" class="inputComm" style="width:50px;" />
+									</td>
+							</tr>
+								
+						</table>	
+					</div>
+					<h3 id="h3" class="hclass" onClick="hOnMouseOver(this, '3')">
+					&nbsp;<img src="images/img3.png" style="vertical-align:middle;" />&nbsp;&nbsp;模型背景</h3>
+					<div id="tab3" class="htab">
+							
+						<table cellpadding="0" cellspacing="0">
+							
+								<tr>
+									
+									<td style="width:70px;text-align:center;">
+										背景图
+									</td>
+									
+									<td colspan="6">
+										<input type="text" id="inputImgSrc" class="inputComm" style="width:500px;" />
+									</td>
+									
+								</tr>
+
+						</table>
+							
+					</div>
+
+			</div>
+			
+		</div>
+		<div id="show" class="show">
+			<div id="bfName" class="showItem" style="height:24px;"></div>
+		    <div id="bfVersion" class="showItem"></div>
+			<div id="lineCount" class="showItem"></div>
+			<div id="modeCount" class="showItem"></div>
+			<div id="contextCount" class="showItem"></div>
+		</div>
+	
+	</div>
+	
+	<!-- 移动时的图象 -->
+	<div id="moveBaseMode" class="moveBaseMode">
+		<img id="moveBaseModeImg"  src="images/Favourite.png" class="nodeStyle"/>
+	</div>
+	
+	<div id="prop" style="visibility: hidden;">
+				Dialog Content.  
+	</div>
+	
+	</body>
+	
+	
+	<script src="js/bf.core.js" type="text/javascript" language="javascript"></script>
+	
+	<script>
+		
+//		CommonInfo.BF_ID = "BF0001";
+//    CommonInfo.BF_NAME = "采购流程";
+//    CommonInfo.BF_VERSION = "1";
+			var mainControl = $id("mainControl");
+			mainControl.style.width = (document.body.offsetWidth - 412) + "px";
+			
+  		var bgImg = "url(images/bg.gif)";
+  		var backColor = "#e0ecff";
+  		
+  		function hOnMouseOver(tagObj, index) {
+				
+				var h1 = $id("h1");
+				var h2 = $id("h2");
+				var h3 = $id("h3");
+				
+				var tab1 = $id("tab1");
+				var tab2 = $id("tab2");
+				var tab3 = $id("tab3");
+				
+				var setHClass = function (obj, colorValue, indexValue) {
+				
+					obj.style.background = colorValue;
+					obj.style.zIndex = indexValue;
+					
+				}
+				
+				var setTagClass = function (obj, className) {
+					
+					obj.setAttribute("class", className);
+					obj.setAttribute("className", className);
+
+				}
+				
+				setHClass(h1, bgImg, "1");
+				setHClass(h2, bgImg, "1");
+				setHClass(h3, bgImg, "1");
+				
+				setTagClass(tab1, "htab");
+				setTagClass(tab2, "htab");
+				setTagClass(tab3, "htab");
+				
+				setHClass(tagObj, backColor,"3");
+				setTagClass($id("tab" + index), "htabup");
+				
+			}
+  		
+			jQuery(document).ready(function () {
+				
+				$id("h1").style.background = "#e0ecff";
+				$id("h1").style.zIndex = "3";
+				
+				var global = com.xjwgraph.Global;
+				
+				graphUtils = com.xjwgraph.Utils.create({
+					
+					contextBody : 'contextBody',
+					width : 1600,
+					height : 1000,
+					smallMap : 'smallMap',
+					mainControl : 'mainControl',
+					historyMessage : 'historyMessage',
+					prop : 'prop'
+				
+				});
+				
+				graphUtils.nodeDrag($id("baseLine1"), true, 1);
+				graphUtils.nodeDrag($id("baseLine2"), true, 2);
+				graphUtils.nodeDrag($id("baseLine3"), true, 3);
+
+				var modes = jQuery("[divType='mode']");
+				var modeLength = modes.length;
+				
+				for (var i = 0; i < modeLength; i++) {
+					graphUtils.nodeDrag(modes[i]);
+				}
+				
+				document.body.onclick = function () {
+					
+					if (!stopEvent) {
+						global.modeTool.clear();
+					} 
+					
+				}
+				
+				function countModule() {
+				
+					stopEvent = false;
+					
+					var lineCount = global.lineMap.size();
+					var modeCount = global.modeMap.size();
+					var contextCount = global.baseTool.contextMap.size();
+//					var info = "业务流名称:采购流程<br/>";
+//					info += "当前版本：1<br/>";
+//					info += "线总数:" + lineCount + "<br/>";
+//					info += "模型数:" + modeCount + "<br/>";
+//					info += "区域数:" + contextCount + "<br/>";	
+					$id("lineCount").innerHTML = "线总数:" + lineCount;
+					$id("modeCount").innerHTML = "模型数:" + modeCount;
+					$id("contextCount").innerHTML = "区域数:" + contextCount;
+//					$id("bfName").innerHTML = "<font color=red>采购流程采购流程采购</font>";
+//					$id("bfVersion").innerHTML = "当前版本:1";
+					
+					//枚举测试
+//					if (lineCount > 0) {
+//						var a = global.lineMap;
+//                		var baseLineKey = a.getKeys();
+//                		var baseLineKeyLength = baseLineKey.length;
+//                		for (var j = baseLineKeyLength; j--;) {
+//                    		var u = a.get(baseLineKey[j]);
+//                    		//alert(u.xBaseMode.prop.attri1);
+//                    		//alert(u.id + "," + u.wBaseMode.id);
+//						}
+//					}
+					
+					
+				}
+	
+				var cou = 0;
+				function dataToGrid()
+				{
+					cou++;
+// 					var rows =$('#tt').propertygrid('getRows');
+// 					for(var i=0;i<rows.length;i++) {
+// 						$('#tt').propertygrid('deleteRow',rows[i]);
+// 					}
+ 					
+					var row = {
+					  name:'A1',
+					  value:'开始节点',
+					  group:'ID Setting',
+					  editor:'text'
+					};
+					//alert(row);
+					$('#tt').propertygrid('appendRow',row);  
+					var row2 = {
+					  name:'B1',
+					  value:'结束节点',
+					  group:'Name Setting',
+					  editor:'text'
+					};
+					//alert(row2);
+					$('#tt').propertygrid('appendRow',row2); 
+					
+					var row3 = {
+						name:"combox类型",
+						value:"1",
+						group:"自定义设置", 
+						editor:{
+	        				type:"combobox",
+					        options:{
+					            data:[{value:1,text:"一"},{value:2,text:"二"}],
+					            panelHeight:"auto"
+					        }
+					    }
+					};
+					$('#tt').propertygrid('appendRow',row3); 	
+
+//					if (cou == 3) {
+//						deleteData();
+//						cou = 0;
+//					}
+				}
+				
+				
+				document.onclick = function() {
+					countModule();
+					//dataToGrid();
+					//$('#tt').propertygrid('loadData',{"name":"Name","value":"Bill Smith","group":"ID Settings","editor":"text"});
+				};
+				document.onkeydown = KeyDown;
+				
+				
+//				function getJSON() {
+//					var data = "{\"total\":2,\"rows\":[	{\"name\":\"Name\",\"value\":\"Bill Smith\",\"group\":\"ID Settings\",\"editor\":\"text\"},	{\"name\":\"combox\",\"value\":\"1\",\"group\":\"自定义设置\", \"editor\":{	        \"type\":\"combobox\",	        \"options\":{	            \"data\":[{\"value\":1,\"text\":\"一\"},{\"value\":2,\"text\":\"二\"}],	            \"panelHeight\":\"auto\"	        }}	}]}";
+//					return data;
+//				}
+				
+//				function deleteData() {
+//					var rows =$('#tt').propertygrid('getRows');
+// 					for(var i=rows.length-1;i>= 0;i--) {
+// 						$('#tt').propertygrid('deleteRow',i);
+// 					}
+//				}
+				
+				
+//				var xmlText = '<?xml version=\"1.0\"?><modes><mode class=\"module\" contentEditable=\"inherit\" type=\"endNode\" id=\"16\" title=\"完成节点\" backImgSrc=\"http://localhost:26289/BF/images/wf/endNode.gif\" top=\"92\" left=\"541\" zIndex=\"16\" width=\"50\" height=\"50\"/><mode class=\"module\" contentEditable=\"inherit\" type=\"processNode\" id=\"14\" title=\"业务节点\" backImgSrc=\"http://localhost:26289/BF/images/wf/processNode.gif\" top=\"92\" left=\"304\" zIndex=\"14\" width=\"50\" height=\"50\"/><mode class=\"module\" contentEditable=\"inherit\" type=\"startNode\" id=\"12\" title=\"开始节点\" backImgSrc=\"http://localhost:26289/BF/images/wf/startNode.gif\" top=\"92\" left=\"84\" zIndex=\"12\" width=\"50\" height=\"50\"/><line strokeweight=\"1.35\" strokecolor=\"black\" d=\"m356 118 L 541 118 z\" brokenType=\"1\" contentEditable=\"inherit\" id=\"line14\" style=\"POSITION: absolute; WIDTH: 100px; HEIGHT: 100px; CURSOR: pointer;fill: none; stroke: black; stroke-width: 1.8\" marker-end=\"url(#arrow)\" xBaseMode=\"module14\" sNodeId=\"processNode14\" xIndex=\"5\" wBaseMode=\"module16\" eNodeId=\"endNode16\" wIndex=\"4\" attr_prop_XH=\"1\"/><line strokeweight=\"1.35\" strokecolor=\"black\" d=\"m136 118 L 304 118 z\" brokenType=\"1\" contentEditable=\"inherit\" id=\"line12\" style=\"POSITION: absolute; WIDTH: 100px; HEIGHT: 100px; CURSOR: pointer;fill: none; stroke: black; stroke-width: 1.8\" marker-end=\"url(#arrow)\" xBaseMode=\"module12\" sNodeId=\"startNode12\" xIndex=\"5\" wBaseMode=\"module14\" eNodeId=\"processNode14\" wIndex=\"4\" attr_prop_XH=\"1\"/></modes>';
+//				graphUtils.loadTextXml(xmlText);
+				
+//				$('#tt').propertygrid({
+//					width:300,
+//					height:500,
+//					url:'propertygrid_data.json',
+//					showGroup:true,
+//					showHeader:true,
+//					scrollbarSize:0
+//				});
+//				
+//				$('#tt').propertygrid({
+//					onDblClickRow: function(index,field,value){
+//						alert(index+","+field+","+value);
+//						//$(this).propertygrid('beginEdit', index);
+//						//var ed = $(this).propertygrid('getEditor', {index:index,field:field});
+//						//$(ed.target).focus();
+//					}
+//				});
+
+//				
+//				dataToGrid();
+				
+				countModule();
+				
+				
+			});
+			
+			
+//			//读取属性表数据
+//			function propertyGridData() {
+//				alert("propertyGridData");
+//				var rows =$('#tt').propertygrid('getRows');
+//				for(var i=0;i<rows.length;i++) {
+//					var row = rows[i];
+//					alert(row.name + "," + row.value);
+//				}
+//			}
+		
+	</script>
+
+</html>

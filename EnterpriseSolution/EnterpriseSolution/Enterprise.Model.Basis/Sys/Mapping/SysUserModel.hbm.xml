@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysUserModel" table="BASIS_SYS_USER">
+        
+			<id name="USERID" column="USERID" type="int">			</id>
+			<property name="DEPTID" column="DEPTID" type="int" />
+			<property name="ULOGINNAME" column="ULOGINNAME" type="string" />
+			<property name="ULOGINPASS" column="ULOGINPASS" type="string" />
+			<property name="UNAME" column="UNAME" type="string" />
+			<property name="USEX" column="USEX" type="string" />
+			<property name="UBIRTHDAY" column="UBIRTHDAY" type="DateTime" />
+			<property name="UHWPHONE" column="UHWPHONE" type="string" />
+			<property name="UGNPHONE" column="UGNPHONE" type="string" />
+			<property name="SIPCEMAIL" column="SIPCEMAIL" type="string" />
+			<property name="OTHEREMAIL" column="OTHEREMAIL" type="string" />
+			<property name="UIP" column="UIP" type="string" />
+			<property name="UADMIN" column="UADMIN" type="int" />
+			<property name="USTATUS" column="USTATUS" type="int" />
+			<property name="UORDERBY" column="UORDERBY" type="int" />
+			<property name="UDEFAULTLANGUAGE" column="UDEFAULTLANGUAGE" type="string" />
+			<property name="UAFFILIATION" column="UAFFILIATION" type="int" />
+			<property name="USYSTEM1" column="USYSTEM1" type="string" />
+			<property name="USYSTEM2" column="USYSTEM2" type="string" />
+			<property name="USYSTEM3" column="USYSTEM3" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectMaterialModel" table="APP_PROJECT_MATERIAL">
+        
+			<id name="ID" column="ID" type="string">			</id>
+			<property name="WLLB" column="WLLB" type="string" />
+			<property name="ZJE" column="ZJE" type="decimal" />
+			<property name="LYR" column="LYR" type="string" />
+			<property name="SL" column="SL" type="int" />
+			<property name="WLDW" column="WLDW" type="string" />
+			<property name="DJ" column="DJ" type="decimal" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="WLMC" column="WLMC" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="LYRQ" column="LYRQ" type="DateTime" />
+
+    </class>
+</hibernate-mapping>

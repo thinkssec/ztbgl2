@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectZlglModel" table="APP_PROJECT_ZLGL">
+
+      <id name="ZLID" column="ZLID" type="string">			</id>
+      <property name="SCR" column="SCR" type="int" />
+			<property name="ZLNAME" column="ZLNAME" type="string" />
+			<property name="CHECKDATE" column="CHECKDATE" type="DateTime" />
+			<property name="ATTACHMENT" column="ATTACHMENT" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

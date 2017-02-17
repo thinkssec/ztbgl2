@@ -1,0 +1,8 @@
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Mobile\bin\Debug\Enterprise.Component.Mobile.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Mobile\bin\Debug\Enterprise.Component.Mobile.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Mobile\obj\Debug\Enterprise.Component.Mobile.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Mobile\obj\Debug\Enterprise.Component.Mobile.pdb
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Mobile\bin\Debug\Enterprise.Component.Mobile.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Mobile\bin\Debug\Enterprise.Component.Mobile.pdb
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Mobile\obj\Debug\Enterprise.Component.Mobile.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Mobile\obj\Debug\Enterprise.Component.Mobile.pdb

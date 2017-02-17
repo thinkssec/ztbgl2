@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B8A6D7E-181C-4D72-9F1B-943A54BEA290}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Service.Common</RootNamespace>
+    <AssemblyName>Enterprise.Service.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Article\ArticleClobService.cs" />
+    <Compile Include="Article\ArticleDownloadService.cs" />
+    <Compile Include="Article\ArticleInfoService.cs" />
+    <Compile Include="Article\ArticleRecevieService.cs" />
+    <Compile Include="Busitravel\BFInstanceRoleSrv.cs" />
+    <Compile Include="Busitravel\BusitravelCertService.cs" />
+    <Compile Include="Busitravel\BusitravelInfoService.cs" />
+    <Compile Include="Busitravel\BusitravelKzinfoService.cs" />
+    <Compile Include="Busitravel\BusitravelOrderService.cs" />
+    <Compile Include="Busitravel\BusitravelPassengerService.cs" />
+    <Compile Include="Busitravel\BusitravelSummaryService.cs" />
+    <Compile Include="Busitravel\BusitravelWfprocessService.cs" />
+    <Compile Include="Doc\DocArticlesService.cs" />
+    <Compile Include="Doc\DocClassService.cs" />
+    <Compile Include="Doc\DocRecevieService.cs" />
+    <Compile Include="EntDisk\FileService.cs" />
+    <Compile Include="Manager\ManagerMsgReplyService.cs" />
+    <Compile Include="Manager\ManagerMsgService.cs" />
+    <Compile Include="Meeting\MeetingInfoService.cs" />
+    <Compile Include="Meeting\MeetingRecevieService.cs" />
+    <Compile Include="Notice\NoticeInfoService.cs" />
+    <Compile Include="Office\BFInstanceRoleSrv.cs" />
+    <Compile Include="Office\OfficeDocumentService.cs" />
+    <Compile Include="Office\OfficeRecevieService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Supervise\SuperviseInfoService.cs" />
+    <Compile Include="Supervise\SuperviseProcessService.cs" />
+    <Compile Include="Vote\VoteInfoService.cs" />
+    <Compile Include="Vote\VoteItemService.cs" />
+    <Compile Include="Vote\VoteResultService.cs" />
+    <Compile Include="Webmail\WebEmailService.cs" />
+    <Compile Include="Webmail\WebmailInboxerrorService.cs" />
+    <Compile Include="Webmail\WebmailInboxService.cs" />
+    <Compile Include="Webmail\WebmailOutboxService.cs" />
+    <Compile Include="Webmail\WebmailSettingsService.cs" />
+    <Compile Include="Webmail\WebmailState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Component.BF\Enterprise.Component.BF.csproj">
+      <Project>{6D4F14DE-9415-41BE-A9B4-9EEC95504506}</Project>
+      <Name>Enterprise.Component.BF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Infrastructure\Enterprise.Component.Infrastructure.csproj">
+      <Project>{A439B7BB-89F3-4BD1-87B8-259300139AFA}</Project>
+      <Name>Enterprise.Component.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Message\Enterprise.Component.Message.csproj">
+      <Project>{36F9FE2C-8CC1-4116-A208-DDDDFBC0E08B}</Project>
+      <Name>Enterprise.Component.Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Data.Common\Enterprise.Data.Common.csproj">
+      <Project>{6162B363-4D1B-43DB-970E-0EB55D558653}</Project>
+      <Name>Enterprise.Data.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.Basis\Enterprise.Model.Basis.csproj">
+      <Project>{D00F0FA7-8175-40C8-815C-07BED22BE517}</Project>
+      <Name>Enterprise.Model.Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.Common\Enterprise.Model.Common.csproj">
+      <Project>{33AAB140-F972-4267-8D25-4DEBE4BB6F14}</Project>
+      <Name>Enterprise.Model.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Service.Basis\Enterprise.Service.Basis.csproj">
+      <Project>{36E05532-CE0B-461D-9742-296FEF2FACD8}</Project>
+      <Name>Enterprise.Service.Basis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,20 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectDeviceModel" table="APP_PROJECT_DEVICE">
+        
+			<id name="DEVID" column="DEVID" type="string">			</id>
+			<property name="BGR" column="BGR" type="string" />
+			<property name="JLRQ" column="JLRQ" type="DateTime" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="JLR" column="JLR" type="string" />
+			<property name="SBSL" column="SBSL" type="int" />
+			<property name="LJYXSJ" column="LJYXSJ" type="int" />
+			<property name="JDZQ" column="JDZQ" type="string" />
+			<property name="SBXH" column="SBXH" type="string" />
+			<property name="YXZT" column="YXZT" type="string" />
+			<property name="YXSJ" column="YXSJ" type="int" />
+			<property name="SBZT" column="SBZT" type="int" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

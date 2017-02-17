@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectQhsecheckitemModel" table="APP_PROJECT_QHSECHECKITEM">
+
+      <id name="ITEMID" column="ITEMID" type="string"></id>
+      <property name="ID" column="ID" type="string" />
+			<property name="CHECKCONTS" column="CHECKCONTS" type="string" />
+			<property name="TYPENAME" column="TYPENAME" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="STANDARD" column="STANDARD" type="int" />
+			<property name="SCORE" column="SCORE" type="decimal" />
+
+    </class>
+</hibernate-mapping>

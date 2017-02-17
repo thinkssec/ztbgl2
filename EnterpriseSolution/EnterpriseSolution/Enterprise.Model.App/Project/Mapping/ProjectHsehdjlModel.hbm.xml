@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectHsehdjlModel" table="APP_PROJECT_HSEHDJL">
+        
+			<id name="ID" column="ID" type="string">			</id>
+			<property name="CJRY" column="CJRY" type="string" />
+			<property name="BZHNR" column="BZHNR" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="HDRQ" column="HDRQ" type="DateTime" />
+      <property name="ATTACHMENT" column="ATTACHMENT" type="string" />
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Common\bin\Debug\Enterprise.Model.Common.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Common\bin\Debug\Enterprise.Model.Common.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Common\obj\Debug\Enterprise.Model.Common.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Common\obj\Debug\Enterprise.Model.Common.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Common\obj\Debug\Enterprise.Model.Common.csprojResolveAssemblyReference.cache
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Model.Common\bin\Debug\Enterprise.Model.Common.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Model.Common\bin\Debug\Enterprise.Model.Common.pdb
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Model.Common\obj\Debug\Enterprise.Model.Common.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Model.Common\obj\Debug\Enterprise.Model.Common.pdb

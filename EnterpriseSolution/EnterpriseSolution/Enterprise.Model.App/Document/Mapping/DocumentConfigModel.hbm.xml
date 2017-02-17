@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Document">
+    <class name="DocumentConfigModel" table="APP_DOCUMENT_CONFIG">
+        
+			<id name="PZID" column="PZID" type="string">			</id>
+			<property name="SFJSY" column="SFJSY" type="int" />
+			<property name="SFYXXZ" column="SFYXXZ" type="int" />
+			<property name="SFZDZH" column="SFZDZH" type="int" />
+			<property name="XZJSSD" column="XZJSSD" type="string" />
+			<property name="SYWZ" column="SYWZ" type="string" />
+
+    </class>
+</hibernate-mapping>

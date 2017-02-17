@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfInstancerolesModel" table="BASIS_BF_INSTANCEROLES">
+        
+			<id name="BF_INSTANCEROLEID" column="BF_INSTANCEROLEID" type="string">			</id>
+			<property name="BF_NODEID" column="BF_NODEID" type="string" />
+			<property name="BF_ROLENAME" column="BF_ROLENAME" type="string" />
+			<property name="BF_ROLETYPE" column="BF_ROLETYPE" type="int" />
+			<property name="BF_OPERATIONTYPE" column="BF_OPERATIONTYPE" type="int" />
+			<property name="USERIDS" column="USERIDS" type="string" />
+			<property name="BF_INSTANCEID" column="BF_INSTANCEID" type="string" />
+
+    </class>
+</hibernate-mapping>

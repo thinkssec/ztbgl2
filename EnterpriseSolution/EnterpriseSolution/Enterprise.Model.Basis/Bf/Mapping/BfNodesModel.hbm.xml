@@ -1,0 +1,47 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfNodesModel" table="BASIS_BF_NODES">
+        
+		<composite-id>
+			<key-property name="BF_NODEID" column="BF_NODEID" type="string" />
+			<key-property name="BF_ID" column="BF_ID" type="string" />
+			<key-property name="BF_VERSION" column="BF_VERSION" type="int" />
+		</composite-id>
+		<property name="BF_NODENAME" column="BF_NODENAME" type="string" />
+		<property name="BF_AUDITOPINION" column="BF_AUDITOPINION" type="string" />
+		<property name="BF_NODEDESC" column="BF_NODEDESC" type="string" />
+		<property name="BF_FLOWTYPE1" column="BF_FLOWTYPE1" type="int" />
+		<property name="BF_FLOWTYPE2" column="BF_FLOWTYPE2" type="int" />
+		<property name="SUB_BF_ID" column="SUB_BF_ID" type="string" />
+		<property name="BF_FLOWTYPE3" column="BF_FLOWTYPE3" type="int" />
+		<property name="BF_FORM" column="BF_FORM" type="string" />
+		<property name="BF_EXTENDEDTREATMENT" column="BF_EXTENDEDTREATMENT" type="int" />
+		<property name="BF_NODETYPE" column="BF_NODETYPE" type="string" />
+		<property name="SUB_BF_VERSION" column="SUB_BF_VERSION" type="int" />
+		<property name="BF_PROGRESSVALUE" column="BF_PROGRESSVALUE" type="int" />
+		<property name="BF_COMMISSION" column="BF_COMMISSION" type="int" />
+		<property name="BF_FORWARD" column="BF_FORWARD" type="int" />
+		<property name="BF_DUTYOFFICER" column="BF_DUTYOFFICER" type="string" />
+		<property name="BF_KEYPOINT" column="BF_KEYPOINT" type="int" />
+		<property name="BF_TIMELIMIT" column="BF_TIMELIMIT" type="int" />
+		<property name="BF_NOTIFIER" column="BF_NOTIFIER" type="string" />
+		<property name="BF_CONTROLPOINT" column="BF_CONTROLPOINT" type="int" />
+		<property name="BF_REMINDWAY" column="BF_REMINDWAY" type="string" />
+
+        <many-to-one name="BfPublish" class="BfPublishModel" lazy='false' insert="false" update="false">
+            <column name="BF_ID" />
+            <column name="BF_VERSION" />
+        </many-to-one>
+
+        <!--多个字段还是无效，不知道是不是BUG
+        bag name="BfNoderoles" inverse="true" cascade="none">
+            <key>
+                <column name="BF_NODEID" />
+                <column name="BF_ID" />
+                <column name="BF_VERSION" />
+            </key>
+            <one-to-many class="BfNoderolesModel" not-found="ignore" />
+        </bag-->
+        
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Dmgl">
+    <class name="DmglSgjdModel" table="APP_DMGL_SGJD">
+        
+			<id name="JID" column="JID" type="string">			</id>
+			<property name="PID" column="PID" type="string" />
+			<property name="JTIME" column="JTIME" type="DateTime" />
+			<property name="DETAIL" column="DETAIL" type="string" />
+			<property name="STATUS" column="STATUS" type="int" />
+
+    </class>
+</hibernate-mapping>

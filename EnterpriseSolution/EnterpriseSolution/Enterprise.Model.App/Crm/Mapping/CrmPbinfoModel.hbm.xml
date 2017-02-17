@@ -1,0 +1,25 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmPbinfoModel" table="APP_CRM_PBINFO">
+        
+			<id name="PBBM" column="PBBM" type="string">			</id>
+			<property name="POSTCODE" column="POSTCODE" type="string" />
+			<property name="ADDR" column="ADDR" type="string" />
+			<property name="LBBH" column="LBBH" type="string" />
+			<property name="ZLZS" column="ZLZS" type="string" />
+			<property name="SWDJH" column="SWDJH" type="string" />
+			<property name="JYFW" column="JYFW" type="string" />
+			<property name="RWZH" column="RWZH" type="string" />
+			<property name="ZZJGDMZ" column="ZZJGDMZ" type="string" />
+			<property name="ZZZS" column="ZZZS" type="string" />
+			<property name="XKZS" column="XKZS" type="string" />
+			<property name="FDDBR" column="FDDBR" type="string" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="YYZZH" column="YYZZH" type="string" />
+			<property name="PHONE" column="PHONE" type="string" />
+			<property name="PBMC" column="PBMC" type="string" />
+			<property name="CONTACTS" column="CONTACTS" type="string" />
+			<property name="STATUS" column="STATUS" type="int" />
+
+    </class>
+</hibernate-mapping>

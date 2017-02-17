@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysUserDutyModel" table="BASIS_SYS_USERDUTY">
+        
+			<id name="UDID" column="UDID" type="string">			</id>
+			<property name="USERID" column="USERID" type="int" />
+			<property name="DUTYID" column="DUTYID" type="int" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F6B65EB-69F9-4D87-A7CB-7C41BBC9385D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Service.App</RootNamespace>
+    <AssemblyName>Enterprise.Service.App</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppDataService.cs" />
+    <Compile Include="Archives\ArchivesAnjuanService.cs" />
+    <Compile Include="Archives\ArchivesJuanneiService.cs" />
+    <Compile Include="Archives\ArchivesKindService.cs" />
+    <Compile Include="Crm\CrmFbcontractService.cs" />
+    <Compile Include="Crm\CrmFbhtjeService.cs" />
+    <Compile Include="Crm\CrmFbreqformService.cs" />
+    <Compile Include="Crm\CrmFbsinfoService.cs" />
+    <Compile Include="Crm\CrmFbspersonsService.cs" />
+    <Compile Include="Crm\CrmInfoService.cs" />
+    <Compile Include="Crm\CrmPbinfoService.cs" />
+    <Compile Include="Crm\CrmPbkindService.cs" />
+    <Compile Include="Crm\CrmPbsurveyitemService.cs" />
+    <Compile Include="Crm\CrmPbsurveyService.cs" />
+    <Compile Include="Crm\CrmPersonService.cs" />
+    <Compile Include="Dmgl\DmglPlanService.cs" />
+    <Compile Include="Dmgl\DmglSgjdService.cs" />
+    <Compile Include="Document\DocumentConfigService.cs" />
+    <Compile Include="Document\DocumentConvertService.cs" />
+    <Compile Include="Document\DocumentDownloadsService.cs" />
+    <Compile Include="Document\DocumentKindService.cs" />
+    <Compile Include="Document\DocumentOfficialService.cs" />
+    <Compile Include="Document\DocumentProjService.cs" />
+    <Compile Include="Examine\ExamineCostitemService.cs" />
+    <Compile Include="Examine\ExamineCostService.cs" />
+    <Compile Include="Examine\ExamineKindService.cs" />
+    <Compile Include="Examine\ExamineNodesService.cs" />
+    <Compile Include="Examine\ExamineProcessService.cs" />
+    <Compile Include="Goods\GoodsDeviceService.cs" />
+    <Compile Include="Goods\GoodsKindService.cs" />
+    <Compile Include="Hr\HrChizhengService.cs" />
+    <Compile Include="Hr\HrChizhengwpService.cs" />
+    <Compile Include="Hr\HrZigeService.cs" />
+    <Compile Include="Hse\HseSectcheckdetlService.cs" />
+    <Compile Include="Hse\HseSectcheckService.cs" />
+    <Compile Include="Project\ProjectArchiveService.cs" />
+    <Compile Include="Project\ProjectBhService.cs" />
+    <Compile Include="Project\ProjectCarService.cs" />
+    <Compile Include="Project\ProjectChangeService.cs" />
+    <Compile Include="Project\ProjectCheckService.cs" />
+    <Compile Include="Project\ProjectFwsService.cs" />
+    <Compile Include="Project\ProjectInfoService.cs" />
+    <Compile Include="Project\ProjectJbjggsService.cs" />
+    <Compile Include="Project\ProjectKbhqdbService.cs" />
+    <Compile Include="Project\ProjectKbhycService.cs" />
+    <Compile Include="Project\ProjectKbjlService.cs" />
+    <Compile Include="Project\ProjectKbpbgzjlService.cs" />
+    <Compile Include="Project\ProjectPbbgService.cs" />
+    <Compile Include="Project\ProjectPbhqdbService.cs" />
+    <Compile Include="Project\ProjectPbywhxyService.cs" />
+    <Compile Include="Project\ProjectPfbzmService.cs" />
+    <Compile Include="Project\ProjectPfbzService.cs" />
+    <Compile Include="Project\ProjectPfhzService.cs" />
+    <Compile Include="Project\ProjectPfmbService.cs" />
+    <Compile Include="Project\ProjectPszjService.cs" />
+    <Compile Include="Project\ProjectTbrcbsxService.cs" />
+    <Compile Include="Project\ProjectTbyqhService.cs" />
+    <Compile Include="Project\ProjectTpinfoService.cs" />
+    <Compile Include="Project\ProjectTzwjjsjlbService.cs" />
+    <Compile Include="Project\ProjectZbjgspbService.cs" />
+    <Compile Include="Project\ProjectZbtzsService.cs" />
+    <Compile Include="Project\ProjectZbwjfjService.cs" />
+    <Compile Include="Project\ProjectZbwjlqdjbService.cs" />
+    <Compile Include="Project\ProjectZbwjService.cs" />
+    <Compile Include="Project\ProjectZbwjshService.cs" />
+    <Compile Include="Project\ProjectZjpfService.cs" />
+    <Compile Include="Project\ZbwjService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publicize\PublicizeInfoService.cs" />
+    <Compile Include="Publicize\PublicizeKindService.cs" />
+    <Compile Include="Publicize\PublicizeSigningService.cs" />
+    <Compile Include="Sbgl\SbglTzService.cs" />
+    <Compile Include="Sbgl\SbglWxdwService.cs" />
+    <Compile Include="Sbgl\SbglWxjhbService.cs" />
+    <Compile Include="Sbgl\SbglYsbgdService.cs" />
+    <Compile Include="Ui\UiCustomService.cs" />
+    <Compile Include="Ui\UiDefaultService.cs" />
+    <Compile Include="Ui\UiTabService.cs" />
+    <Compile Include="Zygl\ZyglJsService.cs" />
+    <Compile Include="Zygl\ZyglPlanService.cs" />
+    <Compile Include="Zygl\ZyglWgqtfyService.cs" />
+    <Compile Include="Zygl\ZyglWgysService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Component.BF\Enterprise.Component.BF.csproj">
+      <Project>{6D4F14DE-9415-41BE-A9B4-9EEC95504506}</Project>
+      <Name>Enterprise.Component.BF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Cache\Enterprise.Component.Cache.csproj">
+      <Project>{E38DDBF0-A978-4E6E-BFAB-15A25B08DE1C}</Project>
+      <Name>Enterprise.Component.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Infrastructure\Enterprise.Component.Infrastructure.csproj">
+      <Project>{A439B7BB-89F3-4BD1-87B8-259300139AFA}</Project>
+      <Name>Enterprise.Component.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Message\Enterprise.Component.Message.csproj">
+      <Project>{36F9FE2C-8CC1-4116-A208-DDDDFBC0E08B}</Project>
+      <Name>Enterprise.Component.Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.ORM\Enterprise.Component.ORM.csproj">
+      <Project>{833F8E42-5AB8-499A-91A1-BF39F7BC0F53}</Project>
+      <Name>Enterprise.Component.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Data.App\Enterprise.Data.App.csproj">
+      <Project>{7139B2F5-7377-4589-B82C-9C0DC98DAF51}</Project>
+      <Name>Enterprise.Data.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.App\Enterprise.Model.App.csproj">
+      <Project>{52D6F2A1-C126-41DF-8F18-68DF73AC71D9}</Project>
+      <Name>Enterprise.Model.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.Basis\Enterprise.Model.Basis.csproj">
+      <Project>{d00f0fa7-8175-40c8-815c-07bed22be517}</Project>
+      <Name>Enterprise.Model.Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.Common\Enterprise.Model.Common.csproj">
+      <Project>{33aab140-f972-4267-8d25-4debe4bb6f14}</Project>
+      <Name>Enterprise.Model.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Service.Basis\Enterprise.Service.Basis.csproj">
+      <Project>{36e05532-ce0b-461d-9742-296fef2facd8}</Project>
+      <Name>Enterprise.Service.Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Service.Common\Enterprise.Service.Common.csproj">
+      <Project>{0b8a6d7e-181c-4d72-9f1b-943a54bea290}</Project>
+      <Name>Enterprise.Service.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

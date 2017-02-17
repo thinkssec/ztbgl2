@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D00F0FA7-8175-40C8-815C-07BED22BE517}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Model.Basis</RootNamespace>
+    <AssemblyName>Enterprise.Model.Basis</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasisSuperModel.cs" />
+    <Compile Include="Bf\BfBaseModel.cs" />
+    <Compile Include="Bf\BfClientModel.cs" />
+    <Compile Include="Bf\BfClsmethodsModel.cs" />
+    <Compile Include="Bf\BfFlowpathModel.cs" />
+    <Compile Include="Bf\BfHandledmsgModel.cs" />
+    <Compile Include="Bf\BfInstancerolesModel.cs" />
+    <Compile Include="Bf\BfInstancesModel.cs" />
+    <Compile Include="Bf\BfNoderolesModel.cs" />
+    <Compile Include="Bf\BfNodesModel.cs" />
+    <Compile Include="Bf\BfPublishModel.cs" />
+    <Compile Include="Bf\BfRunningModel.cs" />
+    <Compile Include="Bf\BfTrustusersModel.cs" />
+    <Compile Include="Bf\BfUnhandledmsgModel.cs" />
+    <Compile Include="Exc\ExcChecknodesModel.cs" />
+    <Compile Include="Exc\ExcCheckrecordModel.cs" />
+    <Compile Include="Exc\ExcCheckruleModel.cs" />
+    <Compile Include="Exc\ExcEmailModel.cs" />
+    <Compile Include="Exc\ExcGradeModel.cs" />
+    <Compile Include="Exc\ExcHandleemailModel.cs" />
+    <Compile Include="Exc\ExcHandlemessageModel.cs" />
+    <Compile Include="Exc\ExcHandlesmsModel.cs" />
+    <Compile Include="Exc\ExcInformModel.cs" />
+    <Compile Include="Exc\ExcMessageModel.cs" />
+    <Compile Include="Exc\ExcSmsModel.cs" />
+    <Compile Include="Lang\LanguageType.cs" />
+    <Compile Include="Message\Messages.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sys\SysCacherelationModel.cs" />
+    <Compile Include="Sys\SysDepartMentModel.cs" />
+    <Compile Include="Sys\SysDutyModel.cs" />
+    <Compile Include="Sys\SysModuleModel.cs" />
+    <Compile Include="Sys\SysPermissionItemModel.cs" />
+    <Compile Include="Sys\SysPermissionModel.cs" />
+    <Compile Include="Sys\SysRoleModel.cs" />
+    <Compile Include="Sys\SysRolePermissionModel.cs" />
+    <Compile Include="Sys\SysUserDutyModel.cs" />
+    <Compile Include="Sys\SysUserindividModel.cs" />
+    <Compile Include="Sys\SysUserRoleModel.cs" />
+    <Compile Include="Sys\SysVisitLogModel.cs" />
+    <Compile Include="Sys\SysDictionaryModel.cs" />
+    <Compile Include="Sys\SysUserModel.cs" />
+    <Compile Include="Sys\SysCacheModel.cs" />
+    <Compile Include="Sys\SysTabChangeModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sys\Mapping\SysUserModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sys\Mapping\SysDictionaryModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sys\Mapping\SysCacheModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sys\Mapping\SysTabChangeModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sys\Mapping\SysVisitLogModel.hbm.xml" />
+    <EmbeddedResource Include="Sys\Mapping\SysUserRoleModel.hbm.xml" />
+    <EmbeddedResource Include="Sys\Mapping\SysUserDutyModel.hbm.xml" />
+    <EmbeddedResource Include="Sys\Mapping\SysRolePermissionModel.hbm.xml" />
+    <EmbeddedResource Include="Sys\Mapping\SysRoleModel.hbm.xml" />
+    <EmbeddedResource Include="Sys\Mapping\SysModuleModel.hbm.xml" />
+    <EmbeddedResource Include="Sys\Mapping\SysDutyModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bf\Mapping\BfBaseModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfClsmethodsModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfFlowpathModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfHandledmsgModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfInstancerolesModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfInstancesModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfNoderolesModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfNodesModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfPublishModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfRunningModel.hbm.xml" />
+    <EmbeddedResource Include="Bf\Mapping\BfUnhandledmsgModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcChecknodesModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcCheckrecordModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcCheckruleModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcEmailModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcGradeModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcHandleemailModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcHandlemessageModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcHandlesmsModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcInformModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcMessageModel.hbm.xml" />
+    <EmbeddedResource Include="Exc\Mapping\ExcSmsModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bf\Mapping\BfTrustusersModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sys\Mapping\SysUserindividModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sys\Mapping\SysCacherelationModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sys\Mapping\SysDepartMentModel.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

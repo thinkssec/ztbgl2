@@ -1,0 +1,22 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectZjpfModel" table="APP_PROJECT_ZJPF">
+        
+			<id name="PFID" column="PFID" type="string">			</id>
+			<property name="BZID" column="BZID" type="string" />
+			<property name="XMMC" column="XMMC" type="string" />
+			<property name="PBFX" column="PBFX" type="string" />
+			<property name="FZ" column="FZ" type="decimal" />
+			<property name="PFBZ" column="PFBZ" type="string" />
+			<property name="PF" column="PF" type="decimal" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="XH" column="XH" type="int" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="SUBMITTIME" column="SUBMITTIME" type="DateTime" />
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="CRMINFO" column="CRMINFO" type="string" />
+
+    </class>
+</hibernate-mapping>

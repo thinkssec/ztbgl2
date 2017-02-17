@@ -1,0 +1,22 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectCarModel" table="APP_PROJECT_CAR">
+        
+			<id name="CARID" column="CARID" type="string">			</id>
+			<property name="SJ" column="SJ" type="string" />
+			<property name="LJXSLC" column="LJXSLC" type="int" />
+			<property name="JLRQ" column="JLRQ" type="DateTime" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="JLR" column="JLR" type="string" />
+			<property name="DRSFBY" column="DRSFBY" type="int" />
+			<property name="LCBDS" column="LCBDS" type="int" />
+			<property name="CH" column="CH" type="string" />
+			<property name="LJBYCS" column="LJBYCS" type="int" />
+			<property name="CLZT" column="CLZT" type="int" />
+			<property name="XSLC" column="XSLC" type="int" />
+			<property name="DRJYL" column="DRJYL" type="decimal" />
+			<property name="CLXH" column="CLXH" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

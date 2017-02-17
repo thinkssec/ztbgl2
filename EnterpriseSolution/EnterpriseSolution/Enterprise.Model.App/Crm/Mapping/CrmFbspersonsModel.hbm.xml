@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmFbspersonsModel" table="APP_CRM_FBSPERSONS">
+        
+			<id name="PERID" column="PERID" type="string">			</id>
+			<property name="DUTY" column="DUTY" type="string" />
+			<property name="NAME" column="NAME" type="string" />
+			<property name="SEX" column="SEX" type="string" />
+			<property name="PHONE" column="PHONE" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="FBSID" column="FBSID" type="string" />
+			<property name="OTHER" column="OTHER" type="string" />
+			<property name="EMAIL" column="EMAIL" type="string" />
+
+    </class>
+</hibernate-mapping>

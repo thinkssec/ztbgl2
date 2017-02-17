@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysDutyModel" table="BASIS_SYS_DUTY">
+        
+			<id name="DUTYID" column="DUTYID" type="int">			</id>
+			<property name="DNAME" column="DNAME" type="string" />
+			<property name="DREMARK" column="DREMARK" type="string" />
+
+    </class>
+</hibernate-mapping>

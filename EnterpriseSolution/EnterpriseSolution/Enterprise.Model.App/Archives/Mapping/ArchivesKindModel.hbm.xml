@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Archives">
+    <class name="ArchivesKindModel" table="APP_ARCHIVES_KIND">
+        
+			<id name="ARCLBBH" column="ARCLBBH" type="string">			</id>
+			<property name="ARCSJBH" column="ARCSJBH" type="string" />
+			<property name="ARCLBMC" column="ARCLBMC" type="string" />
+			<property name="ARCLBXH" column="ARCLBXH" type="int" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Ui">
+    <class name="UiTabModel" table="APP_UI_TAB">
+        
+			<id name="TABID" column="TABID" type="string">			</id>
+			<property name="TABNAME" column="TABNAME" type="string" />
+			<property name="TABURL" column="TABURL" type="string" />
+      <property name="TABPX" column="TABPX" type="int" />
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Exc">
+    <class name="ExcInformModel" table="BASIS_EXC_INFORM">
+        
+			<id name="EXC_INFORMID" column="EXC_INFORMID" type="string">			</id>
+			<property name="EXC_NODEID" column="EXC_NODEID" type="string" />
+			<property name="EXC_TOROLE" column="EXC_TOROLE" type="string" />
+			<property name="EXC_RECIPIENTS" column="EXC_RECIPIENTS" type="int" />
+			<property name="EXC_RECORDID" column="EXC_RECORDID" type="string" />
+			<property name="EXC_SENDTIME" column="EXC_SENDTIME" type="DateTime" />
+			<property name="EXC_CAUSE" column="EXC_CAUSE" type="string" />
+			<property name="EXC_REACTIONTIME" column="EXC_REACTIONTIME" type="DateTime" />
+			<property name="EXC_INFORMSTATUS" column="EXC_INFORMSTATUS" type="string" />
+			<property name="EXC_BYMODE" column="EXC_BYMODE" type="string" />
+
+    </class>
+</hibernate-mapping>

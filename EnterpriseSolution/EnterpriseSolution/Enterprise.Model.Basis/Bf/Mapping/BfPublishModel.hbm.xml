@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfPublishModel" table="BASIS_BF_PUBLISH">
+		<composite-id>
+			<key-property name="BF_ID" column="BF_ID" type="string" />
+			<key-property name="BF_VERSION" column="BF_VERSION" type="int" />
+		</composite-id>
+		<property name="BF_SCRIPT" column="BF_SCRIPT" type="Enterprise.Component.ORM.OracleClobField,Enterprise.Component.ORM" />
+		<property name="BF_PUBDATE" column="BF_PUBDATE" type="DateTime" />
+		<property name="BF_STATUS" column="BF_STATUS" type="int" />
+		<property name="BF_MODDATE" column="BF_MODDATE" type="DateTime" />
+		<property name="BF_PUBSIGN" column="BF_PUBSIGN" type="int" />
+        
+        <many-to-one name='BfBase' class='BfBaseModel' lazy='false' column='BF_ID' insert='false' update='false' />
+    </class>
+</hibernate-mapping>

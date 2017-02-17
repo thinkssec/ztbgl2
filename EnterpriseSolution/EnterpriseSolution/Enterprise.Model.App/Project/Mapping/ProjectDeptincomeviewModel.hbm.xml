@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+  <class name="ProjectDeptincomeviewModel" table="APP_PROJECT_DEPTINCOMEVIEW">
+    <composite-id>
+      <key-property name="DEPTID" column="DEPTID" type="int" />
+      <key-property name="YEAR" column="YEAR" type="int" />
+    </composite-id>
+    <property name="HTSR" column="HTSR" type="decimal" />
+    <property name="HKSR" column="HKSR" type="decimal" />
+    <property name="YJSR" column="YJSR" type="decimal" />
+    <property name="XMCB" column="XMCB" type="decimal" />
+    <property name="XMCZ" column="XMCZ" type="decimal" />
+    <property name="JSSR" column="JSSR" type="decimal" />
+  </class>
+</hibernate-mapping>

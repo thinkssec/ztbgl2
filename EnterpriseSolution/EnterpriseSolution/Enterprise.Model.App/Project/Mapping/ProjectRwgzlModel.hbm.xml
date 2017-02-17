@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectRwgzlModel" table="APP_PROJECT_RWGZL">
+
+      <id name="RWLID" column="RWLID" type="string">			</id>
+      <property name="WSFPYY" column="WSFPYY" type="string" />
+      <property name="JLSM" column="JLSM" type="string" />
+      <property name="JYSJ" column="JYSJ" type="DateTime" />
+      <property name="ZLGDZT" column="ZLGDZT" type="int" />
+      <property name="WSFPL" column="WSFPL" type="decimal" />
+      <property name="WCGZL" column="WCGZL" type="decimal" />
+      <property name="MEMO" column="MEMO" type="string" />
+      <property name="CHID" column="CHID" type="string" />
+      <property name="JYR" column="JYR" type="int" />
+      <property name="JYDH" column="JYDH" type="string" />
+
+      <!--Enterprise.Model.App.Project.ProjectRwchModel-->
+      <many-to-one name='ProjectRwch' class='Enterprise.Model.App.Project.ProjectRwchModel' column='CHID' lazy='false' insert='false' update='false' />
+
+    </class>
+</hibernate-mapping>

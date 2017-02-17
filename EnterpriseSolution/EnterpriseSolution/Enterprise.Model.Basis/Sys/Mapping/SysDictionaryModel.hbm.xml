@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysDictionaryModel" table="BASIS_SYS_DICTIONARY">
+        
+			<id name="DID" column="DID" type="string">			</id>
+			<property name="ZWMC" column="ZWMC" type="string" />
+			<property name="YZ" column="YZ" type="string" />
+			<property name="DYMC" column="DYMC" type="string" />
+			<property name="SSZB" column="SSZB" type="string" />
+
+    </class>
+</hibernate-mapping>

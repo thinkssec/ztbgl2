@@ -1,0 +1,32 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Zygl">
+    <class name="ZyglPlanModel" table="APP_ZYGL_PLAN">
+        
+			<id name="ZID" column="ZID" type="string">			</id>
+			<property name="JH" column="JH" type="string" />
+			<property name="DYQK" column="DYQK" type="string" />
+			<property name="CW" column="CW" type="string" />
+			<property name="LASTDATE" column="LASTDATE" type="DateTime" />
+			<property name="LSGNR" column="LSGNR" type="string" />
+			<property name="SCZQ" column="SCZQ" type="decimal" />
+			<property name="ZYYY" column="ZYYY" type="string" />
+			<property name="SGNR" column="SGNR" type="string" />
+			<property name="ZYFL" column="ZYFL" type="string" />
+			<property name="CSLB" column="CSLB" type="string" />
+			<property name="PSTARTDATE" column="PSTARTDATE" type="DateTime" />
+			<property name="PENDDATE" column="PENDDATE" type="DateTime" />
+			<property name="YSE" column="YSE" type="decimal" />
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+			<property name="SHR" column="SHR" type="int" />
+			<property name="SHSTATUS" column="SHSTATUS" type="int" />
+			<property name="SHTIME" column="SHTIME" type="DateTime" />
+			<property name="SHCONTENT" column="SHCONTENT" type="string" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="STARTDATE" column="STARTDATE" type="DateTime" />
+			<property name="ENDDATE" column="ENDDATE" type="DateTime" />
+
+    </class>
+</hibernate-mapping>

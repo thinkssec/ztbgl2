@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectFztsyjModel" table="APP_PROJECT_FZTSYJ">
+        
+			<id name="ID" column="ID" type="string">			</id>
+			<property name="WDMC" column="WDMC" type="string" />
+			<property name="SPR" column="SPR" type="int" />
+			<property name="DJRQ" column="DJRQ" type="DateTime" />
+			<property name="SJDW" column="SJDW" type="string" />
+			<property name="DJR" column="DJR" type="int" />
+			<property name="BH" column="BH" type="string" />
+			<property name="WDLX" column="WDLX" type="string" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="FJ" column="FJ" type="string" />
+			<property name="SHZT" column="SHZT" type="int" />
+			<property name="TSRQ" column="TSRQ" type="DateTime" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="SHYJ" column="SHYJ" type="string" />
+
+      <!--退审文件-->
+      <bag name='FztswjList' inverse='true' cascade="none" lazy="false">
+        <key column='ID' />
+        <one-to-many class='Enterprise.Model.App.Project.ProjectFztswjModel' not-found="ignore"  />
+      </bag>
+    
+    </class>
+</hibernate-mapping>

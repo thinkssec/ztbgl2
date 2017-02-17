@@ -1,0 +1,113 @@
+2016-07-09 09:24:19,698 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2015>>
+2016-07-09 09:24:19,762 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<False---->>
+2016-07-09 09:24:19,816 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户验证失败：用户【admin】于【2016/7/9 9:24:19】尝试登录系统!IP:::1,口令:@server2015>>
+2016-07-09 09:24:28,702 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-09 09:24:28,703 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-09 09:24:28,779 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 09:24:28,779 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/9 9:24:28】成功登录系统!IP:::1>>
+2016-07-09 09:26:02,792 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<zengh---------------1>>
+2016-07-09 09:26:02,792 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户zengh,AD身份验证通过!>>
+2016-07-09 09:26:02,799 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 09:26:02,800 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【zengh】于【2016/7/9 9:26:02】成功登录系统!IP:::1>>
+2016-07-09 09:26:58,305 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-09 09:26:58,305 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-09 09:26:58,310 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 09:26:58,310 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/9 9:26:58】成功登录系统!IP:::1>>
+2016-07-09 16:13:11,830 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-09 16:13:11,845 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-09 16:13:11,845 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 16:13:11,877 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/9 16:13:11】成功登录系统!IP:::1>>
+2016-07-09 17:42:12,463 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<yaol---------------1>>
+2016-07-09 17:42:12,474 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户yaol,AD身份验证通过!>>
+2016-07-09 17:42:12,480 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 17:42:12,481 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【yaol】于【2016/7/9 17:42:12】成功登录系统!IP:::1>>
+2016-07-09 17:42:49,749 [17] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-09 17:42:49,749 [17] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-09 17:42:49,754 [17] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 17:42:49,754 [17] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/9 17:42:49】成功登录系统!IP:::1>>
+2016-07-09 18:01:21,710 [27] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] - Could not execute command: INSERT INTO BASIS_SYS_MODULE (MCODE, MNAME, MPARENTID, MROOTID, MIMAGE, MTARGET, MURL, MDELETE, MORDERBY, MSINGLE, MWEBURL, MWEBPARAM, MODULEID) VALUES (:p0, :p1, :p2, :p3, :p4, :p5, :p6, :p7, :p8, :p9, :p10, :p11, :p12)
+System.Data.OracleClient.OracleException (0x80131938): ORA-00001: 违反唯一约束条件 (ZTBGL.PK_BASIS_SYS_MODULE_ID)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2016-07-09 18:01:21,799 [27] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-00001: 违反唯一约束条件 (ZTBGL.PK_BASIS_SYS_MODULE_ID)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   在 NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+2016-07-09 18:01:21,800 [27] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-00001: 违反唯一约束条件 (ZTBGL.PK_BASIS_SYS_MODULE_ID)
+
+2016-07-09 18:01:21,800 [27] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not insert: [Enterprise.Model.Basis.Sys.SysModuleModel#04][SQL: INSERT INTO BASIS_SYS_MODULE (MCODE, MNAME, MPARENTID, MROOTID, MIMAGE, MTARGET, MURL, MDELETE, MORDERBY, MSINGLE, MWEBURL, MWEBPARAM, MODULEID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)] ---> System.Data.OracleClient.OracleException: ORA-00001: 违反唯一约束条件 (ZTBGL.PK_BASIS_SYS_MODULE_ID)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   在 NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityInsertAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2016-07-09 18:01:51,277 [29] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] - Could not execute command: INSERT INTO BASIS_SYS_MODULE (MCODE, MNAME, MPARENTID, MROOTID, MIMAGE, MTARGET, MURL, MDELETE, MORDERBY, MSINGLE, MWEBURL, MWEBPARAM, MODULEID) VALUES (:p0, :p1, :p2, :p3, :p4, :p5, :p6, :p7, :p8, :p9, :p10, :p11, :p12)
+System.Data.OracleClient.OracleException (0x80131938): ORA-00001: 违反唯一约束条件 (ZTBGL.PK_BASIS_SYS_MODULE_ID)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2016-07-09 18:01:51,277 [29] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-00001: 违反唯一约束条件 (ZTBGL.PK_BASIS_SYS_MODULE_ID)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   在 NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+2016-07-09 18:01:51,277 [29] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-00001: 违反唯一约束条件 (ZTBGL.PK_BASIS_SYS_MODULE_ID)
+
+2016-07-09 18:01:51,277 [29] ERROR NHibernate.Event.Default.AbstractFlushingEventListener [(null)] - Could not synchronize database state with session
+NHibernate.Exceptions.GenericADOException: could not insert: [Enterprise.Model.Basis.Sys.SysModuleModel#04][SQL: INSERT INTO BASIS_SYS_MODULE (MCODE, MNAME, MPARENTID, MROOTID, MIMAGE, MTARGET, MURL, MDELETE, MORDERBY, MSINGLE, MWEBURL, MWEBPARAM, MODULEID) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)] ---> System.Data.OracleClient.OracleException: ORA-00001: 违反唯一约束条件 (ZTBGL.PK_BASIS_SYS_MODULE_ID)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   在 NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Boolean[] notNull, Int32 j, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   在 NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object id, Object[] fields, Object obj, ISessionImplementor session)
+   在 NHibernate.Action.EntityInsertAction.Execute()
+   在 NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   在 NHibernate.Engine.ActionQueue.ExecuteActions()
+   在 NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+2016-07-09 18:36:41,110 [18] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<zhengyu---------------1>>
+2016-07-09 18:36:41,122 [18] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户zhengyu,AD身份验证通过!>>
+2016-07-09 18:36:41,127 [18] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 18:36:41,128 [18] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【zhengyu】于【2016/7/9 18:36:41】成功登录系统!IP:::1>>
+2016-07-09 19:14:22,429 [28] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-09 19:14:22,429 [28] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-09 19:14:22,434 [28] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 19:14:22,435 [28] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/9 19:14:22】成功登录系统!IP:::1>>
+2016-07-09 19:15:42,266 [20] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<zhengyu---------------1>>
+2016-07-09 19:15:42,266 [20] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户zhengyu,AD身份验证通过!>>
+2016-07-09 19:15:42,272 [20] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-09 19:15:42,272 [20] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【zhengyu】于【2016/7/9 19:15:42】成功登录系统!IP:::1>>

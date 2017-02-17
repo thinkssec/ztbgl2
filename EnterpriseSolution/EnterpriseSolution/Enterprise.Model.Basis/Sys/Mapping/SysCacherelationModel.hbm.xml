@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysCacherelationModel" table="BASIS_SYS_CACHERELATION">
+        
+			<id name="CACHEID" column="CACHEID" type="string">			</id>
+			<property name="CACHENAME" column="CACHENAME" type="string" />
+			<property name="INFLCACHENAME" column="INFLCACHENAME" type="string" />
+			<property name="ISVALID" column="ISVALID" type="string" />
+
+    </class>
+</hibernate-mapping>

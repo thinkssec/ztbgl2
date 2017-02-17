@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Busitravel">
+    <class name="BusitravelInfoModel" table="COMMON_BUSITRAVEL_INFO">
+        
+		<id name="BID" column="BID" type="string">
+        </id>
+		<property name="DEPTID" column="DEPTID" type="int" />
+		<property name="BCLOSE" column="BCLOSE" type="int" />
+		<property name="BCREATETIME" column="BCREATETIME" type="DateTime" />
+		<property name="BTICKETTYPE" column="BTICKETTYPE" type="string" />
+		<property name="BLINE" column="BLINE" type="string" />
+		<property name="USERID" column="USERID" type="int" />
+		<property name="BENDTIME" column="BENDTIME" type="DateTime" />
+		<property name="BDESTINATION" column="BDESTINATION" type="string" />
+		<property name="BCHECKERS" column="BCHECKERS" type="string" />
+		<property name="BSUBJECT" column="BSUBJECT" type="string" />
+		<property name="BCLOSETIME" column="BCLOSETIME" type="DateTime" />
+		<property name="BSTATE" column="BSTATE" type="int" />
+		<property name="BSTARTIME" column="BSTARTIME" type="DateTime" />
+        <property name="BDESTYPE" column="BDESTYPE" type="int" />
+
+    </class>
+</hibernate-mapping>

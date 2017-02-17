@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Exc">
+    <class name="ExcChecknodesModel" table="BASIS_EXC_CHECKNODES">
+        
+			<id name="EXC_NODEID" column="EXC_NODEID" type="string">			</id>
+			<property name="EXC_NODEORDER" column="EXC_NODEORDER" type="int" />
+			<property name="EXC_CREATEDATE" column="EXC_CREATEDATE" type="DateTime" />
+			<property name="BF_ID" column="BF_ID" type="string" />
+			<property name="BF_NODEID" column="BF_NODEID" type="string" />
+			<property name="EXC_NODEDESC" column="EXC_NODEDESC" type="string" />
+			<property name="EXC_CRITICALTIME" column="EXC_CRITICALTIME" type="string" />
+			<property name="EXC_NODECHECKER" column="EXC_NODECHECKER" type="string" />
+			<property name="EXC_NODENAME" column="EXC_NODENAME" type="string" />
+			<property name="EXC_NODECODE" column="EXC_NODECODE" type="string" />
+			<property name="BF_VERSION" column="BF_VERSION" type="int" />
+			<property name="EXC_NODEPRINCIPAL" column="EXC_NODEPRINCIPAL" type="string" />
+
+    </class>
+</hibernate-mapping>

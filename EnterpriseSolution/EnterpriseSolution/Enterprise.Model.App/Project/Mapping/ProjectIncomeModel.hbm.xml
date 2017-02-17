@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectIncomeModel" table="APP_PROJECT_INCOME">
+        
+		<composite-id>
+			<key-property name="CONTRACTID" column="CONTRACTID" type="string" />
+			<key-property name="PROJID" column="PROJID" type="string" />
+		</composite-id>
+			<property name="INCOMEVALUE" column="INCOMEVALUE" type="decimal" />
+
+    </class>
+</hibernate-mapping>

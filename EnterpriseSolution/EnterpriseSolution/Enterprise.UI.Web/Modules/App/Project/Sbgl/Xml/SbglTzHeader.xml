@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--By Supcan TreeList -->
+<TreeList>
+	<Properties autoBreakLine="1" editAble="true" id="SBBH" key="SBBH" Title="设备台账列表" HeaderFontIndex="2" HeaderHeight="34" RowHeight="28" alternateColor="#eefdff"></Properties>
+	<Fonts>
+		<Font faceName="Consolas"/>
+		<Font />
+		<Font faceName="微软雅黑" bold="1"/>
+		<Font bold="true" />
+	</Fonts>
+	<Cols>    
+    <Col name="SBBH" width="100">设备自编号</Col>
+    <Col name="SBLX" width="100" >设备类型</Col>
+    <Col name="SBMC" width="70" >设备名称</Col>
+    <Col name="GGXH" width="100" >规格型号</Col>
+		<Col name="CLPH" width="100" >车辆牌号</Col>
+		<Col name="SBYZ" width="100" datatype="double" decimal="2" displayMask="=data+'元';">设备原值</Col>
+		<Col name="SBJZ" width="100" datatype="double" decimal="2" displayMask="=data+'元';">设备净值</Col>
+    <Col name="AZDD" width="100" >安装地点</Col>
+    <Col name="CCRQ" width="100" datatype="date">出厂日期</Col>
+    <Col name="TCRQ" width="100" datatype="date">投用日期</Col>
+    <Col name="SYDW" width="100" droplistID="DW" edittype="droptreelist">使用单位</Col>
+    <Col name="YXSJLC" width="100">运行时间或行驶里程</Col>
+    <Col name="BGR" width="70">保管人</Col>
+    <Col name="SBZT"  width="70"  droplistID="ZT"  edittype="droplist" defaultValue="1">设备状态</Col>
+	</Cols>
+  <DropLists>
+    <DropList id="DW" treelist="/Modules/App/Project/Xml/SysDept.xml" DataCol="DEPTID" DisplayCol="DNAME"/>
+    <DropList id="ZT">
+      <item key="1">在用</item>
+      <item key="0">非在用</item>
+    </DropList>
+  </DropLists>
+</TreeList>

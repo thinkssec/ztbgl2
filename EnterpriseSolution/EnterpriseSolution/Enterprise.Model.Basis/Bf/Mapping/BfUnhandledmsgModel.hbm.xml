@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfUnhandledmsgModel" table="BASIS_BF_UNHANDLEDMSG">
+        
+			<id name="BF_MSGID" column="BF_MSGID" type="string">
+            </id>
+			<property name="BF_INSTANCEROLEID" column="BF_INSTANCEROLEID" type="string" />
+			<property name="BF_SENDERNAME" column="BF_SENDERNAME" type="string" />
+			<property name="BF_RUNID" column="BF_RUNID" type="string" />
+			<property name="BF_MSGTEXT" column="BF_MSGTEXT" type="string" />
+			<property name="BF_MSGTITLE" column="BF_MSGTITLE" type="string" />
+			<property name="BF_ISREAD" column="BF_ISREAD" type="int" />
+			<property name="BF_INSTANCEID" column="BF_INSTANCEID" type="string" />
+			<property name="BF_SENDTIME" column="BF_SENDTIME" type="DateTime" />
+			<property name="BF_RECIPIENTSNAME" column="BF_RECIPIENTSNAME" type="string" />
+			<property name="BF_RECIPIENTS" column="BF_RECIPIENTS" type="int" />
+			<property name="BF_SENDER" column="BF_SENDER" type="int" />
+            <property name="BF_RESULT" column="BF_RESULT" type="int" />
+            <property name="BF_REMARK" column="BF_REMARK" type="string" />
+            <property name="BF_DEALTIME" column="BF_DEALTIME" type="DateTime" />
+        
+    </class>
+</hibernate-mapping>

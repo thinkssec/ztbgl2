@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Document">
+    <class name="DocumentKindModel" table="APP_DOCUMENT_KIND">
+        
+			<id name="LBBH" column="LBBH" type="string">
+      </id>
+			<property name="LBMC" column="LBMC" type="string" />
+			<property name="LBXH" column="LBXH" type="string" />
+			<property name="SJBH" column="SJBH" type="string" />
+
+    </class>
+</hibernate-mapping>

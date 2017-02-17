@@ -1,0 +1,34 @@
+{"total":7,"rows":[
+{"name":"节点编号","value":"Bill Smith","group":"节点信息","field":"NODEID"},
+{"name":"节点名称","value":"Bill Smith","group":"节点信息","field":"NODEID2"},
+{"name":"节点类型","value":"Bill Smith","group":"节点信息","field":"NODEID3"},
+{"name":"节点对应表单","value":"Bill Smith","group":"表单设置","editor":"text","field":"NODEID4"},
+{"name":"节点操作人","value":"Bill Smith","group":"权限设置","editor":"text","field":"NODEID"},
+{"name":"节点通知人","value":"Bill Smith","group":"权限设置","editor":"text","field":"NODEID"},
+{"name":"消息提醒方式","value":"Bill Smith","group":"提醒设置","editor":"text","field":"NODEID"},
+{"name":"是否支持回退","value":"Bill Smith","group":"节点属性设置","editor":"text","field":"NODEID"},
+{"name":"是否允许代办","value":"Bill Smith","group":"节点属性设置","editor":"text","field":"NODEID"},
+{"name":"是否为关键节点","value":"Bill Smith","group":"节点属性设置","editor":"text","field":"NODEID"},
+{"name":"是否为进度异常点","value":"Bill Smith","group":"节点属性设置","editor":"text","field":"NODEID"},
+{"name":"节点进度值","value":"Bill Smith","group":"节点属性设置","editor":"text","field":"NODEID"},
+{"name":"办理时限","value":"Bill Smith","group":"时限设置","editor":"text","field":"NODEID"},
+{"name":"缺省意见或结果","value":"Bill Smith","group":"时限设置","editor":"text","field":"NODEID"},
+{"name":"超期处理方式","value":"Bill Smith","group":"时限设置","editor":"text","field":"NODEID"},
+{"name":"分支节点流转类型","value":"Bill Smith","group":"流转设置","editor":"text","field":"NODEID"}
+]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

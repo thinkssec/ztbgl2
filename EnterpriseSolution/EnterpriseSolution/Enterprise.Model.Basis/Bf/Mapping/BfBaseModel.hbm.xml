@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfBaseModel" table="BASIS_BF_BASE">
+        
+		<id name="BF_ID" column="BF_ID" type="string">			
+                
+        </id>
+		<property name="BF_CDATE" column="BF_CDATE" type="DateTime" />
+		<property name="BF_STATUS" column="BF_STATUS" type="int" />
+		<property name="BF_TYPE" column="BF_TYPE" type="string" />
+		<property name="BF_NAME" column="BF_NAME" type="string" />
+
+        <!--bag name='BfPublishes' inverse='true'>
+            <key column='BF_ID' />
+            <one-to-many class='BfPublishModel' />
+        </bag-->
+    </class>
+</hibernate-mapping>

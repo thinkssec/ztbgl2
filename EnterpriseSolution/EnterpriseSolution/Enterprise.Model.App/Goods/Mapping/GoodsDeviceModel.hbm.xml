@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Goods">
+    <class name="GoodsDeviceModel" table="APP_GOODS_DEVICE">
+        
+			<id name="SBID" column="SBID" type="string">			</id>
+			<property name="YZ" column="YZ" type="decimal" />
+			<property name="DW" column="DW" type="string" />
+			<property name="SBMC" column="SBMC" type="string" />
+			<property name="GZRQ" column="GZRQ" type="DateTime" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="CCBH" column="CCBH" type="string" />
+			<property name="SL" column="SL" type="int" />
+			<property name="SBBM" column="SBBM" type="string" />
+			<property name="KINDID" column="KINDID" type="string" />
+			<property name="ZZCJ" column="ZZCJ" type="string" />
+			<property name="GGXH" column="GGXH" type="string" />
+
+    </class>
+</hibernate-mapping>

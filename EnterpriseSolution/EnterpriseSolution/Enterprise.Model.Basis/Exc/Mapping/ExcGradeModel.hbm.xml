@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Exc">
+    <class name="ExcGradeModel" table="BASIS_EXC_GRADE">
+        
+			<id name="EXC_MARKER" column="EXC_MARKER" type="string">			</id>
+			<property name="EXC_GADE" column="EXC_GADE" type="string" />
+			<property name="EXC_GADEDESC" column="EXC_GADEDESC" type="string" />
+
+    </class>
+</hibernate-mapping>

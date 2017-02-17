@@ -1,0 +1,26 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Doc">
+    <class name="DocArticlesModel" table="COMMON_DOC_ARTICLES">
+        
+			<id name="ID" column="ID" type="int">			</id>
+			<property name="PUBDATE" column="PUBDATE" type="DateTime" />
+			<property name="TITLE" column="TITLE" type="string" />
+			<property name="APIC" column="APIC" type="string" />
+			<property name="UPLOADFILES" column="UPLOADFILES" type="string" />
+			<property name="LASTEDITOR" column="LASTEDITOR" type="string" />
+			<property name="PASSED" column="PASSED" type="int" />
+			<property name="HITS" column="HITS" type="int" />
+			<property name="TITLERU" column="TITLERU" type="string" />
+			<property name="CLASSID" column="CLASSID" type="int" />
+			<property name="AUTHOR" column="AUTHOR" type="string" />
+			<property name="CONTENTS" column="CONTENTS" type="string" />
+			<property name="KEYS" column="KEYS" type="string" />
+			<property name="CONTENTSRU" column="CONTENTSRU" type="string" />
+			<property name="ATUIJIAN" column="ATUIJIAN" type="int" />
+			<property name="RCVEDUSERS" column="RCVEDUSERS" type="string" />
+			<property name="ATOP" column="ATOP" type="int" />
+			<property name="PUBUSER" column="PUBUSER" type="int" />
+			<property name="ARTICLEFROM" column="ARTICLEFROM" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,52 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Dmgl">
+    <class name="DmglPlanModel" table="APP_DMGL_PLAN">
+        
+			<id name="PID" column="PID" type="string">			</id>
+			<property name="PKIND1" column="PKIND1" type="string" />
+			<property name="PKIND2" column="PKIND2" type="string" />
+			<property name="MX" column="MX" type="string" />
+			<property name="MS" column="MS" type="string" />
+			<property name="PDJ" column="PDJ" type="decimal" />
+			<property name="PSL" column="PSL" type="int" />
+			<property name="PSTARTDATE" column="PSTARTDATE" type="DateTime" />
+			<property name="PENDDATE" column="PENDDATE" type="DateTime" />
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+			<property name="SHR" column="SHR" type="int" />
+			<property name="SHSTATUS" column="SHSTATUS" type="int" />
+			<property name="SHTIME" column="SHTIME" type="DateTime" />
+			<property name="SHCONTENT" column="SHCONTENT" type="string" />
+			<property name="SPR" column="SPR" type="int" />
+			<property name="SPSTATUS" column="SPSTATUS" type="int" />
+			<property name="SPTIME" column="SPTIME" type="DateTime" />
+			<property name="SPCONTENT" column="SPCONTENT" type="string" />
+			<property name="CSTARTDATE" column="CSTARTDATE" type="DateTime" />
+			<property name="CENDDATE" column="CENDDATE" type="DateTime" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="CREATETIME" column="CREATETIME" type="DateTime" />
+			<property name="PAMOUNT" column="PAMOUNT" type="decimal" />
+			<property name="ENDDATE" column="ENDDATE" type="DateTime" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="SPR2" column="SPR2" type="int" />
+			<property name="SP2STATUS" column="SP2STATUS" type="int" />
+			<property name="SP2TIME" column="SP2TIME" type="DateTime" />
+			<property name="SP2CONTENT" column="SP2CONTENT" type="string" />
+			<property name="STARTDATE" column="STARTDATE" type="DateTime" />
+			<property name="SGDW" column="SGDW" type="string" />
+			<property name="FNAMES2" column="FNAMES2" type="string" />
+			<property name="FVIEWNAMES2" column="FVIEWNAMES2" type="string" />
+			<property name="GCBH" column="GCBH" type="string" />
+			<property name="GCDD" column="GCDD" type="string" />
+			<property name="GCNR" column="GCNR" type="string" />
+			<property name="GCBZ" column="GCBZ" type="string" />
+			<property name="FNAMES3" column="FNAMES3" type="string" />
+			<property name="FVIEWNAMES3" column="FVIEWNAMES3" type="string" />
+			<property name="JSJE" column="JSJE" type="decimal" />
+			<property name="JSRQ" column="JSRQ" type="DateTime" />
+			<property name="JSR" column="JSR" type="int" />
+
+    </class>
+</hibernate-mapping>

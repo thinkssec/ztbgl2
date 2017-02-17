@@ -1,0 +1,921 @@
+2016-08-04 20:50:07,258 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:50:07,271 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:07,274 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:07,274 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:07,275 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:07,275 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:07,279 [3] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysModuleData]>>  Message=<<执行Query方法出错!【from SysModuleModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select sysmodulem0_.MODULEID as MODULEID9_, sysmodulem0_.MCODE as MCODE9_, sysmodulem0_.MNAME as MNAME9_, sysmodulem0_.MPARENTID as MPARENTID9_, sysmodulem0_.MROOTID as MROOTID9_, sysmodulem0_.MIMAGE as MIMAGE9_, sysmodulem0_.MTARGET as MTARGET9_, sysmodulem0_.MURL as MURL9_, sysmodulem0_.MDELETE as MDELETE9_, sysmodulem0_.MORDERBY as MORDERBY9_, sysmodulem0_.MSINGLE as MSINGLE9_, sysmodulem0_.MWEBURL as MWEBURL9_, sysmodulem0_.MWEBPARAM as MWEBPARAM9_ from BASIS_SYS_MODULE sysmodulem0_ ]
+[SQL: select sysmodulem0_.MODULEID as MODULEID9_, sysmodulem0_.MCODE as MCODE9_, sysmodulem0_.MNAME as MNAME9_, sysmodulem0_.MPARENTID as MPARENTID9_, sysmodulem0_.MROOTID as MROOTID9_, sysmodulem0_.MIMAGE as MIMAGE9_, sysmodulem0_.MTARGET as MTARGET9_, sysmodulem0_.MURL as MURL9_, sysmodulem0_.MDELETE as MDELETE9_, sysmodulem0_.MORDERBY as MORDERBY9_, sysmodulem0_.MSINGLE as MSINGLE9_, sysmodulem0_.MWEBURL as MWEBURL9_, sysmodulem0_.MWEBPARAM as MWEBPARAM9_ from BASIS_SYS_MODULE sysmodulem0_] ---> System.Data.OracleClient.OracleException: ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:50:10,137 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:50:10,137 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:10,137 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:10,137 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:10,137 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:10,137 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:10,138 [3] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysCacherelationData]>>  Message=<<执行Query方法出错!【from SysCacherelationModel p order by p.CACHENAME】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select syscachere0_.CACHEID as CACHEID35_, syscachere0_.CACHENAME as CACHENAME35_, syscachere0_.INFLCACHENAME as INFLCACH3_35_, syscachere0_.ISVALID as ISVALID35_ from BASIS_SYS_CACHERELATION syscachere0_ order by syscachere0_.CACHENAME ]
+[SQL: select syscachere0_.CACHEID as CACHEID35_, syscachere0_.CACHENAME as CACHENAME35_, syscachere0_.INFLCACHENAME as INFLCACH3_35_, syscachere0_.ISVALID as ISVALID35_ from BASIS_SYS_CACHERELATION syscachere0_ order by syscachere0_.CACHENAME] ---> System.Data.OracleClient.OracleException: ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:50:18,439 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:50:18,439 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:18,439 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:18,439 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:18,439 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:18,439 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:18,439 [6] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysTabChangeData]>>  Message=<<执行Query方法出错!【from SysTabChangeModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_ ]
+[SQL: select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_] ---> System.Data.OracleClient.OracleException: ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:50:28,431 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:50:28,431 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:28,431 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:28,431 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:28,431 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:28,431 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:28,431 [6] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysTabChangeData]>>  Message=<<执行Query方法出错!【from SysTabChangeModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_ ]
+[SQL: select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_] ---> System.Data.OracleClient.OracleException: ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:50:39,564 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:50:39,564 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:39,565 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:39,565 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:39,565 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:39,565 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:39,565 [7] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysTabChangeData]>>  Message=<<执行Query方法出错!【from SysTabChangeModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_ ]
+[SQL: select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_] ---> System.Data.OracleClient.OracleException: ORA-12541: TNS: 无监听程序
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:50:49,552 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:50:49,552 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:49,552 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:49,552 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:49,552 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:49,552 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12541: TNS: 无监听程序
+
+2016-08-04 20:50:49,552 [3] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysTabChangeData]>>  Message=<<执行Query方法出错!【from SysTabChangeModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_ ]
+[SQL: select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_] ---> System.Data.OracleClient.OracleException: ORA-12541: TNS: 无监听程序
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:50:59,604 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:50:59,604 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:50:59,604 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:59,604 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:50:59,604 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:50:59,604 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:50:59,604 [6] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysTabChangeData]>>  Message=<<执行Query方法出错!【from SysTabChangeModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_ ]
+[SQL: select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_] ---> System.Data.OracleClient.OracleException: ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:51:04,946 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<dingb---------------1>>
+2016-08-04 20:51:04,946 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户dingb,AD身份验证通过!>>
+2016-08-04 20:51:04,948 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:51:04,948 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:04,948 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:51:04,948 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:04,948 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:51:04,948 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:04,948 [7] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysUserData]>>  Message=<<执行Query方法出错!【from SysUserModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select sysusermod0_.USERID as USERID0_, sysusermod0_.DEPTID as DEPTID0_, sysusermod0_.ULOGINNAME as ULOGINNAME0_, sysusermod0_.ULOGINPASS as ULOGINPASS0_, sysusermod0_.UNAME as UNAME0_, sysusermod0_.USEX as USEX0_, sysusermod0_.UBIRTHDAY as UBIRTHDAY0_, sysusermod0_.UHWPHONE as UHWPHONE0_, sysusermod0_.UGNPHONE as UGNPHONE0_, sysusermod0_.SIPCEMAIL as SIPCEMAIL0_, sysusermod0_.OTHEREMAIL as OTHEREMAIL0_, sysusermod0_.UIP as UIP0_, sysusermod0_.UADMIN as UADMIN0_, sysusermod0_.USTATUS as USTATUS0_, sysusermod0_.UORDERBY as UORDERBY0_, sysusermod0_.UDEFAULTLANGUAGE as UDEFAUL16_0_, sysusermod0_.UAFFILIATION as UAFFILI17_0_, sysusermod0_.USYSTEM1 as USYSTEM18_0_, sysusermod0_.USYSTEM2 as USYSTEM19_0_, sysusermod0_.USYSTEM3 as USYSTEM20_0_ from BASIS_SYS_USER sysusermod0_ ]
+[SQL: select sysusermod0_.USERID as USERID0_, sysusermod0_.DEPTID as DEPTID0_, sysusermod0_.ULOGINNAME as ULOGINNAME0_, sysusermod0_.ULOGINPASS as ULOGINPASS0_, sysusermod0_.UNAME as UNAME0_, sysusermod0_.USEX as USEX0_, sysusermod0_.UBIRTHDAY as UBIRTHDAY0_, sysusermod0_.UHWPHONE as UHWPHONE0_, sysusermod0_.UGNPHONE as UGNPHONE0_, sysusermod0_.SIPCEMAIL as SIPCEMAIL0_, sysusermod0_.OTHEREMAIL as OTHEREMAIL0_, sysusermod0_.UIP as UIP0_, sysusermod0_.UADMIN as UADMIN0_, sysusermod0_.USTATUS as USTATUS0_, sysusermod0_.UORDERBY as UORDERBY0_, sysusermod0_.UDEFAULTLANGUAGE as UDEFAUL16_0_, sysusermod0_.UAFFILIATION as UAFFILI17_0_, sysusermod0_.USYSTEM1 as USYSTEM18_0_, sysusermod0_.USYSTEM2 as USYSTEM19_0_, sysusermod0_.USYSTEM3 as USYSTEM20_0_ from BASIS_SYS_USER sysusermod0_] ---> System.Data.OracleClient.OracleException: ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:51:04,986 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户验证失败：用户【dingb】于【2016/8/4 20:51:04】尝试登录系统!IP:::1,口令:1>>
+2016-08-04 20:51:09,599 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:51:09,599 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:09,600 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:51:09,600 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:09,600 [6] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:51:09,600 [6] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:09,600 [6] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysTabChangeData]>>  Message=<<执行Query方法出错!【from SysTabChangeModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_ ]
+[SQL: select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_] ---> System.Data.OracleClient.OracleException: ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:51:19,614 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:51:19,614 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:19,614 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:51:19,614 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:19,614 [3] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:51:19,614 [3] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:19,615 [3] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysTabChangeData]>>  Message=<<执行Query方法出错!【from SysTabChangeModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_ ]
+[SQL: select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_] ---> System.Data.OracleClient.OracleException: ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:51:29,614 [9] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2016-08-04 20:51:29,614 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:29,614 [9] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:51:29,614 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:29,614 [9] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2016-08-04 20:51:29,614 [9] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+2016-08-04 20:51:29,614 [9] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.Basis.Sys.SysTabChangeData]>>  Message=<<执行Query方法出错!【from SysTabChangeModel】>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_ ]
+[SQL: select systabchan0_.USERNAME as USERNAME3_, systabchan0_.TABLENAME as TABLENAME3_, systabchan0_.CHANGEID as CHANGEID3_, systabchan0_.CHANGETIME as CHANGETIME3_ from BASIS_SYS_TABCHANGE systabchan0_] ---> System.Data.OracleClient.OracleException: ORA-12514: TNS: 监听程序当前无法识别连接描述符中请求的服务
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   在 NHibernate.AdoNet.ConnectionManager.GetConnection()
+   在 NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Hql.Ast.ANTLR.Loader.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   在 NHibernate.Impl.SessionImpl.List(String query, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](String query, QueryParameters parameters)
+   在 NHibernate.Impl.QueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.Query[T](String hql) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 696
+2016-08-04 20:53:55,859 [11] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<dingb---------------1>>
+2016-08-04 20:53:55,859 [11] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户dingb,AD身份验证通过!>>
+2016-08-04 20:53:55,956 [11] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【dingb】于【2016/8/4 20:53:55】成功登录系统!IP:::1>>

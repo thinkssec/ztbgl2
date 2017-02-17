@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Publicize">
+    <class name="PublicizeKindModel" table="APP_PUBLICIZE_KIND">
+        
+			<id name="LMID" column="LMID" type="string">			</id>
+			<property name="LMBZ" column="LMBZ" type="string" />
+			<property name="LMMC" column="LMMC" type="string" />
+			<property name="LMXH" column="LMXH" type="int" />
+
+    </class>
+</hibernate-mapping>

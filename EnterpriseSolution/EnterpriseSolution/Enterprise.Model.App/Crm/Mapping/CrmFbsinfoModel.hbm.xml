@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmFbsinfoModel" table="APP_CRM_FBSINFO">
+        
+			<id name="FBSID" column="FBSID" type="string">			</id>
+			<property name="FBSBH" column="FBSBH" type="string" />
+			<property name="TXDZ" column="TXDZ" type="string" />
+			<property name="FBSZZ" column="FBSZZ" type="string" />
+			<property name="SCQY" column="SCQY" type="string" />
+			<property name="FJ" column="FJ" type="string" />
+			<property name="FBSMC" column="FBSMC" type="string" />
+			<property name="QYJJ" column="QYJJ" type="string" />
+			<property name="QYLX" column="QYLX" type="string" />
+
+    </class>
+</hibernate-mapping>

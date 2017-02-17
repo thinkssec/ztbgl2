@@ -1,0 +1,40 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectContractModel" table="APP_PROJECT_CONTRACT">
+      <id name="CONTRACTID" column="CONTRACTID" type="string">			</id>
+      <property name="ZJLY" column="ZJLY" type="string" />
+      <property name="ASSOCIATEDNUM" column="ASSOCIATEDNUM" type="string" />
+      <property name="NBHT" column="NBHT" type="string" />
+      <property name="SIGNDATE" column="SIGNDATE" type="DateTime" />
+      <property name="ZBBM" column="ZBBM" type="int" />
+      <property name="HTBG" column="HTBG" type="string" />
+      <property name="TOTALINCOME" column="TOTALINCOME" type="decimal" />
+      <property name="QYDB" column="QYDB" type="int" />
+      <property name="ZJE" column="ZJE" type="decimal" />
+      <property name="CONTRACTNAME" column="CONTRACTNAME" type="string" />
+      <property name="COMPLETEDATE" column="COMPLETEDATE" type="DateTime" />
+      <property name="BZ" column="BZ" type="string" />
+      <property name="HTBH" column="HTBH" type="string" />
+      <property name="YJJE" column="YJJE" type="decimal" />
+      <property name="JHJE" column="JHJE" type="decimal" />
+      <property name="XDR" column="XDR" type="string" />
+      <property name="HTZR" column="HTZR" type="string" />
+      <property name="DZJ" column="DZJ" type="string" />
+      <property name="SSXM" column="SSXM" type="string" />
+      <property name="HTXH" column="HTXH" type="string" />
+      <property name="SYJE" column="SYJE" type="decimal" />
+      <property name="DQBLR" column="DQBLR" type="string" />
+      <property name="SSJD" column="SSJD" type="string" />
+      <property name="ZBSJ" column="ZBSJ" type="DateTime" />
+      <property name="JSCS" column="JSCS" type="int" />
+      <property name="GLJY" column="GLJY" type="string" />
+      <property name="JBR" column="JBR" type="string" />
+      <property name="HTZZ" column="HTZZ" type="string" />
+      <property name="SSHJ" column="SSHJ" type="string" />
+      <property name="BASJ" column="BASJ" type="DateTime" />
+      <property name="DWGS" column="DWGS" type="string" />
+      <property name="ZJLX" column="ZJLX" type="string" />
+      <property name="HTLB" column="HTLB" type="string" />
+
+    </class>
+</hibernate-mapping>

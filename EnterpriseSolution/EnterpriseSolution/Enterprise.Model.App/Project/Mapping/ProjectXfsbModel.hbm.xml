@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectXfsbModel" table="APP_PROJECT_XFSB">
+        
+			<id name="ID" column="ID" type="string">			</id>
+			<property name="GG" column="GG" type="string" />
+			<property name="SBMC" column="SBMC" type="string" />
+			<property name="QYRQ" column="QYRQ" type="DateTime" />
+			<property name="SL" column="SL" type="int" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="ZRR" column="ZRR" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

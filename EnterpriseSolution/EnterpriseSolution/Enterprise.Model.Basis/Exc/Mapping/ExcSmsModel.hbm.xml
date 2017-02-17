@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Exc">
+    <class name="ExcSmsModel" table="BASIS_EXC_SMS">
+        
+		<id name="EXC_SMSID" column="EXC_SMSID" type="string">			
+            
+        </id>
+		<property name="EXC_RECEIVENUM" column="EXC_RECEIVENUM" type="string" />
+		<property name="EXC_NODEID" column="EXC_NODEID" type="string" />
+		<property name="EXC_SENDSTATUS" column="EXC_SENDSTATUS" type="string" />
+		<property name="EXC_RECORDID" column="EXC_RECORDID" type="string" />
+		<property name="EXC_MSGTEXT" column="EXC_MSGTEXT" type="string" />
+		<property name="EXC_SENDTIME" column="EXC_SENDTIME" type="DateTime" />
+		<property name="EXC_SENDER" column="EXC_SENDER" type="string" />
+        <property name="EXC_OBJECTID" column="EXC_OBJECTID" type="string" />
+
+    </class>
+</hibernate-mapping>

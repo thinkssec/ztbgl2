@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Enterprise.UI.Web.Mobile.Site" %>
+
+<%@ Import Namespace="Enterprise.Component.Infrastructure" %>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <%--<link rel="icon" sizes="196x196" href="images/touch/chrome-touch-icon-196x196.png">--%>
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+    <!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+  以获得更好的体验！</p>
+<![endif]-->
+    <form id="form1" runat="server">
+        <header class="am-topbar admin-header">
+            <div class="am-topbar-brand">
+                <strong>专家评分</strong> <small><%=project.PROJNAME %></small>
+            </div>
+                <%--<div data-am-sticky="{top:80}">
+              <button class="am-btn am-btn-primary">Stick 80px below the top</button>
+                <a href="#admin-offcanvas" data-am-offcanvas>点击显示侧边栏</a>
+
+            </div>--%>
+            <%--<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>--%>
+
+            <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+                <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+                    <%--<li><a href="javascript:;"><span class="am-icon-envelope-o"></span>收件箱 <span class="am-badge am-badge-warning">5</span></a></li>--%>
+                    <%--<li class="am-dropdown" data-am-dropdown>
+                        <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                            <span class="am-icon-users"></span>管理员 <span class="am-icon-caret-down"></span>
+                        </a>
+                        <ul class="am-dropdown-content">
+                            <li><a href="#"><span class="am-icon-user"></span>资料</a></li>
+                            <li><a href="#"><span class="am-icon-cog"></span>设置</a></li>
+                            <li><a href="Logout.aspx"><span class="am-icon-power-off"></span>退出</a></li>
+                        </ul>
+                    </li>--%>
+                    <%--<li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen"><span class="am-icon-arrows-alt"></span><span class="admin-fullText">开启全屏</span></a></li>--%>
+                </ul>
+            </div>
+        </header>
+        <div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="my-modal-loading">
+          <div class="am-modal-dialog">
+            <div class="am-modal-hd">正在载入...</div>
+            <div class="am-modal-bd">
+              <span class="am-icon-spinner am-icon-spin"></span>
+            </div>
+          </div>
+        </div>
+        <div class="am-cf admin-main">
+            <!-- sidebar start -->
+            <%--<div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+                <div class="am-offcanvas-bar admin-offcanvas-bar">
+                    <ul class="am-list admin-sidebar-list">
+                        <li><a href="admin-index.aspx?ProjectId=<%=ProjectId %>"><span class="am-icon-home"></span>项目概况</a></li>
+                        <li><a href="zjdf.aspx?ProjectId=<%=ProjectId %>"><span class="am-icon-pencil-square-o"></span>专家打分</a></li>
+                        <li><a href="#" onclick="if(confirm('你确定要提交本轮评分结果？')) document.location='admin-index.aspx?ProjectId=<%=ProjectId %>&Cmd=Submit';"><span class="am-icon-check"></span>提交本轮评分</a></li>
+                        <li><a href="Project.aspx"><span class="am-icon-table"></span>返回项目列表</a></li>
+                        <li><a href="Logout.aspx"><span class="am-icon-sign-out"></span>注销</a></li>
+                    </ul>
+
+                    <div class="am-panel am-panel-default admin-sidebar-panel">
+                        <div class="am-panel-bd">
+                            <p><span class="am-icon-bookmark"></span>欢迎</p>
+                            <p><%=Enterprise.Service.Basis.Sys.SysUserService.GetUserName(Utility.Get_UserId) %>,你好!欢迎你参加本轮评分！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>--%>
+            <div class="am-offcanvas" id="admin-offcanvas">
+                <div class="am-offcanvas-bar">
+                    <ul class="am-list">
+                        <li><a href="admin-index.aspx?ProjectId=<%=ProjectId %>"><span class="am-icon-home"></span>项目概况</a></li>
+                        <li><a href="zjdf2.aspx?ProjectId=<%=ProjectId %>"><span class="am-icon-pencil-square-o"></span>专家打分</a></li>
+                        <li><a href="#" onclick="if(confirm('你确定要提交本轮评分结果？'))  {$('#my-modal-loading').modal();document.location='admin-index.aspx?ProjectId=<%=ProjectId %>&Cmd=Submit';}"><span class="am-icon-check"></span>提交本轮评分</a></li>
+                        <li><a href="Project.aspx"><span class="am-icon-table"></span>返回项目列表</a></li>
+                        <li><a href="Logout.aspx"><span class="am-icon-sign-out"></span>注销</a></li>
+                    </ul>
+
+                    <div class="am-panel am-panel-default">
+                        <div class="am-panel-bd">
+                            <p><span class="am-icon-bookmark"></span>欢迎</p>
+                            <p><%=Enterprise.Service.Basis.Sys.SysUserService.GetUserName(Utility.Get_UserId) %>,你好!欢迎你参加本轮评分！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- sidebar end -->
+            <!-- content start -->
+            <asp:ContentPlaceHolder ID="MainPH" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- content end -->
+        
+        </div>
+        <a href="#" class="am-show-md-only admin-menu">
+            <span class="am-icon-btn am-icon-arrow-up am-active" >               
+            </span><br/>
+            <span class="am-icon-btn am-icon-th-list"  data-am-offcanvas="{target: '#admin-offcanvas'}"></span>
+        </a>
+        
+        <footer>
+            <hr>
+            <p class="am-padding-left">© 2015 天然气川气东送管道分公司.</p>
+        </footer>
+<%--        <div id="amz-toolbar" style="right: 120px;">
+            <a title="回到顶部" class="am-icon-btn am-icon-arrow-up am-active" id="amz-go-top" href="#top"></a> 
+            <a title="常见问题" class="am-icon-faq am-icon-btn am-icon-question-circle" href="/getting-started/faq"></a>
+
+        </div>--%>
+
+        <!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+    </form>
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="assets/js/app.js"></script>
+<%--    <script type="text/javascript" src="/Resources/OA/easyui1.32/jquery.easyui.min.js"></script>  
+    <script type="text/javascript" src="/Resources/OA/easyui1.32/locale/easyui-lang-zh_CN.js"></script> 
+    <script type="text/javascript" src="/Resources/OA/easyui1.32/easyui.common.js"></script>
+        <link rel="stylesheet" href="/Resources/OA/easyui1.32/themes/icon.css">
+     <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/default/easyui.css" title="default" />--%>
+</body>
+</html>

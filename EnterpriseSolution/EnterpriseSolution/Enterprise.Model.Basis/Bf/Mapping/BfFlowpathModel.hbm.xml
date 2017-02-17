@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfFlowpathModel" table="BASIS_BF_FLOWPATH">
+        
+			<id name="BF_PATHID" column="BF_PATHID" type="string">			</id>
+			<property name="BF_ID" column="BF_ID" type="string" />
+			<property name="BF_NODEID" column="BF_NODEID" type="string" />
+			<property name="BF_STARTNODE" column="BF_STARTNODE" type="string" />
+			<property name="BF_PATHNAME" column="BF_PATHNAME" type="string" />
+			<property name="BF_DEFAULTPATH" column="BF_DEFAULTPATH" type="string" />
+			<property name="BF_PREVNODE" column="BF_PREVNODE" type="string" />
+			<property name="BF_VERSION" column="BF_VERSION" type="int" />
+			<property name="BF_ENDNODE" column="BF_ENDNODE" type="string" />
+			<property name="BF_NEXTNODE" column="BF_NEXTNODE" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enterprise.Component.DataFactory</name>
+    </assembly>
+    <members>
+        <member name="T:Enterprise.Component.DataFactory.DbExecute">
+            <summary>
+            数据操作类
+            </summary>
+        </member>
+        <member name="M:Enterprise.Component.DataFactory.DbExecute.GetDataSet(System.String)">
+            <summary>
+             返回dataset
+            </summary>
+            <param name="cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.Component.DataFactory.DbExecute.DataReader(System.String)">
+            <summary>
+             数据库操作 返回数据集
+            </summary>
+            <param name="cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.Component.DataFactory.DbExecute.ExecuteScalar(System.String)">
+            <summary>
+            返回结果集中第一行第一列
+            </summary>
+            <param name="cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.Component.DataFactory.DbExecute.Exist(System.String)">
+            <summary>
+            是否存在:select count(1) from xxxx
+            </summary>
+            <param name="cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enterprise.Component.DataFactory.DbExecute.Execute(System.String)">
+            <summary>
+            数据操作 执行操作
+            </summary>
+            <param name="cmd"></param>
+        </member>
+        <member name="M:Enterprise.Component.DataFactory.DbExecute.ExecuteCommand(System.String,System.String,System.Object,System.String,System.Object)">
+            <summary>
+            数据操作 执行操作
+            </summary>
+            <param name="cmd"></param>
+        </member>
+        <!-- 对于成员“M:Enterprise.Component.DataFactory.DbExecute.AddInClobParameter(System.Data.IDbCommand,System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:Enterprise.Component.DataFactory.DbExecute.ExecuteSql(System.String)">
+            <summary>
+            数据操作 执行操作
+            </summary>
+            <param name="cmd"></param>
+        </member>
+        <member name="T:Enterprise.Component.DataFactory.DbFactory">
+            <summary>
+             数据库实现
+            </summary>
+        </member>
+        <member name="F:Enterprise.Component.DataFactory.DbFactory.HjzxConnString">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="M:Enterprise.Component.DataFactory.DbFactory.CreateDatabase(System.String)">
+            <summary>
+            创建企业库数据库对象
+            </summary>
+            <param name="ConnString">数据库连接串名称</param>
+            <returns></returns>
+        </member>
+        <member name="P:Enterprise.Component.DataFactory.DbFactory.HjzxDatabase">
+            <summary>
+            数据库
+            </summary>
+        </member>
+    </members>
+</doc>

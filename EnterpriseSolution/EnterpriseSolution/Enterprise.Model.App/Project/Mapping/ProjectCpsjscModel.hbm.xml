@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectCpsjscModel" table="APP_PROJECT_CPSJSC">
+        
+			<id name="SJSCID" column="SJSCID" type="string">			</id>
+			<property name="SCRQ" column="SCRQ" type="DateTime" />
+			<property name="CPSL" column="CPSL" type="int" />
+			<property name="SCR" column="SCR" type="int" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="FJ" column="FJ" type="string" />
+			<property name="SCYJ" column="SCYJ" type="string" />
+			<property name="CPMC" column="CPMC" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

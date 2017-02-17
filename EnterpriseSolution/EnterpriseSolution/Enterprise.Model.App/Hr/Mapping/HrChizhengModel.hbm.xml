@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Hr">
+    <class name="HrChizhengModel" table="APP_HR_CHIZHENG">
+        
+			<id name="CZID" column="CZID" type="string">			</id>
+			<property name="ZSLX" column="ZSLX" type="string" />
+			<property name="ZSBH" column="ZSBH" type="string" />
+			<property name="ZSYXQ" column="ZSYXQ" type="decimal" />
+			<property name="ZSBTE" column="ZSBTE" type="decimal" />
+			<property name="ZSYYJ" column="ZSYYJ" type="string" />
+			<property name="USERID" column="USERID" type="int" />
+			<property name="ZSBFRQ" column="ZSBFRQ" type="DateTime" />
+			<property name="MEMO" column="MEMO" type="string" />
+
+
+      <many-to-one name='HrUser' class='Enterprise.Model.Basis.Sys.SysUserModel' lazy='false' column='USERID' insert='false' update='false' />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectCheckModel" table="APP_PROJECT_CHECK">
+        
+			<id name="CHECKID" column="CHECKID" type="string">			</id>
+			<property name="CHECKER" column="CHECKER" type="int" />
+			<property name="CHECKOPINION" column="CHECKOPINION" type="string" />
+			<property name="ASSOCIATEDID" column="ASSOCIATEDID" type="string" />
+			<property name="CHECKSTATUS" column="CHECKSTATUS" type="int" />
+			<property name="CHECKDATE" column="CHECKDATE" type="DateTime" />
+			<property name="SENDDATE" column="SENDDATE" type="DateTime" />
+			<property name="CHECKRESULT" column="CHECKRESULT" type="int" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="SENDER" column="SENDER" type="int" />
+			<property name="CHECKORDER" column="CHECKORDER" type="int" />
+      <property name="CHECKATTCH" column="CHECKATTCH" type="string" />
+      <property name="CHECKSCORE" column="CHECKSCORE" type="int" />
+
+    </class>
+</hibernate-mapping>

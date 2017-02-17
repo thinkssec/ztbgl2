@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--By Supcan TreeList -->
+<TreeList>
+  <Properties dataURL="/Modules/App/Project/CommonHandler.ashx?type=selectDept"> </Properties>
+  <Cols>
+    <Col width="70" name="DEPTID">单位ID</Col>
+    <Col width="100" name="DNAME">单位名称</Col>
+  </Cols>
+</TreeList>

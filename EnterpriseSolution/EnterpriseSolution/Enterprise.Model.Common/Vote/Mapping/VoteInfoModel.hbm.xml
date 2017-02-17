@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Vote">
+    <class name="VoteInfoModel" table="COMMON_VOTE_INFO">
+        
+			<id name="VID" column="VID" type="string">			</id>
+			<property name="VMIX" column="VMIX" type="int" />
+			<property name="VREMARK" column="VREMARK" type="string" />
+			<property name="VMAX" column="VMAX" type="int" />
+			<property name="VPUBLIC" column="VPUBLIC" type="int" />
+			<property name="VTITLE" column="VTITLE" type="string" />
+			<property name="VCREATEUSER" column="VCREATEUSER" type="int" />
+			<property name="VENDTIME" column="VENDTIME" type="DateTime" />
+			<property name="VPUBLICTIME" column="VPUBLICTIME" type="DateTime" />
+			<property name="VRANGE" column="VRANGE" type="string" />
+			<property name="VCREATETIME" column="VCREATETIME" type="DateTime" />
+			<property name="VTYPE" column="VTYPE" type="int" />
+
+    </class>
+</hibernate-mapping>

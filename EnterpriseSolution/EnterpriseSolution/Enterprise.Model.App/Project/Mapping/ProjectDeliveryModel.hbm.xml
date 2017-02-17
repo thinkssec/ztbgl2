@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectDeliveryModel" table="APP_PROJECT_DELIVERY">
+        
+			<id name="DELIVERYID" column="DELIVERYID" type="string">			</id>
+			<property name="DELIVERYDATE" column="DELIVERYDATE" type="DateTime" />
+			<property name="DELIVERYNAME" column="DELIVERYNAME" type="string" />
+			<property name="RECEIVER" column="RECEIVER" type="string" />
+			<property name="OPERATOR" column="OPERATOR" type="int" />
+			<property name="ATTACHMENT" column="ATTACHMENT" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

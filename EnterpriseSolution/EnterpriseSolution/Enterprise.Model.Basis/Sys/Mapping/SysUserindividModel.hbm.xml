@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysUserindividModel" table="BASIS_SYS_USERINDIVID">
+        
+			<id name="USERID" column="USERID" type="int">			</id>
+			<property name="SIGNPIC" column="SIGNPIC" type="string" />
+			<property name="INDEXCHART" column="INDEXCHART" type="string" />
+			<property name="CHARTPOWER" column="CHARTPOWER" type="int" />
+			<property name="SPECIAL1" column="SPECIAL1" type="string" />
+			<property name="SPECIAL2" column="SPECIAL2" type="string" />
+			<property name="SPECIAL3" column="SPECIAL3" type="string" />
+			<property name="SPECIAL4" column="SPECIAL4" type="string" />
+			<property name="SPECIAL5" column="SPECIAL5" type="string" />
+
+    </class>
+</hibernate-mapping>

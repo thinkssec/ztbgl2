@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6162B363-4D1B-43DB-970E-0EB55D558653}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Data.Common</RootNamespace>
+    <AssemblyName>Enterprise.Data.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\Enterprise.UI.Web\Lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Enterprise.UI.Web\Lib\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\Enterprise.UI.Web\Lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Article\ArticleClobData.cs" />
+    <Compile Include="Article\ArticleDownloadData.cs" />
+    <Compile Include="Article\ArticleInfoData.cs" />
+    <Compile Include="Article\ArticleRecevieData.cs" />
+    <Compile Include="Article\Interface\IArticleClobData.cs" />
+    <Compile Include="Article\Interface\IArticleDownloadData.cs" />
+    <Compile Include="Article\Interface\IArticleInfoData.cs" />
+    <Compile Include="Article\Interface\IArticleRecevieData.cs" />
+    <Compile Include="Busitravel\BusitravelCertData.cs" />
+    <Compile Include="Busitravel\BusitravelInfoData.cs" />
+    <Compile Include="Busitravel\BusitravelKzinfoData.cs" />
+    <Compile Include="Busitravel\BusitravelOrderData.cs" />
+    <Compile Include="Busitravel\BusitravelPassengerData.cs" />
+    <Compile Include="Busitravel\BusitravelSummaryData.cs" />
+    <Compile Include="Busitravel\BusitravelWfprocessData.cs" />
+    <Compile Include="Busitravel\Interface\IBusitravelCertData.cs" />
+    <Compile Include="Busitravel\Interface\IBusitravelInfoData.cs" />
+    <Compile Include="Busitravel\Interface\IBusitravelKzinfoData.cs" />
+    <Compile Include="Busitravel\Interface\IBusitravelOrderData.cs" />
+    <Compile Include="Busitravel\Interface\IBusitravelPassengerData.cs" />
+    <Compile Include="Busitravel\Interface\IBusitravelSummaryData.cs" />
+    <Compile Include="Busitravel\Interface\IBusitravelWfprocessData.cs" />
+    <Compile Include="Doc\DocArticlesData.cs" />
+    <Compile Include="Doc\DocClassData.cs" />
+    <Compile Include="Doc\DocRecevieData.cs" />
+    <Compile Include="Doc\Interface\IDocArticlesData.cs" />
+    <Compile Include="Doc\Interface\IDocClassData.cs" />
+    <Compile Include="Doc\Interface\IDocRecevieData.cs" />
+    <Compile Include="IDataCommon.cs" />
+    <Compile Include="Manager\Interface\IManagerMsgData.cs" />
+    <Compile Include="Manager\Interface\IManagerMsgReplyData.cs" />
+    <Compile Include="Manager\ManagerMsgData.cs" />
+    <Compile Include="Manager\ManagerMsgReplyData.cs" />
+    <Compile Include="Meeting\Interface\IMeetingInfoData.cs" />
+    <Compile Include="Meeting\Interface\IMeetingRecevieData.cs" />
+    <Compile Include="Meeting\MeetingInfoData.cs" />
+    <Compile Include="Meeting\MeetingRecevieData.cs" />
+    <Compile Include="Notice\Interface\INoticeData.cs" />
+    <Compile Include="Notice\NoticeData.cs" />
+    <Compile Include="Office\Interface\IOfficeDocumentData.cs" />
+    <Compile Include="Office\Interface\IOfficeRecevieData.cs" />
+    <Compile Include="Office\OfficeDocumentData.cs" />
+    <Compile Include="Office\OfficeRecevieData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Supervise\Interface\ISuperviseInfoData.cs" />
+    <Compile Include="Supervise\Interface\ISuperviseProcessData.cs" />
+    <Compile Include="Supervise\SuperviseInfoData.cs" />
+    <Compile Include="Supervise\SuperviseProcessData.cs" />
+    <Compile Include="Vote\Interface\IVoteInfoData.cs" />
+    <Compile Include="Vote\Interface\IVoteItemData.cs" />
+    <Compile Include="Vote\Interface\IVoteResultData.cs" />
+    <Compile Include="Vote\VoteInfoData.cs" />
+    <Compile Include="Vote\VoteItemData.cs" />
+    <Compile Include="Vote\VoteResultData.cs" />
+    <Compile Include="Webmail\Interface\IWebmailInboxData.cs" />
+    <Compile Include="Webmail\Interface\IWebmailInboxerrorData.cs" />
+    <Compile Include="Webmail\Interface\IWebmailOutboxData.cs" />
+    <Compile Include="Webmail\Interface\IWebmailSettingsData.cs" />
+    <Compile Include="Webmail\WebmailInboxData.cs" />
+    <Compile Include="Webmail\WebmailInboxerrorData.cs" />
+    <Compile Include="Webmail\WebmailOutboxData.cs" />
+    <Compile Include="Webmail\WebmailSettingsData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Component.Cache\Enterprise.Component.Cache.csproj">
+      <Project>{E38DDBF0-A978-4E6E-BFAB-15A25B08DE1C}</Project>
+      <Name>Enterprise.Component.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Infrastructure\Enterprise.Component.Infrastructure.csproj">
+      <Project>{A439B7BB-89F3-4BD1-87B8-259300139AFA}</Project>
+      <Name>Enterprise.Component.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.ORM\Enterprise.Component.ORM.csproj">
+      <Project>{833F8E42-5AB8-499A-91A1-BF39F7BC0F53}</Project>
+      <Name>Enterprise.Component.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.Common\Enterprise.Model.Common.csproj">
+      <Project>{33AAB140-F972-4267-8D25-4DEBE4BB6F14}</Project>
+      <Name>Enterprise.Model.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

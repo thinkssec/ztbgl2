@@ -1,0 +1,20 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Hse">
+    <class name="HseSectcheckdetlModel" table="APP_HSE_SECTCHECKDETL">
+        
+			<id name="CKDID" column="CKDID" type="string">			</id>
+			<property name="CKID" column="CKID" type="string" />
+			<property name="CWHERE" column="CWHERE" type="string" />
+			<property name="DETAIL" column="DETAIL" type="string" />
+			<property name="CHARGE" column="CHARGE" type="string" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="PRESENT" column="PRESENT" type="string" />
+			<property name="COMPLETEDATE" column="COMPLETEDATE" type="DateTime" />
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,26 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectRwchModel" table="APP_PROJECT_RWCH">
+        
+			<id name="CHID" column="CHID" type="string">			</id>
+			<property name="RWQZ" column="RWQZ" type="decimal" />
+			<property name="DW" column="DW" type="string" />
+			<property name="JHWCSJ" column="JHWCSJ" type="DateTime" />
+			<property name="ZYMC" column="ZYMC" type="string" />
+			<property name="BJDM" column="BJDM" type="string" />
+			<property name="GZNR" column="GZNR" type="string" />
+			<property name="SJGZL" column="SJGZL" type="decimal" />
+			<property name="RWZT" column="RWZT" type="int" />
+			<property name="ZLGDZT" column="ZLGDZT" type="int" />
+			<property name="YJGZL" column="YJGZL" type="decimal" />
+			<property name="SJWCSJ" column="SJWCSJ" type="DateTime" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+      <!--任务完成情况-->
+      <bag name='RwgzlList' inverse='true' cascade="none" lazy="false">
+        <key column='CHID' />
+        <one-to-many class='Enterprise.Model.App.Project.ProjectRwgzlModel' not-found="ignore"  />
+      </bag>
+
+    </class>
+</hibernate-mapping>

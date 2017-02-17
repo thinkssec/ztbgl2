@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChangeLanguage.aspx.cs" Inherits="Enterprise.UI.Web.ChangeLanguage" %>

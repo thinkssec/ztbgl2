@@ -1,0 +1,25 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmPersonModel" table="APP_CRM_PERSON">
+        
+			<id name="PERSONID" column="PERSONID" type="string">			</id>
+			<property name="DEPTID" column="DEPTID" type="int" />
+			<property name="PERSONNAME" column="PERSONNAME" type="string" />
+			<property name="PHONE" column="PHONE" type="string" />
+			<property name="MOBILEPHONE" column="MOBILEPHONE" type="string" />
+			<property name="EMAIL" column="EMAIL" type="string" />
+			<property name="SEX" column="SEX" type="string" />
+			<property name="HOMETOWN" column="HOMETOWN" type="string" />
+			<property name="BIRTHDAY" column="BIRTHDAY" type="DateTime" />
+			<property name="DEPTNAME" column="DEPTNAME" type="string" />
+			<property name="DEPTDUTY" column="DEPTDUTY" type="string" />
+			<property name="SCHOOL" column="SCHOOL" type="string" />
+			<property name="ADDRESS" column="ADDRESS" type="string" />
+			<property name="POSTCODE" column="POSTCODE" type="string" />
+			<property name="MAIN" column="MAIN" type="int" />
+			<property name="LB" column="LB" type="int" />
+			<property name="USRID" column="USRID" type="int" />
+			<property name="DEL" column="DEL" type="int" />
+
+    </class>
+</hibernate-mapping>

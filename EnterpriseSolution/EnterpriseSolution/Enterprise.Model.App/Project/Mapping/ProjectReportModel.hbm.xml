@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectReportModel" table="APP_PROJECT_REPORT">
+        
+			<id name="RPTID" column="RPTID" type="string">			</id>
+			<property name="QUALITYSCORE" column="QUALITYSCORE" type="decimal" />
+			<property name="PRTSTATUS" column="PRTSTATUS" type="int" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="AUDITOR" column="AUDITOR" type="int" />
+			<property name="WRITER" column="WRITER" type="int" />
+			<property name="RPTCONTS" column="RPTCONTS" type="string" />
+			<property name="ATTACHMENT" column="ATTACHMENT" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="APPROVER" column="APPROVER" type="int" />
+			<property name="RPTTYPE" column="RPTTYPE" type="string" />
+			<property name="RPTNAME" column="RPTNAME" type="string" />
+			<property name="PROOFREADER" column="PROOFREADER" type="int" />
+			<property name="RPTDATE" column="RPTDATE" type="DateTime" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="RPTBH" column="RPTBH" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Meeting">
+    <class name="MeetingRecevieModel" table="COMMON_MEETING_RECEVIE">
+        
+			<id name="MRID" column="MRID" type="int">			</id>
+			<property name="MRTIME" column="MRTIME" type="DateTime" />
+			<property name="MRUSERID" column="MRUSERID" type="int" />
+			<property name="MID" column="MID" type="int" />
+
+    </class>
+</hibernate-mapping>

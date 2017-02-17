@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Exc">
+    <class name="ExcHandleemailModel" table="BASIS_EXC_HANDLEEMAIL">
+        
+			<id name="EXC_EMAILID" column="EXC_EMAILID" type="string">			</id>
+			<property name="EXC_SENDSTATUS" column="EXC_SENDSTATUS" type="string" />
+			<property name="EXC_SENDEMAIL" column="EXC_SENDEMAIL" type="string" />
+			<property name="EXC_SENDTIME" column="EXC_SENDTIME" type="DateTime" />
+			<property name="EXC_EMAILMESSAGE" column="EXC_EMAILMESSAGE" type="string" />
+			<property name="EXC_SENDER" column="EXC_SENDER" type="string" />
+			<property name="EXC_RECEIVEREMAIL" column="EXC_RECEIVEREMAIL" type="string" />
+			<property name="EXC_EMAILTITLE" column="EXC_EMAILTITLE" type="string" />
+
+    </class>
+</hibernate-mapping>

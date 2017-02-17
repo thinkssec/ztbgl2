@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Busitravel">
+    <class name="BusitravelWfprocessModel" table="COMMON_BUSITRAVEL_WFPROCESS">
+        
+        <id name="PID" column="PID" type="string">
+        </id>
+		<property name="PUSERID" column="PUSERID" type="int" />
+		<property name="PISCHECK" column="PISCHECK" type="int" />
+		<property name="RUNID" column="RUNID" type="string" />
+		<property name="PTIME" column="PTIME" type="DateTime" />
+		<property name="PWFTYPE" column="PWFTYPE" type="string" />
+		<property name="PRESULT" column="PRESULT" type="int" />
+		<property name="WFID" column="WFID" type="string" />
+		<property name="PUSERORDERBY" column="PUSERORDERBY" type="int" />
+		<property name="PUSERID_REAL" column="PUSERID_REAL" type="int" />
+		<property name="PREMARK" column="PREMARK" type="string" />
+
+    </class>
+</hibernate-mapping>

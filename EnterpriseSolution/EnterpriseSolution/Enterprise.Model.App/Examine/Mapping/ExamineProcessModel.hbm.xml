@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Examine">
+    <class name="ExamineProcessModel" table="APP_EXAMINE_PROCESS">
+        
+			<id name="BJDM" column="BJDM" type="string">			</id>
+			<property name="BJMC" column="BJMC" type="string" />
+			<property name="CJSX" column="CJSX" type="string" />
+			<property name="KINDID" column="KINDID" type="int" />
+			<property name="SJDM" column="SJDM" type="string" />
+			<property name="CSQZ" column="CSQZ" type="decimal" />
+
+      <!--Enterprise.Model.App.Examine.ExamineKindModel-->
+      <many-to-one name='ExamineKind' class='Enterprise.Model.App.Examine.ExamineKindModel' lazy='false' column='KINDID' insert='false' update='false' />
+      
+    </class>
+</hibernate-mapping>

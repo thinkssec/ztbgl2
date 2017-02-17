@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Exc">
+    <class name="ExcCheckruleModel" table="BASIS_EXC_CHECKRULE">
+        
+			<id name="EXC_RULEID" column="EXC_RULEID" type="string">			</id>
+			<property name="EXC_REMARK" column="EXC_REMARK" type="string" />
+			<property name="EXC_NODEID" column="EXC_NODEID" type="string" />
+			<property name="EXC_CONDITION" column="EXC_CONDITION" type="string" />
+			<property name="EXC_TOROLE" column="EXC_TOROLE" type="string" />
+			<property name="EXC_MARKER" column="EXC_MARKER" type="string" />
+			<property name="EXC_STANDARDVALUE" column="EXC_STANDARDVALUE" type="decimal" />
+			<property name="EXC_OPERATOR" column="EXC_OPERATOR" type="string" />
+			<property name="EXC_BYMODE" column="EXC_BYMODE" type="string" />
+
+    </class>
+</hibernate-mapping>

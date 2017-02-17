@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7139B2F5-7377-4589-B82C-9C0DC98DAF51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Data.App</RootNamespace>
+    <AssemblyName>Enterprise.Data.App</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\Enterprise.UI.Web\Lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Enterprise.UI.Web\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Enterprise.UI.Web\Lib\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\Enterprise.UI.Web\Lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Archives\ArchivesAnjuanData.cs" />
+    <Compile Include="Archives\ArchivesJuanneiData.cs" />
+    <Compile Include="Archives\ArchivesKindData.cs" />
+    <Compile Include="Archives\Interface\IArchivesAnjuanData.cs" />
+    <Compile Include="Archives\Interface\IArchivesJuanneiData.cs" />
+    <Compile Include="Archives\Interface\IArchivesKindData.cs" />
+    <Compile Include="Crm\CrmFbcontractData.cs" />
+    <Compile Include="Crm\CrmFbhtjeData.cs" />
+    <Compile Include="Crm\CrmFbreqformData.cs" />
+    <Compile Include="Crm\CrmFbsinfoData.cs" />
+    <Compile Include="Crm\CrmFbspersonsData.cs" />
+    <Compile Include="Crm\CrmInfoData.cs" />
+    <Compile Include="Crm\CrmPbinfoData.cs" />
+    <Compile Include="Crm\CrmPbkindData.cs" />
+    <Compile Include="Crm\CrmPbsurveyData.cs" />
+    <Compile Include="Crm\CrmPbsurveyitemData.cs" />
+    <Compile Include="Crm\CrmPersonData.cs" />
+    <Compile Include="Crm\Interface\ICrmFbcontractData.cs" />
+    <Compile Include="Crm\Interface\ICrmFbhtjeData.cs" />
+    <Compile Include="Crm\Interface\ICrmFbreqformData.cs" />
+    <Compile Include="Crm\Interface\ICrmFbsinfoData.cs" />
+    <Compile Include="Crm\Interface\ICrmFbspersonsData.cs" />
+    <Compile Include="Crm\Interface\ICrmInfoData.cs" />
+    <Compile Include="Crm\Interface\ICrmPbinfoData.cs" />
+    <Compile Include="Crm\Interface\ICrmPbkindData.cs" />
+    <Compile Include="Crm\Interface\ICrmPbsurveyData.cs" />
+    <Compile Include="Crm\Interface\ICrmPbsurveyitemData.cs" />
+    <Compile Include="Crm\Interface\ICrmPersonData.cs" />
+    <Compile Include="Dmgl\DmglPlanData.cs" />
+    <Compile Include="Dmgl\DmglSgjdData.cs" />
+    <Compile Include="Dmgl\Interface\IDmglPlanData.cs" />
+    <Compile Include="Dmgl\Interface\IDmglSgjdData.cs" />
+    <Compile Include="Document\DocumentConfigData.cs" />
+    <Compile Include="Document\DocumentConvertData.cs" />
+    <Compile Include="Document\DocumentDownloadsData.cs" />
+    <Compile Include="Document\DocumentKindData.cs" />
+    <Compile Include="Document\DocumentOfficialData.cs" />
+    <Compile Include="Document\DocumentProjData.cs" />
+    <Compile Include="Document\Interface\IDocumentConfigData.cs" />
+    <Compile Include="Document\Interface\IDocumentConvertData.cs" />
+    <Compile Include="Document\Interface\IDocumentDownloadsData.cs" />
+    <Compile Include="Document\Interface\IDocumentKindData.cs" />
+    <Compile Include="Document\Interface\IDocumentOfficialData.cs" />
+    <Compile Include="Document\Interface\IDocumentProjData.cs" />
+    <Compile Include="Examine\ExamineCostData.cs" />
+    <Compile Include="Examine\ExamineCostitemData.cs" />
+    <Compile Include="Examine\ExamineKindData.cs" />
+    <Compile Include="Examine\ExamineNodesData.cs" />
+    <Compile Include="Examine\ExamineProcessData.cs" />
+    <Compile Include="Examine\Interface\IExamineCostData.cs" />
+    <Compile Include="Examine\Interface\IExamineCostitemData.cs" />
+    <Compile Include="Examine\Interface\IExamineKindData.cs" />
+    <Compile Include="Examine\Interface\IExamineNodesData.cs" />
+    <Compile Include="Examine\Interface\IExamineProcessData.cs" />
+    <Compile Include="Goods\GoodsDeviceData.cs" />
+    <Compile Include="Goods\GoodsKindData.cs" />
+    <Compile Include="Goods\Interface\IGoodsDeviceData.cs" />
+    <Compile Include="Goods\Interface\IGoodsKindData.cs" />
+    <Compile Include="Hr\HrChizhengData.cs" />
+    <Compile Include="Hr\HrChizhengwpData.cs" />
+    <Compile Include="Hr\HrZigeData.cs" />
+    <Compile Include="Hr\Interface\IHrChizhengData.cs" />
+    <Compile Include="Hr\Interface\IHrChizhengwpData.cs" />
+    <Compile Include="Hr\Interface\IHrZigeData.cs" />
+    <Compile Include="Hse\HseSectcheckData.cs" />
+    <Compile Include="Hse\HseSectcheckdetlData.cs" />
+    <Compile Include="Hse\Interface\IHseSectcheckData.cs" />
+    <Compile Include="Hse\Interface\IHseSectcheckdetlData.cs" />
+    <Compile Include="IDataApp.cs" />
+    <Compile Include="Project\Interface\IProjectArchiveData.cs" />
+    <Compile Include="Project\Interface\IProjectBhData.cs" />
+    <Compile Include="Project\Interface\IProjectCarData.cs" />
+    <Compile Include="Project\Interface\IProjectChangeData.cs" />
+    <Compile Include="Project\Interface\IProjectCheckData.cs" />
+    <Compile Include="Project\Interface\IProjectCommunicationData.cs" />
+    <Compile Include="Project\Interface\IProjectCompletionData.cs" />
+    <Compile Include="Project\Interface\IProjectContractData.cs" />
+    <Compile Include="Project\Interface\IProjectCostData.cs" />
+    <Compile Include="Project\Interface\IProjectCostplanData.cs" />
+    <Compile Include="Project\Interface\IProjectCprzzsData.cs" />
+    <Compile Include="Project\Interface\IProjectCpsjscData.cs" />
+    <Compile Include="Project\Interface\IProjectCptzdjData.cs" />
+    <Compile Include="Project\Interface\IProjectDailyviewData.cs" />
+    <Compile Include="Project\Interface\IProjectDeliveryData.cs" />
+    <Compile Include="Project\Interface\IProjectDeptincomeviewData.cs" />
+    <Compile Include="Project\Interface\IProjectDeviceData.cs" />
+    <Compile Include="Project\Interface\IProjectFwsData.cs" />
+    <Compile Include="Project\Interface\IProjectFzjyqzbData.cs" />
+    <Compile Include="Project\Interface\IProjectFzscyjData.cs" />
+    <Compile Include="Project\Interface\IProjectFzsjbajlData.cs" />
+    <Compile Include="Project\Interface\IProjectFzstchData.cs" />
+    <Compile Include="Project\Interface\IProjectFztswjData.cs" />
+    <Compile Include="Project\Interface\IProjectFztsyjData.cs" />
+    <Compile Include="Project\Interface\IProjectFztzdjData.cs" />
+    <Compile Include="Project\Interface\IProjectFztzjfjlData.cs" />
+    <Compile Include="Project\Interface\IProjectFztzlviewData.cs" />
+    <Compile Include="Project\Interface\IProjectFzzjpsData.cs" />
+    <Compile Include="Project\Interface\IProjectGdjsfaData.cs" />
+    <Compile Include="Project\Interface\IProjectGdjszlData.cs" />
+    <Compile Include="Project\Interface\IProjectGlzdData.cs" />
+    <Compile Include="Project\Interface\IProjectHsehdjlData.cs" />
+    <Compile Include="Project\Interface\IProjectHsezzjgData.cs" />
+    <Compile Include="Project\Interface\IProjectIncomeData.cs" />
+    <Compile Include="Project\Interface\IProjectIncomeviewData.cs" />
+    <Compile Include="Project\Interface\IProjectInfoData.cs" />
+    <Compile Include="Project\Interface\IProjectJbjggsData.cs" />
+    <Compile Include="Project\Interface\IProjectKbhqdbData.cs" />
+    <Compile Include="Project\Interface\IProjectKbhycData.cs" />
+    <Compile Include="Project\Interface\IProjectKbjlData.cs" />
+    <Compile Include="Project\Interface\IProjectKbpbgzjlData.cs" />
+    <Compile Include="Project\Interface\IProjectMaterialData.cs" />
+    <Compile Include="Project\Interface\IProjectMbrattendanceData.cs" />
+    <Compile Include="Project\Interface\IProjectMbroutsideData.cs" />
+    <Compile Include="Project\Interface\IProjectMemberData.cs" />
+    <Compile Include="Project\Interface\IProjectOrderData.cs" />
+    <Compile Include="Project\Interface\IProjectPbbgData.cs" />
+    <Compile Include="Project\Interface\IProjectPbhqdbData.cs" />
+    <Compile Include="Project\Interface\IProjectPbywhxyData.cs" />
+    <Compile Include="Project\Interface\IProjectPfbzData.cs" />
+    <Compile Include="Project\Interface\IProjectPfbzmData.cs" />
+    <Compile Include="Project\Interface\IProjectPfhzData.cs" />
+    <Compile Include="Project\Interface\IProjectPfmbData.cs" />
+    <Compile Include="Project\Interface\IProjectPlanData.cs" />
+    <Compile Include="Project\Interface\IProjectProfitData.cs" />
+    <Compile Include="Project\Interface\IProjectPszjData.cs" />
+    <Compile Include="Project\Interface\IProjectQhsecheckData.cs" />
+    <Compile Include="Project\Interface\IProjectQhsecheckitemData.cs" />
+    <Compile Include="Project\Interface\IProjectQualityData.cs" />
+    <Compile Include="Project\Interface\IProjectReportData.cs" />
+    <Compile Include="Project\Interface\IProjectRequirementData.cs" />
+    <Compile Include="Project\Interface\IProjectRunninganalyzeviewData.cs" />
+    <Compile Include="Project\Interface\IProjectRunningData.cs" />
+    <Compile Include="Project\Interface\IProjectRwchData.cs" />
+    <Compile Include="Project\Interface\IProjectRwgzlData.cs" />
+    <Compile Include="Project\Interface\IProjectSettlementData.cs" />
+    <Compile Include="Project\Interface\IProjectTbrcbsxData.cs" />
+    <Compile Include="Project\Interface\IProjectTbyqhData.cs" />
+    <Compile Include="Project\Interface\IProjectTpinfoData.cs" />
+    <Compile Include="Project\Interface\IProjectTzwjjsjlbData.cs" />
+    <Compile Include="Project\Interface\IProjectWssjdjData.cs" />
+    <Compile Include="Project\Interface\IProjectWsxmbsData.cs" />
+    <Compile Include="Project\Interface\IProjectXfsbData.cs" />
+    <Compile Include="Project\Interface\IProjectYhzlData.cs" />
+    <Compile Include="Project\Interface\IProjectYjyaData.cs" />
+    <Compile Include="Project\Interface\IProjectZbjgspbData.cs" />
+    <Compile Include="Project\Interface\IProjectZbtzsData.cs" />
+    <Compile Include="Project\Interface\IProjectZbwjData.cs" />
+    <Compile Include="Project\Interface\IProjectZbwjfjData.cs" />
+    <Compile Include="Project\Interface\IProjectZbwjlqdjbData.cs" />
+    <Compile Include="Project\Interface\IProjectZbwjshData.cs" />
+    <Compile Include="Project\Interface\IProjectZjpfData.cs" />
+    <Compile Include="Project\Interface\IProjectZlglData.cs" />
+    <Compile Include="Project\ProjectArchiveData.cs" />
+    <Compile Include="Project\ProjectBhData.cs" />
+    <Compile Include="Project\ProjectCarData.cs" />
+    <Compile Include="Project\ProjectChangeData.cs" />
+    <Compile Include="Project\ProjectCheckData.cs" />
+    <Compile Include="Project\ProjectCommunicationData.cs" />
+    <Compile Include="Project\ProjectCompletionData.cs" />
+    <Compile Include="Project\ProjectContractData.cs" />
+    <Compile Include="Project\ProjectCostData.cs" />
+    <Compile Include="Project\ProjectCostplanData.cs" />
+    <Compile Include="Project\ProjectCprzzsData.cs" />
+    <Compile Include="Project\ProjectCpsjscData.cs" />
+    <Compile Include="Project\ProjectCptzdjData.cs" />
+    <Compile Include="Project\ProjectDailyviewData.cs" />
+    <Compile Include="Project\ProjectDeliveryData.cs" />
+    <Compile Include="Project\ProjectDeptincomeviewData.cs" />
+    <Compile Include="Project\ProjectDeviceData.cs" />
+    <Compile Include="Project\ProjectFwsData.cs" />
+    <Compile Include="Project\ProjectFzjyqzbData.cs" />
+    <Compile Include="Project\ProjectFzscyjData.cs" />
+    <Compile Include="Project\ProjectFzsjbajlData.cs" />
+    <Compile Include="Project\ProjectFzstchData.cs" />
+    <Compile Include="Project\ProjectFztswjData.cs" />
+    <Compile Include="Project\ProjectFztsyjData.cs" />
+    <Compile Include="Project\ProjectFztzdjData.cs" />
+    <Compile Include="Project\ProjectFztzjfjlData.cs" />
+    <Compile Include="Project\ProjectFztzlviewData.cs" />
+    <Compile Include="Project\ProjectFzzjpsData.cs" />
+    <Compile Include="Project\ProjectGdjsfaData.cs" />
+    <Compile Include="Project\ProjectGdjszlData.cs" />
+    <Compile Include="Project\ProjectGlzdData.cs" />
+    <Compile Include="Project\ProjectHsehdjlData.cs" />
+    <Compile Include="Project\ProjectHsezzjgData.cs" />
+    <Compile Include="Project\ProjectIncomeData.cs" />
+    <Compile Include="Project\ProjectIncomeviewData.cs" />
+    <Compile Include="Project\ProjectInfoData.cs" />
+    <Compile Include="Project\ProjectJbjggsData.cs" />
+    <Compile Include="Project\ProjectKbhqdbData.cs" />
+    <Compile Include="Project\ProjectKbhycData.cs" />
+    <Compile Include="Project\ProjectKbjlData.cs" />
+    <Compile Include="Project\ProjectKbpbgzjlData.cs" />
+    <Compile Include="Project\ProjectMaterialData.cs" />
+    <Compile Include="Project\ProjectMbrattendanceData.cs" />
+    <Compile Include="Project\ProjectMbroutsideData.cs" />
+    <Compile Include="Project\ProjectMemberData.cs" />
+    <Compile Include="Project\ProjectOrderData.cs" />
+    <Compile Include="Project\ProjectPbbgData.cs" />
+    <Compile Include="Project\ProjectPbhqdbData.cs" />
+    <Compile Include="Project\ProjectPbywhxyData.cs" />
+    <Compile Include="Project\ProjectPfbzData.cs" />
+    <Compile Include="Project\ProjectPfbzmData.cs" />
+    <Compile Include="Project\ProjectPfhzData.cs" />
+    <Compile Include="Project\ProjectPfmbData.cs" />
+    <Compile Include="Project\ProjectPlanData.cs" />
+    <Compile Include="Project\ProjectProfitData.cs" />
+    <Compile Include="Project\ProjectPszjData.cs" />
+    <Compile Include="Project\ProjectQhsecheckData.cs" />
+    <Compile Include="Project\ProjectQhsecheckitemData.cs" />
+    <Compile Include="Project\ProjectQualityData.cs" />
+    <Compile Include="Project\ProjectReportData.cs" />
+    <Compile Include="Project\ProjectRequirementData.cs" />
+    <Compile Include="Project\ProjectRunninganalyzeviewData.cs" />
+    <Compile Include="Project\ProjectRunningData.cs" />
+    <Compile Include="Project\ProjectRwchData.cs" />
+    <Compile Include="Project\ProjectRwgzlData.cs" />
+    <Compile Include="Project\ProjectSettlementData.cs" />
+    <Compile Include="Project\ProjectTbrcbsxData.cs" />
+    <Compile Include="Project\ProjectTbyqhData.cs" />
+    <Compile Include="Project\ProjectTpinfoData.cs" />
+    <Compile Include="Project\ProjectTzwjjsjlbData.cs" />
+    <Compile Include="Project\ProjectWssjdjData.cs" />
+    <Compile Include="Project\ProjectWsxmbsData.cs" />
+    <Compile Include="Project\ProjectXfsbData.cs" />
+    <Compile Include="Project\ProjectYhzlData.cs" />
+    <Compile Include="Project\ProjectYjyaData.cs" />
+    <Compile Include="Project\ProjectZbjgspbData.cs" />
+    <Compile Include="Project\ProjectZbtzsData.cs" />
+    <Compile Include="Project\ProjectZbwjData.cs" />
+    <Compile Include="Project\ProjectZbwjfjData.cs" />
+    <Compile Include="Project\ProjectZbwjlqdjbData.cs" />
+    <Compile Include="Project\ProjectZbwjshData.cs" />
+    <Compile Include="Project\ProjectZjpfData.cs" />
+    <Compile Include="Project\ProjectZlglData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publicize\Interface\IPublicizeInfoData.cs" />
+    <Compile Include="Publicize\Interface\IPublicizeKindData.cs" />
+    <Compile Include="Publicize\Interface\IPublicizeSigningData.cs" />
+    <Compile Include="Publicize\PublicizeInfoData.cs" />
+    <Compile Include="Publicize\PublicizeKindData.cs" />
+    <Compile Include="Publicize\PublicizeSigningData.cs" />
+    <Compile Include="Sbgl\Interface\ISbglTzData.cs" />
+    <Compile Include="Sbgl\Interface\ISbglWxdwData.cs" />
+    <Compile Include="Sbgl\Interface\ISbglWxjhbData.cs" />
+    <Compile Include="Sbgl\Interface\ISbglYsbgdData.cs" />
+    <Compile Include="Sbgl\SbglTzData.cs" />
+    <Compile Include="Sbgl\SbglWxdwData.cs" />
+    <Compile Include="Sbgl\SbglWxjhbData.cs" />
+    <Compile Include="Sbgl\SbglYsbgdData.cs" />
+    <Compile Include="Ui\Interface\IUiCustomData.cs" />
+    <Compile Include="Ui\Interface\IUiDefaultData.cs" />
+    <Compile Include="Ui\Interface\IUiTabData.cs" />
+    <Compile Include="Ui\UiCustomData.cs" />
+    <Compile Include="Ui\UiDefaultData.cs" />
+    <Compile Include="Ui\UiTabData.cs" />
+    <Compile Include="Zygl\Interface\IZyglJsData.cs" />
+    <Compile Include="Zygl\Interface\IZyglPlanData.cs" />
+    <Compile Include="Zygl\Interface\IZyglWgqtfyData.cs" />
+    <Compile Include="Zygl\Interface\IZyglWgysData.cs" />
+    <Compile Include="Zygl\ZyglJsData.cs" />
+    <Compile Include="Zygl\ZyglPlanData.cs" />
+    <Compile Include="Zygl\ZyglWgqtfyData.cs" />
+    <Compile Include="Zygl\ZyglWgysData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Component.Cache\Enterprise.Component.Cache.csproj">
+      <Project>{E38DDBF0-A978-4E6E-BFAB-15A25B08DE1C}</Project>
+      <Name>Enterprise.Component.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Infrastructure\Enterprise.Component.Infrastructure.csproj">
+      <Project>{A439B7BB-89F3-4BD1-87B8-259300139AFA}</Project>
+      <Name>Enterprise.Component.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.ORM\Enterprise.Component.ORM.csproj">
+      <Project>{833F8E42-5AB8-499A-91A1-BF39F7BC0F53}</Project>
+      <Name>Enterprise.Component.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.App\Enterprise.Model.App.csproj">
+      <Project>{52D6F2A1-C126-41DF-8F18-68DF73AC71D9}</Project>
+      <Name>Enterprise.Model.App</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectCostModel" table="APP_PROJECT_COST">
+
+      <id name="COSTID" column="COSTID" type="string">			</id>
+      <property name="COSTDATE" column="COSTDATE" type="DateTime" />
+      <property name="OPERATER" column="OPERATER" type="string" />
+      <property name="PRETRIAL" column="PRETRIAL" type="string" />
+      <property name="EXPLAIN" column="EXPLAIN" type="string" />
+      <property name="ISBILL" column="ISBILL" type="int" />
+      <property name="AMOUNT" column="AMOUNT" type="decimal" />
+      <property name="OPERATEDATE" column="OPERATEDATE" type="DateTime" />
+      <property name="TICKETS" column="TICKETS" type="int" />
+      <property name="COSTCODE" column="COSTCODE" type="string" />
+      <property name="PROCESSOR" column="PROCESSOR" type="int" />
+      <property name="STATUS" column="STATUS" type="int" />
+      <property name="PROJID" column="PROJID" type="string" />
+
+      <many-to-one name='ExamineCostInfo' class='Enterprise.Model.App.Examine.ExamineCostModel' lazy='false' column='COSTCODE' insert='false' update='false' />
+
+    </class>
+</hibernate-mapping>

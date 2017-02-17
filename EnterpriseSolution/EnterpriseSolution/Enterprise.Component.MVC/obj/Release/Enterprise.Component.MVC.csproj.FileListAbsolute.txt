@@ -1,0 +1,5 @@
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\bin\Release\Enterprise.Component.MVC.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\bin\Release\Enterprise.Component.MVC.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\obj\Release\Enterprise.Component.MVC.csprojResolveAssemblyReference.cache
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\obj\Release\Enterprise.Component.MVC.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\obj\Release\Enterprise.Component.MVC.pdb

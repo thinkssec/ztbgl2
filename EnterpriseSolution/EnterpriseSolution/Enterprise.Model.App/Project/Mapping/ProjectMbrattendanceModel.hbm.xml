@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectMbrattendanceModel" table="APP_PROJECT_MBRATTENDANCE">
+        
+			<id name="ID" column="ID" type="string">			</id>
+			<property name="JLRQ" column="JLRQ" type="DateTime" />
+			<property name="RYDT" column="RYDT" type="int" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="MEMBERID" column="MEMBERID" type="string" />
+      <property name="MBRNAME" column="MBRNAME" type="string" />
+      <property name="MBRPROPERTY" column="MBRPROPERTY" type="string" />
+      
+    </class>
+</hibernate-mapping>

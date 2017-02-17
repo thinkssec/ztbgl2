@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Enterprise.Model.Common"
+                   namespace="Enterprise.Model.Common.Manager">
+  <class name="ManagerMsgReplyModel" table="COMMON_MANAGER_MSGREPLY">
+    <id name="REPLYID" column="REPLYID" type="int" unsaved-value="0">
+    </id>
+    <property name="MSGID" column="MSGID" type="int"  />
+    <property name="REPLYCONTENT" column="REPLYCONTENT" type="string"  />
+    <property name="REPLYISSHOW" column="REPLYISSHOW" type="int"  />
+    <property name="REPLYIP" column="REPLYIP" type="string"  />
+    <property name="REPLYTIME" column="REPLYTIME" type="datetime"  />
+  </class>
+</hibernate-mapping>

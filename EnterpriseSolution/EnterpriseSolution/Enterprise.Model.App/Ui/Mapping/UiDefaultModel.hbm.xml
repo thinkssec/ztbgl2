@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Ui">
+    <class name="UiDefaultModel" table="APP_UI_DEFAULT">
+        
+			<id name="DEFAULTID" column="DEFAULTID" type="string">			</id>
+			<property name="UICONTENT" column="UICONTENT" type="string" />
+			<property name="ROLEID" column="ROLEID" type="int" />
+      <!--关联角色-->
+      <many-to-one name='SysRole' class='Enterprise.Model.Basis.Sys.SysRoleModel' lazy='false' column='ROLEID' insert='false' update='false' />
+    </class>
+</hibernate-mapping>

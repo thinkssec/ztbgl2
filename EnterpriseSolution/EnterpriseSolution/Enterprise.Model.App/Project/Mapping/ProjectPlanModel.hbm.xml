@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectPlanModel" table="APP_PROJECT_PLAN">
+        
+			<id name="PLANID" column="PLANID" type="string">			</id>
+			<property name="AUDITSTATUS" column="AUDITSTATUS" type="int" />
+			<property name="PROJSURVEY" column="PROJSURVEY" type="string" />
+			<property name="QUALITYPLAN" column="QUALITYPLAN" type="string" />
+			<property name="PREPAREDNESS" column="PREPAREDNESS" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="AUDITDATE" column="AUDITDATE" type="DateTime" />
+
+      <bag name='ProjectCostPlans' inverse='true' cascade="none" lazy="false">
+        <key column='PLANID' />
+        <one-to-many class='Enterprise.Model.App.Project.ProjectCostplanModel' not-found="ignore" />
+      </bag>      
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectZbwjshModel" table="APP_PROJECT_ZBWJSH">
+        
+			<id name="RPTID" column="RPTID" type="string">			</id>
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+			<property name="CHECKDATE" column="CHECKDATE" type="DateTime" />
+			<property name="CHECKSTATUS" column="CHECKSTATUS" type="int" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="SHR" column="SHR" type="int" />
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="PRTSTATUS" column="PRTSTATUS" type="int" />
+			<property name="RPTNAME" column="RPTNAME" type="string" />
+			<property name="ATTACHMENT" column="ATTACHMENT" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="SPR" column="SPR" type="int" />
+			<property name="SHBM" column="SHBM" type="int" />
+			<property name="SPBM" column="SPBM" type="string" />
+
+    </class>
+</hibernate-mapping>

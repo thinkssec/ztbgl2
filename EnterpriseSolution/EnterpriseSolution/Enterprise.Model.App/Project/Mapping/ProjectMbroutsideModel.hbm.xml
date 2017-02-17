@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectMbroutsideModel" table="APP_PROJECT_MBROUTSIDE">
+        
+			<id name="MBROUTID" column="MBROUTID" type="string">			</id>
+			<property name="PROJTASK" column="PROJTASK" type="string" />
+			<property name="POSTDATE" column="POSTDATE" type="DateTime" />
+			<property name="POSTROLE" column="POSTROLE" type="string" />
+      <property name="USERNAME" column="USERNAME" type="string" />
+			<property name="TASKSCALE" column="TASKSCALE" type="int" />
+			<property name="OFFPOSTDATE" column="OFFPOSTDATE" type="DateTime" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="POSTSTATUS" column="POSTSTATUS" type="int" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

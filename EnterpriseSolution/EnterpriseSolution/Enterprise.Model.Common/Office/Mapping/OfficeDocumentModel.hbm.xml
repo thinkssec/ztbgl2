@@ -1,0 +1,30 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Office">
+    <class name="OfficeDocumentModel" table="COMMON_OFFICE_DOCUMENT">
+        
+			<id name="ODID" column="ODID" type="string">			
+                
+            </id>
+			<property name="ODQSUSERS" column="ODQSUSERS" type="string" />
+			<property name="ODPUBLICTIME" column="ODPUBLICTIME" type="DateTime" />
+			<property name="ODCHECKERS" column="ODCHECKERS" type="string" />
+			<property name="ODCREMARK" column="ODCREMARK" type="Enterprise.Component.ORM.OracleClobField,Enterprise.Component.ORM" />
+			<property name="ODISPUBLIC" column="ODISPUBLIC" type="int" />
+			<property name="ODTYPEID" column="ODTYPEID" type="int" />
+			<property name="ODCNAME" column="ODCNAME" type="string" />
+			<property name="ODFROMUSER" column="ODFROMUSER" type="string" />
+			<property name="ODFROMTIME" column="ODFROMTIME" type="string" />
+			<property name="ODCODE" column="ODCODE" type="string" />
+			<property name="ODTYPE" column="ODTYPE" type="string" />
+			<property name="ODFILES" column="ODFILES" type="string" />
+			<property name="ODDEPTID" column="ODDEPTID" type="int" />
+			<property name="ODFROMCODE" column="ODFROMCODE" type="string" />
+			<property name="ODFROM" column="ODFROM" type="string" />
+			<property name="ODRREMARK" column="ODRREMARK" type="Enterprise.Component.ORM.OracleClobField,Enterprise.Component.ORM" />
+			<property name="ODRNAME" column="ODRNAME" type="string" />
+			<property name="ODUSERID" column="ODUSERID" type="int" />
+			<property name="ODSTATE" column="ODSTATE" type="int" />
+			<property name="ODCREATETIME" column="ODCREATETIME" type="DateTime" />
+
+    </class>
+</hibernate-mapping>

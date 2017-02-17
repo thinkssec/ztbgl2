@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmPbkindModel" table="APP_CRM_PBKIND">
+        
+			<id name="LBBH" column="LBBH" type="string">			</id>
+			<property name="LBMC" column="LBMC" type="string" />
+			<property name="SJLB" column="SJLB" type="string" />
+			<property name="LBXH" column="LBXH" type="int" />
+
+    </class>
+</hibernate-mapping>

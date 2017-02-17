@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Doc">
+    <class name="DocClassModel" table="COMMON_DOC_CLASS">
+        
+			<id name="CLASSID" column="CLASSID" type="int">			</id>
+			<property name="CLASSPUBROLES" column="CLASSPUBROLES" type="string" />
+			<property name="CLASSURL" column="CLASSURL" type="string" />
+			<property name="CLASSVIEWROLES" column="CLASSVIEWROLES" type="string" />
+			<property name="CLASSFLAG" column="CLASSFLAG" type="int" />
+			<property name="CLASSNAME" column="CLASSNAME" type="string" />
+			<property name="CLASSORDERBY" column="CLASSORDERBY" type="int" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,411 @@
+2015-12-02 21:06:13,265 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2015>>
+2015-12-02 21:06:13,284 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2015-12-02 21:06:13,334 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2015-12-02 21:06:13,351 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2015/12/2 21:06:13】成功登录系统!IP:::1>>
+2015-12-02 23:28:48,462 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 64663f1f-5340-4de9-b09a-6e1c66862222 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:48,532 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier ae6ba41c-ebe8-4f89-804d-fed3db641d51 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:48,533 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 29a7a88d-edf0-4685-903c-1a04f4003963 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:48,535 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 77bb86b3-f328-4d59-aaf7-ad73b35f8df3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:48,536 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 9c38661d-1f32-4703-a0a5-02d92732c4d6 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:48,537 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 1649b669-f95e-45f2-aba3-1f6abb4a6758 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:55,732 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 1e5fe026-3e24-4443-9b7a-5da48789832a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:55,733 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 9e2fc90d-63a4-41cc-9bf2-9edacb5ee262 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:55,734 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier bdb4a140-01f5-48da-9dd3-ad92aac3b7e8 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:55,736 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier f6e309d4-0fe1-4468-981b-9580adfd293e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:57,008 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 95e84652-8bf7-4716-ade1-22486cdcdfca is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:57,010 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 5508342f-f626-4d6a-bd54-f3917d648825 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:57,012 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e6cd889a-ddbd-46ab-8c37-9041f508769e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:57,014 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 26abf37f-41ec-4b6d-a9fc-a031ca0fadd2 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:58,124 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c7580e48-9d47-480c-883c-9f33f1c7c458 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:58,127 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 3c963291-2e12-437e-b3fb-b3b7571f4622 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:58,129 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 8bd67d2b-8870-4270-adb4-0a1274ee1822 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:58,130 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e0f91efa-b222-4316-a144-227ed7cc92c2 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:59,029 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 62bf82d9-0875-4a29-9e49-89d42ff90e5e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:59,031 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 7aef4023-5c8e-4d05-b185-e51c0f169ff7 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:59,032 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier fc92e13e-b66c-45de-a123-57695b1665d3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:28:59,034 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 56ae35ce-a522-4a66-864d-0f9657c5ea04 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:00,891 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier d5cdc8f7-e1f4-45d2-ad2e-8d764a073a34 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:00,893 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 7241e781-19a2-4a05-a3b0-f8aed3c5c846 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:00,895 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 37f63548-91da-4d58-b762-606df36e6c09 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:00,896 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier cd78b575-c26c-4c92-926a-ad1f934e283a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:01,938 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 53d28d4b-944a-4960-a449-5596d69096ca is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:01,940 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c33228e0-cfec-4685-8ec8-b2b3497c6982 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:01,941 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 9ae811e0-8b33-4ad6-b332-b2edcd0599c7 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:01,943 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 5e52668a-1a37-4b82-9a59-afc9394d61c6 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:03,743 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier b817d517-d3e8-4703-84ce-1511b1697e12 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:03,744 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 9e3b0148-ac87-47c1-a47b-90582492fdc9 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:03,745 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 879bab31-04a1-458d-8014-69b2d15886e6 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:03,746 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 35a60208-02d8-4dfa-aea6-8e6042f9b7c3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:04,854 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 9b8ae8f7-fbb0-4f36-813a-c7d17c5a3bc9 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:04,855 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 2c45200c-8fac-4c2a-b7cb-6ad498f17167 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:04,856 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 5152e532-df5a-4d13-add3-2dd70726cb19 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:29:04,857 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 1e2c9e1e-8c05-44a4-8488-8645834aae42 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:34:58,257 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 64ff86bf-6011-428e-989c-6614a7dbbbff is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:34:58,260 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c4693758-3e98-40c5-b125-6a68d6d5dd3d is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:34:58,261 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier d2ad99bd-2bd7-4d5b-9f90-0c905c27e75c is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:34:58,262 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier d412371c-df3f-4f14-8c26-3d1d9965e97f is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:34:59,683 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier a14c5ee6-1e9d-4e47-8945-e3e3b19de1be is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:34:59,685 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e728abf9-b092-40da-8d45-8547b1ff821e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:34:59,687 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 973aa3a8-9c62-40cc-9d24-57b7817e66dc is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:34:59,689 [24] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 14727af6-7345-4f7d-8548-4c06f3423cab is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:35:21,216 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier b2db7354-4f47-4142-8618-0e00861ce3b1 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:35:21,217 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier d40cd397-3199-4b5b-ba01-9d52355e3d2a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:38:55,074 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 203610bf-0394-44dc-9560-ce077e9c6f5f is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:38:55,076 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 8a85c161-915e-4794-96b5-00c79a4e9c09 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:44:31,637 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c7d206c4-b6f3-4529-8dcb-09fed69a92f4 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:44:31,638 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e8320b7e-2df7-4203-b005-442eb162eaf9 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:44:32,973 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier bd2cd318-ab1d-4671-b105-0f64be8f6e52 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:44:32,975 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 140c3a51-a2fa-4cd6-8cff-50a0764310b1 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:44:33,932 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 8c34d5f7-0c0a-46d8-9d97-062c96ac442f is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:44:33,934 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier a47028b8-d6ab-41e0-9cd7-e6f50542bb83 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:44:34,917 [26] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier ff71d124-d7cb-4912-b343-74ddf6b32bd4 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:44:34,918 [26] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 48a9213c-0320-425b-a1f7-fc9525ea3e2f is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:42,010 [23] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 4cda6bc5-1c5e-4328-a3d3-48cce878e3da is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:42,012 [23] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 19870c94-314b-47c4-98d7-c9535e6a67bc is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:43,018 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 4f9d4c69-fc2e-4f80-a7d5-e322e6321608 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:43,021 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 646f5dc8-74e9-41f3-9801-eee796c425b4 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:44,587 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 79dddebd-bd08-4204-8573-8b7bebbae006 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:44,588 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e1fcc9ba-0a4a-4923-8a0a-e0060f173a40 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:45,797 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier b640b65a-deca-4e7d-8c2a-5f8055df5ece is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:45,798 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 91d84984-509f-41a2-bbf0-b999328d1ae5 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:46,707 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 4d91bbaa-2e15-403f-8c52-28cf4aa3dbd8 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:46,709 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 470c89ca-722e-4fc0-a1c4-99d0a6ac368e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:47,641 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 921e242e-f36f-4fc3-89b5-cad7180a3ddd is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:47,642 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier bea8194a-4638-489b-bb3f-f1e3ad2b0755 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:48,705 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 19615c40-04c4-4d7b-91ff-e00ddd7a4a6d is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:48,706 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 0e2fc25f-c3bb-4293-9927-ecb22861fd53 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:49,528 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 3680c5d9-2159-448e-acb8-6044937bdc94 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:49,531 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 35bac408-c25d-4d2d-894e-e9b1445f5b23 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:50,479 [23] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier ed1c1181-d479-4116-aff9-44ea38626b4f is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:50,480 [23] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 05588016-8aea-4980-96f8-533964eb2eba is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:51,315 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 7691894d-0f6d-4d18-a1ee-acbef7db1b1b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:51,317 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 678a5033-935e-4fbe-b98d-9ca6ed29dc95 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:52,135 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 6244cc8b-ce69-4026-b416-ab65fe69f835 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:52,138 [19] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 97febda4-40e1-4f7d-b681-bd45e5bc390a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:52,987 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier a2819e54-a5e7-4a0c-b40d-4486b1107c7d is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:52,989 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier efa014a2-8e7d-4685-865d-c03c0088ec1a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:55,498 [25] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c3bafa1a-a561-47ff-b769-945f4d4b7742 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-02 23:47:56,356 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 08e6b535-85bf-4de6-b2dc-77607a513d47 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:28:26,474 [8] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 6d43b21b-0b08-4bde-be7c-e170f560766b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:28:26,498 [8] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier f898f4df-95cf-44fb-9514-a6be381373e8 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:28:26,500 [8] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier f605fa9f-507a-43ed-badf-497aa075f088 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:28:26,501 [8] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 645aa86f-cdf3-403a-bb81-7ee31bdc5dbd is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:28:30,329 [8] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier ee53679c-dea2-4330-bb76-ad708fe80f85 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:28:30,331 [8] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e3a2f132-132b-4aba-95f8-650fdf3a3c94 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:28:32,222 [6] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 247f8eba-f4d6-4c58-833f-6ba7bf0d03ae is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:28:32,223 [6] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 33025bd6-42d2-40f8-b9af-986ad6bf511a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:29:14,016 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier f8e562b2-849d-4600-b47a-1e1947876560 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:29:14,018 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 2d2773d1-7547-485e-adb7-a1ca3fe94df3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:32:10,730 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 8184b258-7510-4eef-8583-0832db69027e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:32:10,732 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c23fce89-5e5b-4bde-b26b-88895db6077d is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:34:45,117 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 1c8cb9d4-59b8-45b1-b9f5-331de038b875 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:34:45,119 [16] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier a2da8169-e737-4d76-8711-9eb43ac7771b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:35:46,245 [29] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 5dd13adc-20cc-4d0a-9fd4-9cd649d21443 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:35:46,247 [29] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e3c01922-670a-4f36-a26a-df35cc50634a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:38:46,797 [21] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 85b0aa88-54f0-4008-8618-3537f405f00d is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:38:46,799 [21] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 336616c2-f801-4872-9df0-0375f88bc46e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:45:04,518 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2015>>
+2015-12-03 00:45:04,534 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2015-12-03 00:45:04,543 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2015-12-03 00:45:04,555 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2015/12/3 0:45:04】成功登录系统!IP:::1>>
+2015-12-03 00:45:24,833 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 79171b1f-1fbb-4d88-bd31-8624618bf3a3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:45:24,844 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier fa49daf6-af54-4666-b120-f985d947585b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:45:44,319 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 53695221-a02e-4db5-8903-2ee7bf4b1f6e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:45:44,321 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier f0a1858e-d772-420b-99db-3502feaf2a8b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:47:23,003 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 3d5c8e41-e7fe-41f8-a983-4cc49880c45e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:47:23,004 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier df037adf-2bdf-44d6-9e24-601c457cfdce is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:47:23,006 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 946e53e4-d250-49b5-ab3c-e8b5e8958293 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:47:30,155 [6] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 98d4af56-ad0c-4179-ba65-02d867c79ab6 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:47:30,156 [6] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier ab3c7dac-dcec-44f8-9308-eaf16ed122a8 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:47:37,976 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 64e3c545-9e8f-4398-8a26-ce7ac23ba5bc is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:47:37,978 [7] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 83eaaa0f-ebe6-4d63-a635-d55cc719e262 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:20,063 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e57ae601-4fac-440f-a5a9-16480ea0fe34 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:20,064 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 331e9b84-140e-4bf0-8fcd-36205d77a3a7 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:20,066 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 563be7be-753f-42b5-b086-0a572283da4a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:20,067 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier cc32905b-cc2b-4850-9e6d-b13b28ebb162 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:21,084 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 49be6cc9-edd1-4337-8702-4ab610a893b6 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:21,086 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier bb86a0e1-4f26-491c-8341-f555ae3fa0da is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:21,087 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c3644837-1cd4-495a-8a46-87b7f41e565e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:21,089 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c8387aa7-3c9f-4006-a90d-fb803d4912ea is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:22,162 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier dbfd7262-db96-418c-9901-39bd9e3f7644 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:22,163 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier a239f293-a38e-4264-8c98-c333becb467b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:22,165 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 8181d5aa-d1d3-48cd-9303-c396c701b0c8 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:22,166 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e196d945-5572-4b0c-ae33-5f83e06b758f is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:29,310 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e5db4419-5f66-4793-8142-669fffaed50d is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:29,312 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 90dbd511-c179-4734-af17-1259b5c1b154 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:29,313 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 4d8e6a5c-ed84-47f5-9384-a3123fd74c47 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:29,314 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 97636e13-03d4-440c-9f40-7fd091c0c8f4 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:32,383 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 484e380c-d74e-49a4-ab85-5c52186b9035 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:32,384 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 7585e64d-8805-4933-9758-5983d6ae364b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:32,386 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 7da5cb96-9c49-4d53-b785-0fa171b9ef9e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:32,388 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 15d5de64-2267-4b3a-a4c0-df7202882fa1 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:32,390 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 36645321-17ce-4704-a442-53fe101aec50 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:32,391 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 133e0650-5a31-4aab-875e-c6ab8227bc3a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:34,250 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 45545c4b-9a4b-4edf-a617-cb53120d0173 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:34,251 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier d6d218ed-e267-42c2-84c9-8bcf238bcee9 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:34,252 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c1e00754-4d51-4a0c-94fe-32408e546497 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:34,254 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier a44bfaa4-bcae-43cc-8299-6723a332e47f is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:34,255 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c8de97e5-ca32-4f0e-b376-a0d5624a90de is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:34,256 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 42ca04c3-58b8-47d9-86c4-a67b1cca94f7 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:36,369 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 8900c0a0-b32f-4c1b-9b93-a022fda91dba is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:36,371 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier d88b34d9-8de6-422d-97ea-7298e3f21d95 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:36,372 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier d34e8081-96a9-4311-90c0-88bfc0ef1be3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:36,373 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier ddf88cf8-c0e3-4d23-835c-7e77b8cf8eb2 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:36,374 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c8b5c66d-8c9e-48d7-a2ad-52162169c04d is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:36,375 [9] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 5460dbc1-6110-45fa-9778-03a5cbe081e5 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:46,791 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 8626dc87-cac3-4d23-b21f-8e67df14eaf4 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:46,792 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 2eb4b9cc-f064-438c-943f-47c11a980d05 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:46,793 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier fa860dc5-24ee-4216-a1f4-9a59b5a6a70d is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:46,794 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 01d434d7-30ac-4d32-96b0-529290370436 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:46,796 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 2357819f-ea3d-4d2c-8c31-a00f79465114 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:46,797 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 77be6f24-321f-4897-a008-4e323cc55e1a is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:51,189 [13] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 36879718-f3fa-4a65-ad63-ccf92f7194f3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:51,190 [13] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier f77093b9-4bd1-47cb-84f2-7598c998d1b5 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:51,191 [13] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 255f6607-0c88-4adf-9966-8aa73af34b81 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:52,289 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier aa27a14f-460c-4cb6-a59e-563d70d251bd is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:52,290 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier c1bbf0bb-9b1e-409b-b378-ea4ee751eea3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:52,291 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier b3c5c3f6-136a-4c25-a85d-146371f2c856 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:57,754 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 7fb110fa-054b-418c-9078-bbb11ee8e7f9 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:57,755 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 0abfd225-1585-40a8-872d-a875536eb41b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:57,757 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 3e343650-1a82-4374-9bea-f1b8becf59a4 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:58,851 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e4b5486d-4fd6-46f3-be34-498cebe1127b is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:58,852 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e02f3319-6b26-4018-bc53-aa89b834d766 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:58,854 [10] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 87f02843-2427-4f85-9066-cf315276a74f is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:59,699 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 670a7dfb-e831-4056-9387-4a54ca0e2fd3 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:59,702 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 3895a607-9c45-4a14-9120-7b30ee1b5a87 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:51:59,704 [12] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 97d509e1-2889-4bfa-80c7-1bd748092486 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:52:01,668 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 35e1737c-39b4-40c1-ae47-a2b6d9fa18cd is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:52:01,669 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier 959efc69-e6d2-4665-b196-7444496ca50e is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 00:52:01,670 [14] WARN  NHibernate.Engine.ForeignKeys [(null)] - Unable to determine if Enterprise.Model.App.Project.ProjectPszjModel with assigned identifier e31e5412-de2a-4359-88a8-5153d3200203 is transient or detached; querying the database. Use explicit Save() or Update() in session to prevent this.
+2015-12-03 09:40:42,536 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2015>>
+2015-12-03 09:40:42,536 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2015-12-03 09:40:42,567 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2015/12/3 9:40:42】成功登录系统!IP:::1>>
+2015-12-03 09:40:53,362 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<dingbo---------------1>>
+2015-12-03 09:40:53,362 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户dingbo,AD身份验证通过!>>
+2015-12-03 09:40:53,378 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户验证失败：用户【dingbo】于【2015/12/3 9:40:53】尝试登录系统!IP:::1,口令:1>>
+2015-12-03 09:41:01,287 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<dingb---------------1>>
+2015-12-03 09:41:01,287 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户dingb,AD身份验证通过!>>
+2015-12-03 09:41:01,287 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【dingb】于【2015/12/3 9:41:01】成功登录系统!IP:::1>>
+2015-12-03 09:52:27,671 [16] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] - Could not execute query: select t.pf||'' key4,s.pf||'' key3,a.*
+                  from app_project_fws a
+                  left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4'
+                                and submitter = 136 group by crminfo) t
+                    on a.crminfo = t.crminfo
+                    left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status=0 and group by crminfo) s
+                    on a.crminfo = s.crminfo
+                 where a.projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status<>-2 order by a.px
+System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2015-12-03 09:52:27,713 [16] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2015-12-03 09:52:27,714 [16] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-00936: 缺失表达式
+
+2015-12-03 09:52:27,715 [16] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2015-12-03 09:52:27,715 [16] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-00936: 缺失表达式
+
+2015-12-03 09:52:27,716 [16] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2015-12-03 09:52:27,716 [16] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-00936: 缺失表达式
+
+2015-12-03 09:52:27,717 [16] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.App.Project.ProjectFwsData]>>  Message=<<执行QueryBySQL方法出错!>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select t.pf||'' key4,s.pf||'' key3,a.*
+                  from app_project_fws a
+                  left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4'
+                                and submitter = 136 group by crminfo) t
+                    on a.crminfo = t.crminfo
+                    left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status=0 and group by crminfo) s
+                    on a.crminfo = s.crminfo
+                 where a.projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status<>-2 order by a.px ]
+[SQL: select t.pf||'' key4,s.pf||'' key3,a.*
+                  from app_project_fws a
+                  left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4'
+                                and submitter = 136 group by crminfo) t
+                    on a.crminfo = t.crminfo
+                    left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status=0 and group by crminfo) s
+                    on a.crminfo = s.crminfo
+                 where a.projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status<>-2 order by a.px] ---> System.Data.OracleClient.OracleException: ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   在 NHibernate.Impl.SqlQueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.QueryBySQL[T](String sql, Type classType) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 471
+2015-12-03 09:52:37,759 [7] ERROR NHibernate.AdoNet.AbstractBatcher [(null)] - Could not execute query: select t.pf||'' key4,s.pf||'' key3,a.*
+                  from app_project_fws a
+                  left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4'
+                                and submitter = 136 group by crminfo) t
+                    on a.crminfo = t.crminfo
+                    left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status=0 and group by crminfo) s
+                    on a.crminfo = s.crminfo
+                 where a.projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status<>-2 order by a.px
+System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2015-12-03 09:52:37,759 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+2015-12-03 09:52:37,759 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-00936: 缺失表达式
+
+2015-12-03 09:52:37,759 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2015-12-03 09:52:37,759 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-00936: 缺失表达式
+
+2015-12-03 09:52:37,759 [7] WARN  NHibernate.Util.ADOExceptionReporter [(null)] - System.Data.OracleClient.OracleException (0x80131938): ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2015-12-03 09:52:37,759 [7] ERROR NHibernate.Util.ADOExceptionReporter [(null)] - ORA-00936: 缺失表达式
+
+2015-12-03 09:52:37,759 [7] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<Enterprise.Component.ORM.ORMDataAccess`1[Enterprise.Data.App.Project.ProjectFwsData]>>  Message=<<执行QueryBySQL方法出错!>>
+NHibernate.Exceptions.GenericADOException: could not execute query
+[ select t.pf||'' key4,s.pf||'' key3,a.*
+                  from app_project_fws a
+                  left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4'
+                                and submitter = 136 group by crminfo) t
+                    on a.crminfo = t.crminfo
+                    left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status=0 and group by crminfo) s
+                    on a.crminfo = s.crminfo
+                 where a.projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status<>-2 order by a.px ]
+[SQL: select t.pf||'' key4,s.pf||'' key3,a.*
+                  from app_project_fws a
+                  left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4'
+                                and submitter = 136 group by crminfo) t
+                    on a.crminfo = t.crminfo
+                    left join (select sum(pf) pf,crminfo
+                               from APP_PROJECT_ZJPF
+                              where projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status=0 and group by crminfo) s
+                    on a.crminfo = s.crminfo
+                 where a.projid = 'd9008c50-b4ed-49ca-b81b-b053eefa3ae4' and status<>-2 order by a.px] ---> System.Data.OracleClient.OracleException: ORA-00936: 缺失表达式
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   在 NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   在 NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   在 NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   在 NHibernate.Impl.SessionImpl.ListCustomQuery(ICustomQuery customQuery, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List(NativeSQLQuerySpecification spec, QueryParameters queryParameters, IList results)
+   在 NHibernate.Impl.SessionImpl.List[T](NativeSQLQuerySpecification spec, QueryParameters queryParameters)
+   在 NHibernate.Impl.SqlQueryImpl.List[T]()
+   在 Enterprise.Component.ORM.ORMDataAccess`1.QueryBySQL[T](String sql, Type classType) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.ORM\ORMDataAccess.cs:行号 471
+2015-12-03 10:00:54,661 [23] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<chenf---------------1>>
+2015-12-03 10:00:54,677 [23] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户chenf,AD身份验证通过!>>
+2015-12-03 10:00:54,686 [23] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【chenf】于【2015/12/3 10:00:54】成功登录系统!IP:::1>>

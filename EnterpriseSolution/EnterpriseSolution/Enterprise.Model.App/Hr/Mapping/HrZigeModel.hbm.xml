@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Hr">
+    <class name="HrZigeModel" table="APP_HR_ZIGE">
+        
+			<id name="ZGID" column="ZGID" type="string">			</id>
+			<property name="BGSHR" column="BGSHR" type="int" />
+			<property name="XMFZR" column="XMFZR" type="int" />
+			<property name="QTZZ1" column="QTZZ1" type="int" />
+			<property name="USERID" column="USERID" type="int" />
+			<property name="QTZZ2" column="QTZZ2" type="int" />
+			<property name="STFZR" column="STFZR" type="int" />
+			<property name="KINDID" column="KINDID" type="int" />
+			<property name="BGPZR" column="BGPZR" type="int" />
+			<property name="SDRQ" column="SDRQ" type="DateTime" />
+      <property name="BGBXR" column="BGBXR" type="int" />
+      <property name="BGJDR" column="BGJDR" type="int" />
+      <property name="SJSCR" column="SJSCR" type="int" />
+
+      <many-to-one name='SysUserModel' class='Enterprise.Model.Basis.Sys.SysUserModel' lazy='false' column='USERID' insert='false' update='false' />
+
+
+    </class>
+</hibernate-mapping>

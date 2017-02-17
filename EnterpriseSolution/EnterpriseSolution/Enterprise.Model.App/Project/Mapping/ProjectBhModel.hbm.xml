@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectBhModel" table="APP_PROJECT_BH">
+        
+			<id name="XID" column="XID" type="string">			</id>
+			<property name="YEAR" column="YEAR" type="int" />
+			<property name="XH" column="XH" type="int" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="BH" column="BH" type="string" />
+
+    </class>
+</hibernate-mapping>

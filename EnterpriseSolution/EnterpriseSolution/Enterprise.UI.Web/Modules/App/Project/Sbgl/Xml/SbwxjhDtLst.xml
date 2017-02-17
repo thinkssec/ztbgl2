@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--By Supcan TreeList -->
+<TreeList>
+  <Properties dataURL="/Modules/App/Project/Sbgl/SbglDataHandler.ashx?type=SBWXJHZX"></Properties>
+	<Cols>
+    <Col name="SXNY" width="100">送修年月</Col>
+    <Col name="SBBH" width="100" droplistID="DL_SBTZ" edittype="droptreelist">自编号</Col>
+    <Col name="SBWXPH" width="100" editAble="false">设备维修批号</Col>
+    <Col name="SBSYDW" width="100" droplistID="DL_DW" edittype="droplist">使用单位</Col>
+    <Col name="SBLX" width="70" editAble="false" backcolor="#eeeeee">维修设备类型</Col>
+    <Col name="GGXH" width="70" editAble="false" backcolor="#eeeeee">规格型号</Col>
+    <Col name="CLXH" width="70" editAble="false" backcolor="#eeeeee">车辆牌号</Col>
+    <Col name="AZDD" width="100">安装地点</Col>
+    <Col name="YXSJLC" width="100">运行时间或行驶里程</Col>
+    <Col name="SCXLRQ" width="100" datatype="date">上次修理日期</Col>
+    <Col name="SXRQ" width="100" datatype="date">预计送修日期</Col>
+    <Col name="JYWXDW" width="150" droplistID="DL_WXDW" edittype="droptreelist">建议维修单位</Col>
+    <Col name="SBWXNR" width="300">维修内容</Col>
+    <Col name="YJWXFY" width="100" datatype="double" decimal="2" displayMask="=data+'元';" totalExpress="=@sum+'元'">预计维修费用</Col>
+    <Col name="SQZT" editAble="false" width="100" droplistID="DL_ZT"  edittype="droplist" defaultValue="1">维修申请状态</Col>
+    <Col name="JHBID" width="100" isHide="true">计划表ID</Col>
+    <Col name="TBR" width="100" isHide="true">填报人</Col>
+    <Col name="TBRQ" width="100" isHide="true">填报日期</Col>
+	</Cols>
+  <DropLists>
+    <DropList id="DL_WXDW" treelist="/Modules/App/Project/Sbgl/Xml/SbwxdwDtLst.xml" DataCol="CJBH" DisplayCol="CJMC"/>
+    <DropList id="DL_SBTZ" treelist="/Modules/App/Project/Sbgl/Xml/SbtzDtLst.xml" DataCol="SBBH" DisplayCol="SBBH"/>
+    <DropList id="DL_DW" treelist="/Modules/App/Project/Xml/SysDept.xml" DataCol="DEPTID" DisplayCol="DNAME"/>
+    <DropList id="DL_ZT">
+      <item key="1">已通过</item>
+      <item key="0">待审核</item>
+      <item key="-1">不通过</item>
+    </DropList>
+  </DropLists>
+</TreeList>

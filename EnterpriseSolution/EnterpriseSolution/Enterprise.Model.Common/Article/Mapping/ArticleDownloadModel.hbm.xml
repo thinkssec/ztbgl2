@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Article">
+    <class name="ArticleDownloadModel" table="COMMON_ARTICLE_DOWNLOAD">
+		<id name="ID" column="ID" type="string">
+        </id>
+		<property name="FILENAME" column="FILENAME" type="string" />
+		<property name="ULOGIN" column="ULOGIN" type="string" />
+		<property name="ARTICLEID" column="ARTICLEID" type="string" />
+		<property name="BZ" column="BZ" type="string" />
+		<property name="XZRQ" column="XZRQ" type="DateTime" />
+		<property name="UIP" column="UIP" type="string" />
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Enterprise.UI.Web.Site" %>
+
+<%@ Import Namespace="Enterprise.Component.Infrastructure" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <!--[if IE 7]>
+        <h4 style="text-align:center; background-color:#fafea5">
+        <a href="/Help/BrowserFix.html">检测到您的浏览器在兼容IE7模式下运行，如何解决这一问题?</a>
+        </h4>
+    <![endif]-->
+    <title>协同办公平台</title>
+    <%--IE Mode -- %>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <%--icon--%>
+    <link rel="stylesheet" href="/Resources/OA/easyui1.32/themes/icon.css">
+    <%--default--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/default/easyui.css" title="default" />
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/default/site.main.css" title="default" />
+    <%--green--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/green/easyui.css" title="green" />
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/green/site.main.css" title="green" />
+
+    <%-- metro--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/metro/easyui.css" title="metro" />
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/metro/site.main.css" title="metro" />
+
+    <%--bootstrap--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/bootstrap/easyui.css" title="bootstrap" />
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/bootstrap/site.main.css" title="bootstrap" />
+
+    <%--gray--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/gray/easyui.css" title="gray" />
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/gray/site.main.css" title="gray" />
+
+    <%--script--%>
+    <script type="text/javascript" src="/Resources/OA/jquery/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/Resources/OA/easyui1.32/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/Resources/OA/easyui1.32/locale/easyui-lang-zh_CN.js"></script>
+    <%--switch--%>
+    <script type="text/javascript" src="/Resources/OA/site_skin/scripts/Base.js"></script>
+    <script type="text/javascript" src="/Resources/OA/site_skin/scripts/Common.js"></script>
+    <script type="text/javascript" src="/Resources/OA/site_skin/scripts/switch.js"></script>
+
+
+    <%--Editor--%>
+    <script src="/Resources/OA/xheditor-1.1.14/xheditor-1.1.14-zh-cn.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body class="main-bg">
+    <form id="form1" runat="server">
+        <div id="main-topline" class="layout-width">
+            <div id="main-nav">
+                <span class="icon-user<%=Enterprise.Service.Basis.Sys.SysUserService.GetUserModelByUserId(this.Page.User.Identity.Name.ToInt()).USEX=="男"?"":"1" %> user"></span>
+                <span>&nbsp;&nbsp;<% = Enterprise.Service.Basis.Sys.SysUserService.GetUserName(this.Page.User.Identity.Name.ToInt()) %>&nbsp;&nbsp;&nbsp;
+                </span>
+                <span>&nbsp;&nbsp;  <a href="/Logout.aspx">退出系统</a> </span>
+                <span class="bs">
+                    <a class="a1" style="CURSOR: pointer" title="蓝色风格" rel="default">&nbsp;&nbsp;</a>
+                    <a class="a2" style="CURSOR: pointer" title="绿色风格" rel="green">&nbsp;&nbsp;</a>
+                    <%--<a class="a3" style="CURSOR: pointer" title="bootstrap" rel="bootstrap">&nbsp;&nbsp;</a>	
+			    <a class="a4" style="CURSOR: pointer" title="gray" rel="gray">&nbsp;&nbsp;</a>	
+			    <a class="a5" style="CURSOR: pointer" title="windows 8" rel="metro">&nbsp;&nbsp;</a>--%>
+                </span>
+
+            </div>
+            <div id="main-logo">
+                <img alt="" src="/Resources/Styles/images/logo.png" />
+            </div>
+        </div>
+        <%--菜单-start--%>
+        <div id="main-menu" class="layout-width">
+            <a href="/" class="easyui-linkbutton" data-options="iconCls:'icon-home',plain:true">首页</a>
+            <%=SysModuleService.EasyuiMenuButtonParentHtml %>
+        </div>
+        <%=SysModuleService.EasyuiMenuButtonChildHtml %>
+
+        <%--菜单-end--%>
+        <div id="cc" style="margin: 0px auto; height: 551px;" class="easyui-layout layout-width ">
+
+            <asp:ContentPlaceHolder ID="MainPH" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="main-bottom" class="layout-width">
+            Copyright © 2015-2018 &nbsp;&nbsp;中石化川气东送天然气管道有限公司&nbsp;&nbsp;All Rights Reserved
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#cc').layout();
+                var c = $('#cc');
+                var p = c.layout('panel', 'center');    // get the center panel
+                var oldHeight = p.panel('panel').outerHeight();
+                //alert(oldHeight);
+                p.panel('resize', { height: 'auto' });
+                var newHeight = p.panel('panel').outerHeight();
+                //if (newHeight > 150) {
+                c.height(c.height() + newHeight - oldHeight + 5);
+                c.layout('resize');
+                //}
+                //alert(oldHeight);
+            });
+        </script>
+    </form>
+
+</body>
+</html>

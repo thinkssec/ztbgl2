@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Doc">
+    <class name="DocRecevieModel" table="COMMON_DOC_RECEVIE">
+        
+			<id name="RID" column="RID" type="int">			</id>
+			<property name="RTIME" column="RTIME" type="DateTime" />
+			<property name="RUSERID" column="RUSERID" type="int" />
+			<property name="DID" column="DID" type="int" />
+
+    </class>
+</hibernate-mapping>

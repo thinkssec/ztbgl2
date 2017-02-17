@@ -1,0 +1,30 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Sbgl">
+    <class name="SbglYsbgdModel" table="APP_SBGL_YSBGD">
+        
+			<id name="BGDID" column="BGDID" type="string">			</id>
+			<property name="BGDPH" column="BGDPH" type="string" />
+			<property name="JHBID" column="JHBID" type="string" />
+			<property name="WXXMMC" column="WXXMMC" type="string" />
+			<property name="CLPH" column="CLPH" type="string" />
+			<property name="GGXH" column="GGXH" type="string" />
+			<property name="JLDW" column="JLDW" type="string" />
+			<property name="SL" column="SL" type="int" />
+			<property name="SZDD" column="SZDD" type="string" />
+			<property name="GZLMS" column="GZLMS" type="string" />
+			<property name="KGRQ" column="KGRQ" type="DateTime" />
+			<property name="JFRQ" column="JFRQ" type="DateTime" />
+			<property name="SBYZ" column="SBYZ" type="decimal" />
+			<property name="SBDJ" column="SBDJ" type="decimal" />
+			<property name="SBZJ" column="SBZJ" type="decimal" />
+			<property name="YSYJBZ" column="YSYJBZ" type="string" />
+			<property name="WXDW" column="WXDW" type="string" />
+			<property name="SHZT" column="SHZT" type="int" />
+			<property name="YSFJ" column="YSFJ" type="string" />
+
+      <!--<one-to-one name="WxjhModel" class="SbglWxjhbModel" property-ref="JHBID" lazy='false' cascade='none'/>-->
+      <many-to-one name="WxjhModel" class="SbglWxjhbModel" lazy='false' insert="false" update="false">
+        <column name="JHBID" />
+      </many-to-one>
+    </class>
+</hibernate-mapping>

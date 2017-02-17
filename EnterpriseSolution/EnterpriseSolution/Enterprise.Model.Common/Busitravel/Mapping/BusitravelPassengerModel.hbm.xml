@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Busitravel">
+    <class name="BusitravelPassengerModel" table="COMMON_BUSITRAVEL_PASSENGER">
+        <composite-id>
+            <key-property name="BID" column="BID" type="string"/>
+            <key-property name="USERID" column="USERID" type="int" />
+        </composite-id>
+        <property name="PASSENGER" column="PASSENGER" type="string" />
+		<property name="ADDITION" column="ADDITION" type="string" />
+		<property name="PASSPORT" column="PASSPORT" type="string" />
+    </class>
+</hibernate-mapping>

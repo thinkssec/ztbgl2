@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectMemberModel" table="APP_PROJECT_MEMBER">
+        
+			<id name="MEMBERID" column="MEMBERID" type="string">			</id>
+			<property name="PROJTASK" column="PROJTASK" type="string" />
+			<property name="POSTDATE" column="POSTDATE" type="DateTime" />
+			<property name="POSTROLE" column="POSTROLE" type="string" />
+			<property name="TASKSCALE" column="TASKSCALE" type="int" />
+			<property name="USERID" column="USERID" type="int" />
+			<property name="OFFPOSTDATE" column="OFFPOSTDATE" type="DateTime" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="POSTSTATUS" column="POSTSTATUS" type="int" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+      <!--Enterprise.Model.Basis.Sys.SysUserModel-->
+      <many-to-one name='UserModel' class='Enterprise.Model.Basis.Sys.SysUserModel' column='USERID' lazy='false' insert='false' update='false' />
+      <many-to-one name='ProjectModel' class='Enterprise.Model.App.Project.ProjectInfoModel' column='PROJID' lazy='false' insert='false' update='false' />
+
+    </class>
+</hibernate-mapping>

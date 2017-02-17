@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Sbgl">
+    <class name="SbglWxdwModel" table="APP_SBGL_WXDW">
+        
+			<id name="CJBH" column="CJBH" type="string">			</id>
+			<property name="CJMC" column="CJMC" type="string" />
+			<property name="CJDZ" column="CJDZ" type="string" />
+			<property name="CJZZ" column="CJZZ" type="string" />
+			<property name="YHZH" column="YHZH" type="string" />
+			<property name="LXR" column="LXR" type="string" />
+			<property name="LXFS" column="LXFS" type="string" />
+			<property name="DQZT" column="DQZT" type="int" />
+			<property name="DJRQ" column="DJRQ" type="DateTime" />
+			<property name="DJR" column="DJR" type="string" />
+
+    </class>
+</hibernate-mapping>

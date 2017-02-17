@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Bf">
+    <class name="BfInstancesModel" table="BASIS_BF_INSTANCES">
+
+        <id name="BF_INSTANCEID" column="BF_INSTANCEID" type="string">			
+        </id>
+		<property name="BF_ID" column="BF_ID" type="string" />
+		<property name="BF_FOUNDER" column="BF_FOUNDER" type="string" />
+		<property name="BF_DESCRIBE" column="BF_DESCRIBE" type="string" />
+		<property name="BF_STATUSVALUE" column="BF_STATUSVALUE" type="int" />
+		<property name="BF_CDATE" column="BF_CDATE" type="DateTime" />
+		<property name="BF_VERSION" column="BF_VERSION" type="int" />
+        
+        <bag name="BfInstanceroles" inverse="true" cascade="none" lazy="false">
+            <key>
+                <column name="BF_INSTANCEID" />
+            </key>
+            <one-to-many class="BfInstancerolesModel" not-found="ignore" />
+        </bag>
+        
+        <many-to-one name="BfPublish" class="BfPublishModel" lazy='false' insert="false" update="false">
+            <column name="BF_ID" />
+            <column name="BF_VERSION" />
+        </many-to-one>
+        
+    </class>
+</hibernate-mapping>

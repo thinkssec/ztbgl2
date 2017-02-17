@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Supervise">
+    <class name="SuperviseInfoModel" table="COMMON_SUPERVISE_INFO">
+        
+			<id name="DBID" column="DBID" type="string">			</id>
+			<property name="FZLD" column="FZLD" type="int" />
+			<property name="XDSJ" column="XDSJ" type="string" />
+			<property name="DBBH" column="DBBH" type="string" />
+			<property name="DBBT" column="DBBT" type="string" />
+			<property name="DBSJ" column="DBSJ" type="string" />
+			<property name="DBNR" column="DBNR" type="string" />
+			<property name="YQWCSJ" column="YQWCSJ" type="string" />
+      <property name="DBR" column="DBR" type="int" />
+
+    </class>
+</hibernate-mapping>

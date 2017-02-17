@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CAFD1EB-150F-471B-9F94-211EC1444E21}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Data.Basis</RootNamespace>
+    <AssemblyName>Enterprise.Data.Basis</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Enterprise.Data.Basis.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Enterprise.UI.Web\Lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Enterprise.UI.Web\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Enterprise.UI.Web\Lib\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Enterprise.UI.Web\Lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bf\BfBaseData.cs" />
+    <Compile Include="Bf\BfClsmethodsData.cs" />
+    <Compile Include="Bf\BfFlowpathData.cs" />
+    <Compile Include="Bf\BfHandledmsgData.cs" />
+    <Compile Include="Bf\BfInstancerolesData.cs" />
+    <Compile Include="Bf\BfInstancesData.cs" />
+    <Compile Include="Bf\BfNoderolesData.cs" />
+    <Compile Include="Bf\BfNodesData.cs" />
+    <Compile Include="Bf\BfPublishData.cs" />
+    <Compile Include="Bf\BfRunningData.cs" />
+    <Compile Include="Bf\BfTrustusersData.cs" />
+    <Compile Include="Bf\BfUnhandledmsgData.cs" />
+    <Compile Include="Bf\Interface\IBfBaseData.cs" />
+    <Compile Include="Bf\Interface\IBfClsmethodsData.cs" />
+    <Compile Include="Bf\Interface\IBfFlowpathData.cs" />
+    <Compile Include="Bf\Interface\IBfHandledmsgData.cs" />
+    <Compile Include="Bf\Interface\IBfInstancerolesData.cs" />
+    <Compile Include="Bf\Interface\IBfInstancesData.cs" />
+    <Compile Include="Bf\Interface\IBfNoderolesData.cs" />
+    <Compile Include="Bf\Interface\IBfNodesData.cs" />
+    <Compile Include="Bf\Interface\IBfPublishData.cs" />
+    <Compile Include="Bf\Interface\IBfRunningData.cs" />
+    <Compile Include="Bf\Interface\IBfTrustusersData.cs" />
+    <Compile Include="Bf\Interface\IBfUnhandledmsgData.cs" />
+    <Compile Include="Exc\ExcChecknodesData.cs" />
+    <Compile Include="Exc\ExcCheckrecordData.cs" />
+    <Compile Include="Exc\ExcCheckruleData.cs" />
+    <Compile Include="Exc\ExcEmailData.cs" />
+    <Compile Include="Exc\ExcGradeData.cs" />
+    <Compile Include="Exc\ExcHandleemailData.cs" />
+    <Compile Include="Exc\ExcHandlemessageData.cs" />
+    <Compile Include="Exc\ExcHandlesmsData.cs" />
+    <Compile Include="Exc\ExcInformData.cs" />
+    <Compile Include="Exc\ExcMessageData.cs" />
+    <Compile Include="Exc\ExcSmsData.cs" />
+    <Compile Include="Exc\Interface\IExcChecknodesData.cs" />
+    <Compile Include="Exc\Interface\IExcCheckrecordData.cs" />
+    <Compile Include="Exc\Interface\IExcCheckruleData.cs" />
+    <Compile Include="Exc\Interface\IExcEmailData.cs" />
+    <Compile Include="Exc\Interface\IExcGradeData.cs" />
+    <Compile Include="Exc\Interface\IExcHandleemailData.cs" />
+    <Compile Include="Exc\Interface\IExcHandlemessageData.cs" />
+    <Compile Include="Exc\Interface\IExcHandlesmsData.cs" />
+    <Compile Include="Exc\Interface\IExcInformData.cs" />
+    <Compile Include="Exc\Interface\IExcMessageData.cs" />
+    <Compile Include="Exc\Interface\IExcSmsData.cs" />
+    <Compile Include="IDataBasis.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sys\Interface\ISysCacherelationData.cs" />
+    <Compile Include="Sys\Interface\ISysDepartMentData.cs" />
+    <Compile Include="Sys\Interface\ISysDutyData.cs" />
+    <Compile Include="Sys\Interface\ISysModuleData.cs" />
+    <Compile Include="Sys\Interface\ISysRoleData.cs" />
+    <Compile Include="Sys\Interface\ISysRolePermissionData.cs" />
+    <Compile Include="Sys\Interface\ISysUserData.cs" />
+    <Compile Include="Sys\Interface\ISysUserDutyData.cs" />
+    <Compile Include="Sys\Interface\ISysUserindividData.cs" />
+    <Compile Include="Sys\Interface\ISysUserRoleData.cs" />
+    <Compile Include="Sys\Interface\ISysVisitLogData.cs" />
+    <Compile Include="Sys\SysCacherelationData.cs" />
+    <Compile Include="Sys\SysDepartMentData.cs" />
+    <Compile Include="Sys\SysDutyData.cs" />
+    <Compile Include="Sys\SysModuleData.cs" />
+    <Compile Include="Sys\SysRoleData.cs" />
+    <Compile Include="Sys\SysRolePermissionData.cs" />
+    <Compile Include="Sys\SysUserData.cs" />
+    <Compile Include="Sys\Interface\ISysDictionaryData.cs" />
+    <Compile Include="Sys\SysDictionaryData.cs" />
+    <Compile Include="Sys\Interface\ISysCacheData.cs" />
+    <Compile Include="Sys\SysCacheData.cs" />
+    <Compile Include="Sys\Interface\ISysTabChangeData.cs" />
+    <Compile Include="Sys\SysTabChangeData.cs" />
+    <Compile Include="Sys\SysUserDutyData.cs" />
+    <Compile Include="Sys\SysUserindividData.cs" />
+    <Compile Include="Sys\SysUserRoleData.cs" />
+    <Compile Include="Sys\SysVisitLogData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Component.Cache\Enterprise.Component.Cache.csproj">
+      <Project>{E38DDBF0-A978-4E6E-BFAB-15A25B08DE1C}</Project>
+      <Name>Enterprise.Component.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Infrastructure\Enterprise.Component.Infrastructure.csproj">
+      <Project>{A439B7BB-89F3-4BD1-87B8-259300139AFA}</Project>
+      <Name>Enterprise.Component.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.ORM\Enterprise.Component.ORM.csproj">
+      <Project>{833F8E42-5AB8-499A-91A1-BF39F7BC0F53}</Project>
+      <Name>Enterprise.Component.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.Basis\Enterprise.Model.Basis.csproj">
+      <Project>{D00F0FA7-8175-40C8-815C-07BED22BE517}</Project>
+      <Name>Enterprise.Model.Basis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

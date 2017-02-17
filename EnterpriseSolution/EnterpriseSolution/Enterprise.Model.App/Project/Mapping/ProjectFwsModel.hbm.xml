@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectFwsModel" table="APP_PROJECT_FWS">
+        
+			<id name="FID" column="FID" type="string">			</id>
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="CRMINFO" column="CRMINFO" type="string" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="KEY1" column="KEY1" type="string" />
+			<property name="KEY2" column="KEY2" type="string" />
+			<property name="KEY3" column="KEY3" type="string" />
+			<property name="KEY4" column="KEY4" type="string" />
+			<property name="PX" column="PX" type="int" />
+			<property name="BZJ" column="BZJ" type="int" />
+			<property name="KEY5" column="KEY5" type="string" />
+			<property name="KEY6" column="KEY6" type="string" />
+			<property name="KEY7" column="KEY7" type="string" />
+			<property name="KEY8" column="KEY8" type="string" />
+			<property name="KEY9" column="KEY9" type="string" />
+			<property name="KEY10" column="KEY10" type="string" />
+			<property name="KEY11" column="KEY11" type="string" />
+			<property name="KEY12" column="KEY12" type="string" />
+			<property name="KEY13" column="KEY13" type="string" />
+
+    </class>
+</hibernate-mapping>

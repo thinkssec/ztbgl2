@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Supervise">
+    <class name="SuperviseProcessModel" table="COMMON_SUPERVISE_PROCESS">
+        
+		<composite-id>
+			<key-property name="DBID" column="DBID" type="string" />
+			<key-property name="BLRID" column="BLRID" type="string" />
+			<key-property name="YQSBSJ" column="YQSBSJ" type="string" />
+		</composite-id>
+			<property name="DQJD" column="DQJD" type="decimal" />
+			<property name="SJSBSJ" column="SJSBSJ" type="string" />
+			<property name="BZ" column="BZ" type="string" />
+      <property name="FLAG" column="FLAG" type="decimal" />
+    </class>
+</hibernate-mapping>

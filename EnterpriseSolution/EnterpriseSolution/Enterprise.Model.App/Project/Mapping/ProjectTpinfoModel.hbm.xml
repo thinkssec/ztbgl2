@@ -1,0 +1,55 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectTpinfoModel" table="APP_PROJECT_TPINFO">
+        
+			<id name="PROJID" column="PROJID" type="string">			</id>
+			<property name="KINDID" column="KINDID" type="int" />
+			<property name="PROJNUMBER" column="PROJNUMBER" type="string" />
+			<property name="PROJNAME" column="PROJNAME" type="string" />
+			<property name="PROJINCOME" column="PROJINCOME" type="decimal" />
+			<property name="ZJLY" column="ZJLY" type="string" />
+			<property name="NKBSJ" column="NKBSJ" type="DateTime" />
+			<property name="NKBDD" column="NKBDD" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="PHONE" column="PHONE" type="string" />
+			<property name="PROJCONTENT" column="PROJCONTENT" type="string" />
+			<property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+			<property name="CHECKDATE" column="CHECKDATE" type="DateTime" />
+			<property name="CHECKSTATUS" column="CHECKSTATUS" type="int" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="ZBFS" column="ZBFS" type="int" />
+			<property name="SHR" column="SHR" type="int" />
+			<property name="DEPTID" column="DEPTID" type="int" />
+			<property name="KINDNAME" column="KINDNAME" type="string" />
+			<property name="SPR" column="SPR" type="int" />
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="RTN" column="RTN" type="int" />
+			<property name="RTNSTATUS" column="RTNSTATUS" type="string" />
+			<property name="ZJBZ" column="ZJBZ" type="string" />
+			<property name="SQLY" column="SQLY" type="string" />
+			<property name="SHYJ" column="SHYJ" type="string" />
+			<property name="SPYJ" column="SPYJ" type="string" />
+			<property name="SPR2" column="SPR2" type="int" />
+			<property name="SPYJ2" column="SPYJ2" type="string" />
+			<property name="SPR3" column="SPR3" type="int" />
+			<property name="SPYJ3" column="SPYJ3" type="string" />
+			<property name="SPR4" column="SPR4" type="int" />
+			<property name="SPYJ4" column="SPYJ4" type="string" />
+			<property name="SPR5" column="SPR5" type="int" />
+			<property name="SPYJ5" column="SPYJ5" type="string" />
+			<property name="SPR6" column="SPR6" type="int" />
+			<property name="SPYJ6" column="SPYJ6" type="string" />
+			<property name="SHS" column="SHS" type="int" />
+			<property name="SPS" column="SPS" type="int" />
+			<property name="SP2" column="SP2" type="int" />
+			<property name="SP3" column="SP3" type="int" />
+			<property name="SP4" column="SP4" type="int" />
+			<property name="SP5" column="SP5" type="int" />
+			<property name="SP6" column="SP6" type="int" />
+			<property name="YWBM" column="YWBM" type="int" />
+			<property name="NKBSJSTR" column="NKBSJSTR" type="string" />
+			<property name="BZ" column="BZ" type="string" />
+
+    </class>
+</hibernate-mapping>

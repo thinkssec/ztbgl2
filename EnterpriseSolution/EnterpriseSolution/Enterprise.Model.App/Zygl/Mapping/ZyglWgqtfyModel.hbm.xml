@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Zygl">
+    <class name="ZyglWgqtfyModel" table="APP_ZYGL_WGQTFY">
+        
+			<id name="QID" column="QID" type="string">			</id>
+			<property name="MC" column="MC" type="string" />
+			<property name="JE" column="JE" type="decimal" />
+			<property name="FJ" column="FJ" type="string" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="WID" column="WID" type="string" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="FJMC" column="FJMC" type="string" />
+
+    </class>
+</hibernate-mapping>

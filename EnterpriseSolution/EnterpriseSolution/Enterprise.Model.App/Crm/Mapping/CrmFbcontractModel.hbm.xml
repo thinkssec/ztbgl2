@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+  <class name="CrmFbcontractModel" table="APP_CRM_FBCONTRACT">
+
+    <id name="FBHTID" column="FBHTID" type="string">			</id>
+    <property name="HTFJ" column="HTFJ" type="string" />
+    <property name="HTFBS" column="HTFBS" type="string" />
+    <property name="HTJSRQ" column="HTJSRQ" type="DateTime" />
+    <property name="HTBH" column="HTBH" type="string" />
+    <property name="HTZT" column="HTZT" type="int" />
+    <property name="JBRQ" column="JBRQ" type="DateTime" />
+    <property name="GLXTID" column="GLXTID" type="string" />
+    <property name="HTQSRQ" column="HTQSRQ" type="DateTime" />
+    <property name="HTJE" column="HTJE" type="decimal" />
+    <property name="JBR" column="JBR" type="int" />
+    <property name="PERID" column="PERID" type="string" />
+    <property name="FBHTNAME" column="FBHTNAME" type="string" />
+  </class>
+</hibernate-mapping>

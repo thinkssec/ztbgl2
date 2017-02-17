@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Webmail">
+    <class name="WebmailOutboxModel" table="COMMON_WEBMAIL_OUTBOX">
+        
+			<id name="MESSAGEID" column="MESSAGEID" type="int">			</id>
+			<property name="SENDTIME" column="SENDTIME" type="DateTime" />
+			<property name="EMAILSUBJECT" column="EMAILSUBJECT" type="string" />
+			<property name="EMAILATTACHMENTS" column="EMAILATTACHMENTS" type="string" />
+			<property name="EMAILBODY" column="EMAILBODY" type="string" />
+			<property name="EMAILCC" column="EMAILCC" type="string" />
+			<property name="EMAILTO" column="EMAILTO" type="string" />
+			<property name="EMAIL" column="EMAIL" type="string" />
+			<property name="SENDSUCCESS" column="SENDSUCCESS" type="int" />
+
+    </class>
+</hibernate-mapping>

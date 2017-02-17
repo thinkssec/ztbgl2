@@ -1,0 +1,25 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectZbjgspbModel" table="APP_PROJECT_ZBJGSPB">
+        
+			<id name="PROJID" column="PROJID" type="string">			</id>
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="SUBMITTIME" column="SUBMITTIME" type="DateTime" />
+			<property name="P1" column="P1" type="string" />
+			<property name="P2" column="P2" type="string" />
+			<property name="P3" column="P3" type="string" />
+			<property name="P4" column="P4" type="string" />
+			<property name="P5" column="P5" type="string" />
+			<property name="P6" column="P6" type="string" />
+			<property name="P7" column="P7" type="string" />
+			<property name="P8" column="P8" type="string" />
+			<property name="P9" column="P9" type="string" />
+			<property name="P10" column="P10" type="string" />
+			<property name="P11" column="P11" type="string" />
+			<property name="P12" column="P12" type="string" />
+			<property name="P13" column="P13" type="string" />
+
+    </class>
+</hibernate-mapping>

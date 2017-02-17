@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Enterprise.Model.Common"
+                   namespace="Enterprise.Model.Common.Manager">
+  <class name="ManagerMsgModel" table="COMMON_MANAGER_MSG">
+    <id name="MSGID" column="MSGID" type="int" unsaved-value="0">
+    </id>
+    <property name="MSGTITLE" column="MSGTITLE" type="string"  />
+    <property name="MSGCONTENT" column="MSGCONTENT" type="string"  />
+    <property name="MSGFUSER" column="MSGFUSER" type="int"  />
+    <property name="MSGTUSER" column="MSGTUSER" type="int"  />
+    <property name="MSGISSHOW" column="MSGISSHOW" type="int"  />
+    <property name="MSGISANONYMOUS" column="MSGISANONYMOUS" type="int"  />
+    <property name="MSGFIP" column="MSGFIP" type="string"  />
+    <property name="MSGCREATETIME" column="MSGCREATETIME" type="datetime"  />
+  </class>
+</hibernate-mapping>

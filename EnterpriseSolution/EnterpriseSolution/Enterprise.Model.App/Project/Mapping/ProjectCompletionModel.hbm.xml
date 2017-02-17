@@ -1,0 +1,20 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectCompletionModel" table="APP_PROJECT_COMPLETION">
+        
+			<id name="DATAID" column="DATAID" type="string">			</id>
+			<property name="QUALITYSCORE" column="QUALITYSCORE" type="decimal" />
+			<property name="VERSION" column="VERSION" type="string" />
+			<property name="WRITER" column="WRITER" type="int" />
+			<property name="SIGNER" column="SIGNER" type="int" />
+			<property name="PROOFREADER" column="PROOFREADER" type="int" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="APPROVER" column="APPROVER" type="int" />
+			<property name="ATTMENT" column="ATTMENT" type="string" />
+			<property name="DATANAME" column="DATANAME" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="CSTATUS" column="CSTATUS" type="string" />
+      <property name="SUBMITTER" column="SUBMITTER" type="int" />
+
+    </class>
+</hibernate-mapping>

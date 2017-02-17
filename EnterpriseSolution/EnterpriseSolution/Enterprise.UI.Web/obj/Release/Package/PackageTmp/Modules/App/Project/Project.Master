@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Project.master.cs" Inherits="Enterprise.UI.Web.Modules.App.Project.Project" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <%--IE Mode -- %>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <%--icon--%>              
+    <link rel="stylesheet" href="/Resources/OA/easyui1.32/themes/icon.css">             
+    <%--default--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/default/easyui.css" title="default"/> 
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/default/site.main.css" title="default"/>  
+    
+    
+    <%--green--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/green/easyui.css" title="green"/>
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/green/site.main.css" title="green"/>        
+     
+   <%-- metro--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/metro/easyui.css" title="metro"/> 
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/metro/site.main.css" title="metro"/>        
+
+    <%--bootstrap--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/bootstrap/easyui.css" title="bootstrap"/> 
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/bootstrap/site.main.css" title="bootstrap"/>        
+
+    <%--gray--%>
+    <link rel="Stylesheet" href="/Resources/OA/easyui1.32/themes/gray/easyui.css" title="gray"/> 
+    <link rel="Stylesheet" href="/Resources/OA/site_skin/gray/site.main.css" title="gray"/>        
+
+    <%--script--%>  
+    <script type="text/javascript" src="/Resources/OA/jquery/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="/Resources/OA/easyui1.32/jquery.easyui.min.js"></script>  
+    <script type="text/javascript" src="/Resources/OA/easyui1.32/locale/easyui-lang-zh_CN.js"></script> 
+    <script type="text/javascript" src="/Resources/OA/easyui1.32/easyui.common.js"></script>
+    <%-- Supcan --%>
+    <script src="/Resources/SupCan/binary/dynaload.js?45" type="text/javascript"></script>
+
+    <script type="text/javascript" src="/Resources/OA/site_skin/scripts/Base.js"></script>
+    <script type="text/javascript" src="/Resources/OA/site_skin/scripts/Common.js"></script>
+    <%--switch--%>
+    <script type="text/javascript" src="/Resources/OA/site_skin/scripts/switch.js"></script> 
+    <%--Editor--%>
+    <script src="/Resources/OA/xheditor-1.1.14/xheditor-1.1.14-zh-cn.min.js" type="text/javascript"></script>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="padding:0;margin:0 auto;">
+    <form id="form1" runat="server">
+    <div style="padding:5px;">
+        <asp:ContentPlaceHolder ID="ProjectPH" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>    
+</body>
+</html>

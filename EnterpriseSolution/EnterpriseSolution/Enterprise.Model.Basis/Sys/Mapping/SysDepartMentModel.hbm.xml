@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysDepartMentModel" table="BASIS_SYS_DEPARTMENT">
+        
+			<id name="DEPTID" column="DEPTID" type="int">			</id>
+			<property name="DNAME" column="DNAME" type="string" />
+			<property name="DPARENTID" column="DPARENTID" type="int" />
+			<property name="DDEPTH" column="DDEPTH" type="int" />
+			<property name="DROOTID" column="DROOTID" type="int" />
+			<property name="DORDERBY" column="DORDERBY" type="int" />
+			<property name="DMANAGER" column="DMANAGER" type="int" />
+			<property name="DHEADERMANAGER" column="DHEADERMANAGER" type="int" />
+      <property name="DNO" column="DNO" type="string" />
+      <property name="DTYPE" column="DTYPE" type="string" />
+    </class>
+</hibernate-mapping>

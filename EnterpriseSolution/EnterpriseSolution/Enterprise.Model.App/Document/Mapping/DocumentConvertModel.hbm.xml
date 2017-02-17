@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Document">
+    <class name="DocumentConvertModel" table="APP_DOCUMENT_CONVERT">
+        
+			<id name="CVTID" column="CVTID" type="string">			</id>
+			<property name="CVTDATE" column="CVTDATE" type="DateTime" />
+			<property name="CVTNAME" column="CVTNAME" type="string" />
+			<property name="DOCID" column="DOCID" type="string" />
+			<property name="CVTTYPE" column="CVTTYPE" type="string" />
+			<property name="CVTPATH" column="CVTPATH" type="string" />
+
+      <!--Enterprise.Model.App.Document.DocumentProjModel-->
+      <many-to-one name='DocumentProj' class='Enterprise.Model.App.Document.DocumentProjModel' lazy='false' column='DOCID' insert='false' update='false' />
+      
+    </class>
+</hibernate-mapping>

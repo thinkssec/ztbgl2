@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Publicize">
+    <class name="PublicizeSigningModel" table="APP_PUBLICIZE_SIGNING">
+        
+			<id name="SIGNID" column="SIGNID" type="string">			</id>
+			<property name="SINGDATE" column="SINGDATE" type="DateTime" />
+			<property name="SIGNUSER" column="SIGNUSER" type="int" />
+			<property name="PUBID" column="PUBID" type="string" />
+
+    </class>
+</hibernate-mapping>

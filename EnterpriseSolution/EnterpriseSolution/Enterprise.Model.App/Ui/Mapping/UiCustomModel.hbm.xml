@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Ui">
+    <class name="UiCustomModel" table="APP_UI_CUSTOM">
+        
+			<id name="CUSTOMID" column="CUSTOMID" type="string">			</id>
+			<property name="UICONTENT" column="UICONTENT" type="string" />
+			<property name="USERID" column="USERID" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectPfhzModel" table="APP_PROJECT_PFHZ">
+        
+			<id name="PROJID" column="PROJID" type="string">			</id>
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="SUBMITTIME" column="SUBMITTIME" type="DateTime" />
+			<property name="STATUS" column="STATUS" type="int" />
+
+    </class>
+</hibernate-mapping>

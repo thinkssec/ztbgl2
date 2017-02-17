@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--By Supcan TreeList -->
+<TreeList>
+  <Properties dataURL="/Modules/App/Project/Sbgl/SbglDataHandler.ashx?type=TZ"></Properties>
+  <Cols>
+    <Col name="SBBH" width="100">设备自编号</Col>
+    <Col name="SBLX" width="100" >设备类型</Col>
+    <Col name="SBMC" width="70" >设备名称</Col>
+    <Col name="GGXH" width="100" >规格型号</Col>
+    <Col name="CLPH" width="100" >车辆牌号</Col>
+    <Col name="SBYZ" width="100" datatype="double" decimal="2" displayMask="=data+'元';">设备原值</Col>
+    <Col name="SBJZ" width="100" datatype="double" decimal="2" displayMask="=data+'元';">设备净值</Col>
+    <Col name="AZDD" width="100" >安装地点</Col>
+    <Col name="CCRQ" width="100" datatype="date">出厂日期</Col>
+    <Col name="TCRQ" width="100" datatype="date">投用日期</Col>
+    <Col name="SYDW" width="100">使用单位</Col>
+    <Col name="YXSJLC" width="100" isHide="true">运行时间或行驶里程</Col>
+    <Col name="BGR" width="70" isHide="true">保管人</Col>
+    <Col name="SBZT"  width="70"  droplistID="ZT"  edittype="droplist" defaultValue="1">设备状态</Col>
+  </Cols>
+  <DropLists>
+    <DropList id="DW">
+      <item key="11">采油队</item>
+      <item key="3">富林</item>
+    </DropList>
+    <DropList id="ZT">
+      <item key="1">在用</item>
+      <item key="0">非在用</item>
+    </DropList>
+  </DropLists>
+</TreeList>

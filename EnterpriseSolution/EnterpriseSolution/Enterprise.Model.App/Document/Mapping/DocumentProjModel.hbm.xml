@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Document">
+    <class name="DocumentProjModel" table="APP_DOCUMENT_PROJ">
+        
+			<id name="DOCID" column="DOCID" type="string">			</id>
+			<property name="ASSOCIATIONID" column="ASSOCIATIONID" type="string" />
+			<property name="DOCPATH" column="DOCPATH" type="string" />
+			<property name="DOCSTATUS" column="DOCSTATUS" type="int" />
+			<property name="LBBH" column="LBBH" type="string" />
+			<property name="TABLENAME" column="TABLENAME" type="string" />
+			<property name="DOCQUARRY" column="DOCQUARRY" type="string" />
+			<property name="DOCADDUSER" column="DOCADDUSER" type="string" />
+			<property name="DOCNAME" column="DOCNAME" type="string" />
+			<property name="DOCWRITER" column="DOCWRITER" type="string" />
+			<property name="DOCOVERVIEW" column="DOCOVERVIEW" type="string" />
+			<property name="DOCSAVEDATE" column="DOCSAVEDATE" type="DateTime" />
+			<property name="PROJID" column="PROJID" type="string" />
+      <!--Enterprise.Model.App.Project.ProjectInfoModel-->
+      <many-to-one name='ProjectInfo' class='Enterprise.Model.App.Project.ProjectInfoModel' lazy='false' column='PROJID' insert='false' update='false' />
+    </class>
+</hibernate-mapping>

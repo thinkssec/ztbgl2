@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectRunninganalyzeviewModel" table="APP_PROJECT_RUNNINGANALYZEVIEW">
+      <id name="XH" column="XH" type="string" ></id>
+      <property name="CJ" column="CJ" type="string" />
+			<property name="DNAME" column="DNAME" type="string" />
+			<property name="SL" column="SL" type="int" />
+      <property name="DEPTID" column="DEPTID" type="int" />
+      <property name="DPARENTID" column="DPARENTID" type="int" />
+    </class>
+</hibernate-mapping>

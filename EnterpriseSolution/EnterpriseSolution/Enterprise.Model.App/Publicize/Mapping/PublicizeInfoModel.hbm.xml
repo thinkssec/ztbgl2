@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Publicize">
+    <class name="PublicizeInfoModel" table="APP_PUBLICIZE_INFO">
+        
+			<id name="PUBID" column="PUBID" type="string">			</id>
+			<property name="PUBDATE" column="PUBDATE" type="DateTime" />
+			<property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+			<property name="USERID" column="USERID" type="int" />
+			<property name="PUBTITLE" column="PUBTITLE" type="string" />
+			<property name="LMID" column="LMID" type="string" />
+			<property name="ATTACHMENT" column="ATTACHMENT" type="string" />
+			<property name="PUBDEPT" column="PUBDEPT" type="string" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="AUDITDATE" column="AUDITDATE" type="DateTime" />
+			<property name="CLICKS" column="CLICKS" type="int" />
+      <property name="RECOMMEND" column="RECOMMEND" type="string" />
+      <property name="SLT" column="SLT" type="string" />
+      <property name="ZD" column="ZD" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Vote">
+    <class name="VoteItemModel" table="COMMON_VOTE_ITEM">
+        
+			<id name="VITEMID" column="VITEMID" type="int">			</id>
+			<property name="VITEMTITLE" column="VITEMTITLE" type="string" />
+			<property name="VITEMCODE" column="VITEMCODE" type="string" />
+			<property name="VITEMREMARK" column="VITEMREMARK" type="string" />
+			<property name="VID" column="VID" type="string" />
+
+    </class>
+</hibernate-mapping>

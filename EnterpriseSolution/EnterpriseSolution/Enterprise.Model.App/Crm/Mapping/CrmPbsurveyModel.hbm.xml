@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmPbsurveyModel" table="APP_CRM_PBSURVEY">
+        
+			<id name="DCID" column="DCID" type="string">			</id>
+			<property name="DCBM" column="DCBM" type="string" />
+			<property name="DCZT" column="DCZT" type="string" />
+			<property name="DCRQ" column="DCRQ" type="DateTime" />
+			<property name="BZ" column="BZ" type="string" />
+			<property name="FZR" column="FZR" type="string" />
+			<property name="BMYJ" column="BMYJ" type="string" />
+			<property name="PBBM" column="PBBM" type="string" />
+			<property name="QRRQ" column="QRRQ" type="DateTime" />
+			<property name="DCRY" column="DCRY" type="string" />
+			<property name="ZDF" column="ZDF" type="decimal" />
+
+    </class>
+</hibernate-mapping>

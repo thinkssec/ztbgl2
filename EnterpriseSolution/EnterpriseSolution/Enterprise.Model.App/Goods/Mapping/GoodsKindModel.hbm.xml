@@ -1,0 +1,9 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Goods">
+    <class name="GoodsKindModel" table="APP_GOODS_KIND">
+        
+			<id name="KINDID" column="KINDID" type="string">			</id>
+			<property name="KINDNAME" column="KINDNAME" type="string" />
+
+    </class>
+</hibernate-mapping>

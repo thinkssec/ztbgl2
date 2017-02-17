@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33AAB140-F972-4267-8D25-4DEBE4BB6F14}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Model.Common</RootNamespace>
+    <AssemblyName>Enterprise.Model.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Article\ArticleClobModel.cs" />
+    <Compile Include="Article\ArticleDownloadModel.cs" />
+    <Compile Include="Article\ArticleInfoModel.cs" />
+    <Compile Include="Article\ArticleRecevieModel.cs" />
+    <Compile Include="Busitravel\BusitravelCertModel.cs" />
+    <Compile Include="Busitravel\BusitravelInfoModel.cs" />
+    <Compile Include="Busitravel\BusitravelKzinfoModel.cs" />
+    <Compile Include="Busitravel\BusitravelOrderModel.cs" />
+    <Compile Include="Busitravel\BusitravelPassengerModel.cs" />
+    <Compile Include="Busitravel\BusitravelSummaryModel.cs" />
+    <Compile Include="Busitravel\BusitravelWfprocessModel.cs" />
+    <Compile Include="CommonSuperModel.cs" />
+    <Compile Include="Doc\DocArticlesModel.cs" />
+    <Compile Include="Doc\DocClassModel.cs" />
+    <Compile Include="Doc\DocRecevieModel.cs" />
+    <Compile Include="EntDisk\FileModel.cs" />
+    <Compile Include="Manager\ManagerMsgModel.cs" />
+    <Compile Include="Manager\ManagerMsgReplyModel.cs" />
+    <Compile Include="Meeting\MeetingInfoModel.cs" />
+    <Compile Include="Meeting\MeetingRecevieModel.cs" />
+    <Compile Include="Notice\NoticeModel.cs" />
+    <Compile Include="Office\OfficeDocumentModel.cs" />
+    <Compile Include="Office\OfficeRecevieModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Supervise\SuperviseInfoModel.cs" />
+    <Compile Include="Supervise\SuperviseProcessModel.cs" />
+    <Compile Include="Vote\VoteInfoModel.cs" />
+    <Compile Include="Vote\VoteItemModel.cs" />
+    <Compile Include="Vote\VoteResultModel.cs" />
+    <Compile Include="Webmail\WebmailInboxerrorModel.cs" />
+    <Compile Include="Webmail\WebmailInboxModel.cs" />
+    <Compile Include="Webmail\WebmailOutboxModel.cs" />
+    <Compile Include="Webmail\WebmailSettingsModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Webmail\Mapping\WebmailInboxerrorModel.hbm.xml" />
+    <EmbeddedResource Include="Webmail\Mapping\WebmailInboxModel.hbm.xml" />
+    <EmbeddedResource Include="Webmail\Mapping\WebmailOutboxModel.hbm.xml" />
+    <EmbeddedResource Include="Webmail\Mapping\WebmailSettingsModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Manager\Mapping\ManagerMsg.hbm.xml" />
+    <EmbeddedResource Include="Manager\Mapping\ManagerMsgReply.hbm.xml" />
+    <EmbeddedResource Include="Office\Mapping\OfficeDocumentModel.hbm.xml" />
+    <EmbeddedResource Include="Office\Mapping\OfficeRecevieModel.hbm.xml" />
+    <EmbeddedResource Include="Vote\Mapping\VoteInfoModel.hbm.xml" />
+    <EmbeddedResource Include="Vote\Mapping\VoteItemModel.hbm.xml" />
+    <EmbeddedResource Include="Vote\Mapping\VoteResultModel.hbm.xml" />
+    <EmbeddedResource Include="Meeting\Mapping\MeetingInfoModel.hbm.xml" />
+    <EmbeddedResource Include="Meeting\Mapping\MeetingRecevieModel.hbm.xml" />
+    <EmbeddedResource Include="Notice\Mapping\NoticeModel.hbm.xml" />
+    <EmbeddedResource Include="Article\Mapping\ArticleInfoModel.hbm.xml" />
+    <EmbeddedResource Include="Article\Mapping\ArticleRecevieModel.hbm.xml" />
+    <EmbeddedResource Include="Busitravel\Mapping\BusitravelWfprocessModel.hbm.xml" />
+    <EmbeddedResource Include="Doc\Mapping\DocArticlesModel.hbm.xml" />
+    <EmbeddedResource Include="Doc\Mapping\DocClassModel.hbm.xml" />
+    <EmbeddedResource Include="Doc\Mapping\DocRecevieModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Busitravel\Mapping\BusitravelInfoModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Supervise\Mapping\SuperviseInfoModel.hbm.xml" />
+    <EmbeddedResource Include="Supervise\Mapping\SuperviseProcessModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Article\Mapping\ArticleDownloadModel.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Busitravel\Mapping\BusitravelCertModel.hbm.xml" />
+    <EmbeddedResource Include="Busitravel\Mapping\BusitravelKzinfoModel.hbm.xml" />
+    <EmbeddedResource Include="Busitravel\Mapping\BusitravelOrderModel.hbm.xml" />
+    <EmbeddedResource Include="Busitravel\Mapping\BusitravelPassengerModel.hbm.xml" />
+    <EmbeddedResource Include="Busitravel\Mapping\BusitravelSummaryModel.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Article\Mapping\ArticleClobModel.hbm.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

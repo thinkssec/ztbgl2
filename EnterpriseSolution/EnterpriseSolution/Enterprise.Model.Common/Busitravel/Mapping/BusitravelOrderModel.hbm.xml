@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Busitravel">
+    <class name="BusitravelOrderModel" table="COMMON_BUSITRAVEL_ORDER">
+        
+			<id name="BID" column="BID" type="string">			</id>
+			<property name="ORDERFILE" column="ORDERFILE" type="string" />
+			<property name="ZHCN_ORDER" column="ZHCN_ORDER" type="string" />
+			<property name="SIGNDATE" column="SIGNDATE" type="DateTime" />
+			<property name="RU_ORDER" column="RU_ORDER" type="string" />
+			<property name="SIGNER" column="SIGNER" type="string" />
+			<property name="EN_ORDER" column="EN_ORDER" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysTabChangeModel" table="BASIS_SYS_TABCHANGE">
+      <composite-id>
+        <key-property name="USERNAME" column="USERNAME" type="string"  />
+        <key-property name="TABLENAME" column="TABLENAME" type="string"  />
+        <key-property name="CHANGEID" column="CHANGEID" type="int"  />
+        <key-property name="CHANGETIME" column="CHANGETIME" type="DateTime"  />
+      </composite-id>
+			<property name="USERNAME" column="USERNAME" type="string" />
+			<property name="TABLENAME" column="TABLENAME" type="string" />
+			<property name="CHANGEID" column="CHANGEID" type="int" />
+			<property name="CHANGETIME" column="CHANGETIME" type="DateTime" />
+
+    </class>
+</hibernate-mapping>

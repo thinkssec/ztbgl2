@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Webmail">
+    <class name="WebmailInboxModel" table="COMMON_WEBMAIL_INBOX">
+        
+			<id name="MESSAGEID" column="MESSAGEID" type="string">			</id>
+			<property name="EMAILCONTENT" column="EMAILCONTENT" type="string" />
+			<property name="FLAGED" column="FLAGED" type="int" />
+			<property name="READED" column="READED" type="int" />
+			<property name="EMAILSUBJECT" column="EMAILSUBJECT" type="string" />
+			<property name="EMAILFROM" column="EMAILFROM" type="string" />
+			<property name="EMAILATTACHMENTS" column="EMAILATTACHMENTS" type="string" />
+			<property name="EMAILSIZE" column="EMAILSIZE" type="decimal" />
+			<property name="ISDELETE" column="ISDELETE" type="int" />
+			<property name="EMAILDATE" column="EMAILDATE" type="DateTime" />
+			<property name="EMAILTO" column="EMAILTO" type="string" />
+			<property name="EMAIL" column="EMAIL" type="string" />
+
+    </class>
+</hibernate-mapping>

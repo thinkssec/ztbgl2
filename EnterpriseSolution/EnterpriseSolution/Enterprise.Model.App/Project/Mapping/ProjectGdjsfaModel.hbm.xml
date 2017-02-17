@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectGdjsfaModel" table="APP_PROJECT_GDJSFA">
+        
+			<id name="JSFAID" column="JSFAID" type="string">			</id>
+			<property name="FAMC" column="FAMC" type="string" />
+			<property name="BBH" column="BBH" type="string" />
+			<property name="SPR" column="SPR" type="int" />
+			<property name="SHYJG" column="SHYJG" type="string" />
+			<property name="JDR" column="JDR" type="int" />
+			<property name="SHR" column="SHR" type="int" />
+			<property name="BXR" column="BXR" type="int" />
+			<property name="SCFJ" column="SCFJ" type="string" />
+			<property name="QFRQ" column="QFRQ" type="DateTime" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="ZLDF" column="ZLDF" type="decimal" />
+			<property name="SHYJ" column="SHYJ" type="string" />
+      <property name="PRTSTATUS" column="PRTSTATUS" type="int" />
+      <property name="SUBMITTER" column="SUBMITTER" type="int" />
+      <property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectArchiveModel" table="APP_PROJECT_ARCHIVE">
+        
+			<id name="ARCHIVEID" column="ARCHIVEID" type="string">			</id>
+			<property name="CHECKER" column="CHECKER" type="int" />
+			<property name="ARCHIVEMEDIA" column="ARCHIVEMEDIA" type="string" />
+			<property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+			<property name="ARCHIVENAME" column="ARCHIVENAME" type="string" />
+			<property name="CHECKSTATUS" column="CHECKSTATUS" type="int" />
+			<property name="CHECKDATE" column="CHECKDATE" type="DateTime" />
+			<property name="ARCHIVECOUNT" column="ARCHIVECOUNT" type="int" />
+			<property name="ARCHIVEPAGE" column="ARCHIVEPAGE" type="int" />
+			<property name="PROJID" column="PROJID" type="string" />
+      <property name="ATTACHMENT" column="ATTACHMENT" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Message\bin\Release\Enterprise.Component.Message.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Message\bin\Release\Enterprise.Component.Message.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Message\bin\Release\Enterprise.Component.Infrastructure.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Message\bin\Release\log4net.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Message\bin\Release\Enterprise.Component.Infrastructure.pdb
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Message\obj\Release\Enterprise.Component.Message.csprojResolveAssemblyReference.cache
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Message\obj\Release\Enterprise.Component.Message.dll
+E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.Message\obj\Release\Enterprise.Component.Message.pdb
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Message\bin\Release\Enterprise.Component.Message.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Message\bin\Release\Enterprise.Component.Message.pdb
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Message\bin\Release\Enterprise.Component.Infrastructure.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Message\bin\Release\log4net.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Message\bin\Release\Enterprise.Component.Infrastructure.pdb
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Message\obj\Release\Enterprise.Component.Message.csprojResolveAssemblyReference.cache
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Message\obj\Release\Enterprise.Component.Message.dll
+E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.Message\obj\Release\Enterprise.Component.Message.pdb

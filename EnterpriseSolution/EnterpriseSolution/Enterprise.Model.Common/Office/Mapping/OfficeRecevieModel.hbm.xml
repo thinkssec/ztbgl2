@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Office">
+    <class name="OfficeRecevieModel" table="COMMON_OFFICE_RECEVIE">
+        
+			<id name="ORID" column="ORID" type="string">			
+                
+            </id>
+			<property name="OID" column="OID" type="string" />
+			<property name="ORTIME" column="ORTIME" type="DateTime" />
+			<property name="ORUSERID" column="ORUSERID" type="int" />
+
+    </class>
+</hibernate-mapping>

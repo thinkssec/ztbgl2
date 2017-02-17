@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectCostplanModel" table="APP_PROJECT_COSTPLAN">
+        
+		<composite-id>
+			<key-property name="ITEMCODE" column="ITEMCODE" type="string" />
+			<key-property name="PLANID" column="PLANID" type="string" />
+		</composite-id>
+			<property name="AMOUNT" column="AMOUNT" type="decimal" />
+      
+      <many-to-one name='ExamineCostitem' class='Enterprise.Model.App.Examine.ExamineCostitemModel' lazy='false' column='ITEMCODE' insert='false' update='false' />
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Archives">
+    <class name="ArchivesJuanneiModel" table="APP_ARCHIVES_JUANNEI">
+        
+			<id name="JNID" column="JNID" type="string">			</id>
+			<property name="JNWJMC" column="JNWJMC" type="string" />
+			<property name="JNYH" column="JNYH" type="int" />
+			<property name="JNBZ" column="JNBZ" type="string" />
+			<property name="JNRQ" column="JNRQ" type="DateTime" />
+			<property name="AJID" column="AJID" type="string" />
+			<property name="JNXGDW" column="JNXGDW" type="string" />
+			<property name="JNWH" column="JNWH" type="string" />
+			<property name="JNFJ" column="JNFJ" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--By Supcan TreeList  -->
+<TreeList>
+	<Properties editAble="true"  Title="订单明细表" headerColor="#e8e8e8" bgColor="white"
+           sort="country,shipcity"  id="orders" key="OrderID"
+              subtotalFontIndex="1" subtotalBgColor="#d3d3d3"></Properties>
+	<Cols>
+		<Col editAble="true" subtotalExpress="='共'+@rows+'行'" totalAlign="center" totalExpress="='合 计'" name="Country"  droplistID="country"  edittype="droplist"  width="100">国家</Col>
+		<Group title="订单情况">
+			<Col name="OrderID"      width="70" align="center">订单号</Col>
+			<Col name="CustomerID"   width="70">客户号</Col>
+			<Group title="日期">
+				<Col name="OrderDate"    width="90" datatype="date">销售日期</Col>
+				<Col name="RequiredDate" width="90" datatype="date">接单日期</Col>
+			</Group>
+			<Col name="Freight"  totalExpress="=@sum"  width="80" datatype="double" decimal="2"
+        displayMask="=data+'吨';textColor=if(data>50, red, black)"
+        subtotalExpress="='小计: ' +@sum+ ', 均重: '+@ave">货重</Col>
+		</Group>
+		<Col name="ShipName"     width="130">船名\r\n(海运承包)</Col>
+		<Group title="目的地">
+			<Col name="ShipCity"  droplistID="city" edittype="droptreelist"  width="130">城市</Col>
+			<Col name="ShipAddress"  width="240">地址</Col>
+		</Group>
+	</Cols>
+  <DropLists>
+    <DropList id="city" treelist="city.xml" DataCol="city" DisplayCol="city"/>
+    <DropList id="country">
+      <item key="1">France</item>
+      <item key="2">Germany</item>
+      <item key="3">Brazil</item>
+      <item key="4">Belgium</item>
+      <item key="8">Switzerland</item>
+      <item key="11">Venezuela</item>
+      <item key="23">Austria</item>
+      <item key="21">Mexico</item>
+      <item key="9">USA</item>
+      <item key="0">Sweden</item>
+      <item key="34">Finland</item>
+    </DropList>
+  </DropLists>
+</TreeList>

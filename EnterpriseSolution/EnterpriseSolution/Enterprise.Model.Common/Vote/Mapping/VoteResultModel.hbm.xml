@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Vote">
+    <class name="VoteResultModel" table="COMMON_VOTE_RESULT">
+        
+			<id name="VRESULTID" column="VRESULTID" type="int">			</id>
+			<property name="VITEMID" column="VITEMID" type="int" />
+			<property name="VITEMCODE" column="VITEMCODE" type="string" />
+			<property name="VRESULTUSERID" column="VRESULTUSERID" type="int" />
+			<property name="VRESULTTIME" column="VRESULTTIME" type="DateTime" />
+			<property name="VID" column="VID" type="string" />
+
+    </class>
+</hibernate-mapping>

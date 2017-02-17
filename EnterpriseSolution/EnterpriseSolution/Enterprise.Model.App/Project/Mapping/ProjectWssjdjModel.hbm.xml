@@ -1,0 +1,15 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectWssjdjModel" table="APP_PROJECT_WSSJDJ">
+        
+			<id name="ID" column="ID" type="string">			</id>
+			<property name="FSRQ" column="FSRQ" type="DateTime" />
+			<property name="CLJG" column="CLJG" type="string" />
+			<property name="SJMS" column="SJMS" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="SJMC" column="SJMC" type="string" />
+			<property name="ZRR" column="ZRR" type="string" />
+			<property name="PROJID" column="PROJID" type="string" />
+
+    </class>
+</hibernate-mapping>

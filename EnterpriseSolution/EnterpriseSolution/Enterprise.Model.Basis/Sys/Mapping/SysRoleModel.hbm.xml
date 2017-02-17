@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysRoleModel" table="BASIS_SYS_ROLE">
+        
+			<id name="RID" column="RID" type="int">			</id>
+			<property name="RNAME" column="RNAME" type="string" />
+			<property name="RTYPE" column="RTYPE" type="string" />
+			<property name="RREMARK" column="RREMARK" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmInfoModel" table="APP_CRM_INFO">
+        
+			<id name="INFOID" column="INFOID" type="string">			</id>
+			<property name="CRMNAME" column="CRMNAME" type="string" />
+			<property name="CRMADDR" column="CRMADDR" type="string" />
+			<property name="CRMSERIAL" column="CRMSERIAL" type="string" />
+			<property name="CRMPROPERTY" column="CRMPROPERTY" type="string" />
+			<property name="CRMKIND" column="CRMKIND" type="string" />
+			<property name="CRMUSER" column="CRMUSER" type="int" />
+			<property name="ADDDATE" column="ADDDATE" type="DateTime" />
+			<property name="ZHANGH" column="ZHANGH" type="string" />
+			<property name="SHUIH" column="SHUIH" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="ZSBH" column="ZSBH" type="string" />
+			<property name="KEY5" column="KEY5" type="string" />
+			<property name="KEY6" column="KEY6" type="string" />
+			<property name="KEY7" column="KEY7" type="string" />
+			<property name="KEY8" column="KEY8" type="string" />
+			<property name="KEY9" column="KEY9" type="string" />
+			<property name="KEY10" column="KEY10" type="string" />
+			<property name="KEY11" column="KEY11" type="string" />
+			<property name="KEY12" column="KEY12" type="string" />
+			<property name="KEY13" column="KEY13" type="string" />
+
+    </class>
+</hibernate-mapping>

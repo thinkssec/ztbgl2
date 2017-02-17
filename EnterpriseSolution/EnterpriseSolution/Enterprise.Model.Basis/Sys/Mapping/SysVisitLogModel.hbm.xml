@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Sys">
+    <class name="SysVisitLogModel" table="BASIS_SYS_VISITLOG">
+        
+			<id name="VLID" column="VLID" type="string">			</id>
+			<property name="VLLOGINUSERID" column="VLLOGINUSERID" type="int" />
+			<property name="VLLOGINTIME" column="VLLOGINTIME" type="DateTime" />
+			<property name="VLLOGINIP" column="VLLOGINIP" type="string" />
+			<property name="VLURL" column="VLURL" type="string" />
+			<property name="VLTIMESPAN" column="VLTIMESPAN" type="int" />
+
+    </class>
+</hibernate-mapping>

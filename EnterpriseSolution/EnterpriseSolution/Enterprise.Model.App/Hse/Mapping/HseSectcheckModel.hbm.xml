@@ -1,0 +1,37 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Hse">
+    <class name="HseSectcheckModel" table="APP_HSE_SECTCHECK">
+        
+			<id name="CKID" column="CKID" type="string">			</id>
+			<property name="CTARGET" column="CTARGET" type="string" />
+			<property name="CLEVEL" column="CLEVEL" type="string" />
+			<property name="CHECKER" column="CHECKER" type="string" />
+			<property name="CDATE" column="CDATE" type="DateTime" />
+			<property name="ENDDATE" column="ENDDATE" type="DateTime" />
+			<property name="FNAMES" column="FNAMES" type="string" />
+			<property name="FVIEWNAMES" column="FVIEWNAMES" type="string" />
+			<property name="SUBMITTER" column="SUBMITTER" type="int" />
+			<property name="SUBMITDATE" column="SUBMITDATE" type="DateTime" />
+			<property name="SMSG" column="SMSG" type="int" />
+			<property name="STATUS" column="STATUS" type="int" />
+			<property name="COMPLETEDATE" column="COMPLETEDATE" type="DateTime" />
+			<property name="RECIEVER" column="RECIEVER" type="int" />
+			<property name="CWHERE" column="CWHERE" type="string" />
+			<property name="SHR1" column="SHR1" type="int" />
+			<property name="SH1SUBMITIME" column="SH1SUBMITIME" type="DateTime" />
+			<property name="SH1TIME" column="SH1TIME" type="DateTime" />
+			<property name="SH1STATUS" column="SH1STATUS" type="int" />
+			<property name="SH1CONTENT" column="SH1CONTENT" type="string" />
+			<property name="SHR2" column="SHR2" type="int" />
+			<property name="SH2SUBMITIME" column="SH2SUBMITIME" type="DateTime" />
+			<property name="SH2TIME" column="SH2TIME" type="DateTime" />
+			<property name="SH2STATUS" column="SH2STATUS" type="int" />
+			<property name="SH2CONTENT" column="SH2CONTENT" type="string" />
+			<property name="SHR3" column="SHR3" type="int" />
+			<property name="SH3SUBMITIME" column="SH3SUBMITIME" type="DateTime" />
+			<property name="SH3TIME" column="SH3TIME" type="DateTime" />
+			<property name="SH3STATUS" column="SH3STATUS" type="int" />
+			<property name="SH3CONTENT" column="SH3CONTENT" type="string" />
+
+    </class>
+</hibernate-mapping>

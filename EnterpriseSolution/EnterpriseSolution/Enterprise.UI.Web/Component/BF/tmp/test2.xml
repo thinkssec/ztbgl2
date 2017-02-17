@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<modes>
+<mode class="module" contentEditable="inherit" type="processNode" id="18" title="业务节点" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/processNode.gif" top="285" left="357" zIndex="18" width="50" height="50"/>
+<mode class="module" contentEditable="inherit" type="processNode" id="16" title="业务节点" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/processNode.gif" top="134" left="356" zIndex="16" width="50" height="50"/>
+<mode class="module" contentEditable="inherit" type="endNode" id="14" title="完成节点" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/endNode.gif" top="137" left="663" zIndex="14" width="50" height="45"/>
+<mode class="module" contentEditable="inherit" type="startNode" id="12" title="开始节点" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/startNode.gif" top="134" left="162" zIndex="12" width="50" height="50"/>
+<line strokeweight="1.35" strokecolor="black" d="M 409 311 L 544 311,544 160,663 160 z" brokenType="3" 
+contentEditable="inherit" id="line26" style="POSITION: absolute; WIDTH: 100px; HEIGHT: 100px; CURSOR: pointer;fill: none; stroke: black; stroke-width: 1.8" 
+marker-end="url(#arrow)" xBaseMode="module18" sNodeId="processNode18" xIndex="5" wBaseMode="module14" eNodeId="endNode14" wIndex="4" attr_prop_XH="1"/>
+<line strokeweight="1.35" strokecolor="black" d="m382 186 L 383 285 z" brokenType="1" contentEditable="inherit" id="line16" style="POSITION: absolute; WIDTH: 100px; HEIGHT: 100px; CURSOR: pointer;fill: none; stroke: black; stroke-width: 1.8" marker-end="url(#arrow)" xBaseMode="module16" sNodeId="processNode16" xIndex="7" wBaseMode="module18" eNodeId="processNode18" wIndex="2" attr_prop_XH="2"/>
+<line strokeweight="1.35" strokecolor="black" d="m408 160 L 663 160 z" brokenType="1" contentEditable="inherit" id="line14" style="POSITION: absolute; WIDTH: 100px; HEIGHT: 100px; CURSOR: pointer;fill: none; stroke: black; stroke-width: 1.8" marker-end="url(#arrow)" xBaseMode="module16" sNodeId="processNode16" xIndex="5" wBaseMode="module14" eNodeId="endNode14" wIndex="4" attr_prop_XH="1"/>
+<line strokeweight="1.35" strokecolor="black" d="M 214 160 L 356 160 z" brokenType="1" contentEditable="inherit" id="line12" style="POSITION: absolute; WIDTH: 100px; HEIGHT: 100px; CURSOR: pointer;fill: none; stroke: black; stroke-width: 1.8" marker-end="url(#arrow)" xBaseMode="module12" sNodeId="startNode12" xIndex="5" wBaseMode="module16" eNodeId="processNode16" wIndex="4" attr_prop_XH="1"/>
+</modes>

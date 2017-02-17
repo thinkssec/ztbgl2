@@ -1,0 +1,129 @@
+2016-07-10 14:48:03,237 [70] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<zhengyu---------------1>>
+2016-07-10 14:48:03,242 [70] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户zhengyu,AD身份验证通过!>>
+2016-07-10 14:48:03,248 [70] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 14:48:03,248 [70] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【zhengyu】于【2016/7/10 14:48:03】成功登录系统!IP:::1>>
+2016-07-10 14:55:09,620 [76] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<zhangxh---------------1>>
+2016-07-10 14:55:09,631 [76] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户zhangxh,AD身份验证通过!>>
+2016-07-10 14:55:09,636 [76] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<False---->>
+2016-07-10 14:55:09,637 [76] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户验证失败：用户【zhangxh】于【2016/7/10 14:55:09】尝试登录系统!IP:::1,口令:1>>
+2016-07-10 14:55:12,965 [71] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 14:55:12,965 [71] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 14:55:12,972 [71] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 14:55:12,973 [71] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 14:55:12】成功登录系统!IP:::1>>
+2016-07-10 14:55:38,775 [71] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<zhangxueh---------------1>>
+2016-07-10 14:55:38,775 [71] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户zhangxueh,AD身份验证通过!>>
+2016-07-10 14:55:38,782 [71] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 14:55:38,782 [71] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【zhangxueh】于【2016/7/10 14:55:38】成功登录系统!IP:::1>>
+2016-07-10 15:08:27,580 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 15:08:27,590 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 15:08:27,596 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:08:27,596 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 15:08:27】成功登录系统!IP:::1>>
+2016-07-10 15:09:47,151 [31] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<jy1---------------1>>
+2016-07-10 15:09:47,151 [31] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户jy1,AD身份验证通过!>>
+2016-07-10 15:09:47,157 [31] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:09:47,157 [31] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【jy1】于【2016/7/10 15:09:47】成功登录系统!IP:::1>>
+2016-07-10 15:16:48,420 [70] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 15:16:48,430 [70] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 15:16:48,437 [70] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:16:48,437 [70] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 15:16:48】成功登录系统!IP:::1>>
+2016-07-10 15:20:02,264 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<zhengyu---------------1>>
+2016-07-10 15:20:02,264 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户zhengyu,AD身份验证通过!>>
+2016-07-10 15:20:02,269 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:20:02,270 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【zhengyu】于【2016/7/10 15:20:02】成功登录系统!IP:::1>>
+2016-07-10 15:20:17,771 [58] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<zhangxueh---------------1>>
+2016-07-10 15:20:17,771 [58] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户zhangxueh,AD身份验证通过!>>
+2016-07-10 15:20:17,776 [58] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:20:17,776 [58] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【zhangxueh】于【2016/7/10 15:20:17】成功登录系统!IP:::1>>
+2016-07-10 15:27:06,777 [61] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 15:27:06,790 [61] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 15:27:06,796 [61] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:27:06,796 [61] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 15:27:06】成功登录系统!IP:::1>>
+2016-07-10 15:30:46,842 [13] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<pengy---------------1>>
+2016-07-10 15:30:46,842 [13] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户pengy,AD身份验证通过!>>
+2016-07-10 15:30:46,850 [13] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:30:46,850 [13] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【pengy】于【2016/7/10 15:30:46】成功登录系统!IP:::1>>
+2016-07-10 15:36:28,379 [53] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 15:36:28,389 [53] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 15:36:28,396 [53] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:36:28,396 [53] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 15:36:28】成功登录系统!IP:::1>>
+2016-07-10 15:36:57,843 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<dingb---------------1>>
+2016-07-10 15:36:57,844 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户dingb,AD身份验证通过!>>
+2016-07-10 15:36:57,850 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:36:57,850 [72] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【dingb】于【2016/7/10 15:36:57】成功登录系统!IP:::1>>
+2016-07-10 15:40:58,784 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 15:40:58,795 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 15:40:58,801 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:40:58,801 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 15:40:58】成功登录系统!IP:::1>>
+2016-07-10 15:41:18,131 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<qiuh---------------1>>
+2016-07-10 15:41:18,131 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户qiuh,AD身份验证通过!>>
+2016-07-10 15:41:18,137 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 15:41:18,137 [27] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【qiuh】于【2016/7/10 15:41:18】成功登录系统!IP:::1>>
+2016-07-10 19:24:21,120 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<qiuh---------------1>>
+2016-07-10 19:24:21,135 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户qiuh,AD身份验证通过!>>
+2016-07-10 19:24:21,145 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 19:24:21,173 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【qiuh】于【2016/7/10 19:24:21】成功登录系统!IP:::1>>
+2016-07-10 19:31:16,535 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<qiuha---------------1>>
+2016-07-10 19:31:16,550 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户qiuha,AD身份验证通过!>>
+2016-07-10 19:31:16,559 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<False---->>
+2016-07-10 19:31:16,588 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户验证失败：用户【qiuha】于【2016/7/10 19:31:16】尝试登录系统!IP:::1,口令:1>>
+2016-07-10 19:31:22,578 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<qiuh---------------1>>
+2016-07-10 19:31:22,578 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户qiuh,AD身份验证通过!>>
+2016-07-10 19:31:22,585 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 19:31:22,585 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【qiuh】于【2016/7/10 19:31:22】成功登录系统!IP:::1>>
+2016-07-10 19:32:33,377 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<qiuh---------------1>>
+2016-07-10 19:32:33,392 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户qiuh,AD身份验证通过!>>
+2016-07-10 19:32:33,405 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 19:32:33,433 [8] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【qiuh】于【2016/7/10 19:32:33】成功登录系统!IP:::1>>
+2016-07-10 19:33:39,451 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<qiuh---------------1>>
+2016-07-10 19:33:39,466 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户qiuh,AD身份验证通过!>>
+2016-07-10 19:33:39,478 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 19:33:39,506 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【qiuh】于【2016/7/10 19:33:39】成功登录系统!IP:::1>>
+2016-07-10 19:37:12,759 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<qiuh---------------1>>
+2016-07-10 19:37:12,774 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户qiuh,AD身份验证通过!>>
+2016-07-10 19:37:12,784 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 19:37:12,813 [7] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【qiuh】于【2016/7/10 19:37:12】成功登录系统!IP:::1>>
+2016-07-10 20:22:51,180 [41] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 20:22:51,191 [41] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 20:22:51,197 [41] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 20:22:51,197 [41] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 20:22:51】成功登录系统!IP:::1>>
+2016-07-10 21:33:43,433 [19] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<Enterprise.UI.Web thrown System.NullReferenceException<br />未将对象引用设置到对象的实例。<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnBindData() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 192<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnStart() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 125<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.Page_Load(Object sender, EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 30<br />   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)<br />   在 System.Web.UI.Control.OnLoad(EventArgs e)<br />   在 Enterprise.Service.Basis.BasePage.OnLoad(EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Service.Basis\BasePage.cs:行号 150<br />   在 System.Web.UI.Control.LoadRecursive()<br />   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)>>
+2016-07-10 21:33:43,464 [19] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<ASP.global_asax>>  Message=<<程序运行出现错误>>
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnBindData() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 192
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnStart() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 125
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.Page_Load(Object sender, EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 30
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Enterprise.Service.Basis.BasePage.OnLoad(EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Service.Basis\BasePage.cs:行号 150
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2016-07-10 21:34:33,660 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 21:34:33,660 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 21:34:33,668 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 21:34:33,668 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 21:34:33】成功登录系统!IP:::1>>
+2016-07-10 21:34:39,748 [19] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<Enterprise.UI.Web thrown System.NullReferenceException<br />未将对象引用设置到对象的实例。<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnBindData() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 192<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnStart() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 125<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.Page_Load(Object sender, EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 30<br />   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)<br />   在 System.Web.UI.Control.OnLoad(EventArgs e)<br />   在 Enterprise.Service.Basis.BasePage.OnLoad(EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Service.Basis\BasePage.cs:行号 150<br />   在 System.Web.UI.Control.LoadRecursive()<br />   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)>>
+2016-07-10 21:34:39,748 [19] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<ASP.global_asax>>  Message=<<程序运行出现错误>>
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnBindData() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 192
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnStart() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 125
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.Page_Load(Object sender, EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 30
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Enterprise.Service.Basis.BasePage.OnLoad(EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Service.Basis\BasePage.cs:行号 150
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2016-07-10 21:34:54,404 [19] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<Enterprise.UI.Web thrown System.NullReferenceException<br />未将对象引用设置到对象的实例。<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnBindData() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 192<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnStart() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 125<br />   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.Page_Load(Object sender, EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 30<br />   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)<br />   在 System.Web.UI.Control.OnLoad(EventArgs e)<br />   在 Enterprise.Service.Basis.BasePage.OnLoad(EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Service.Basis\BasePage.cs:行号 150<br />   在 System.Web.UI.Control.LoadRecursive()<br />   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)>>
+2016-07-10 21:34:54,404 [19] ERROR Enterprise.Component.Infrastructure.Debuger [(null)] - Type Name=<<ASP.global_asax>>  Message=<<程序运行出现错误>>
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnBindData() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 192
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.OnStart() 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 125
+   在 Enterprise.UI.Web.Modules.App.Project.ProjectInfoView.Page_Load(Object sender, EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.UI.Web\Modules\App\Project\ProjectInfoView.aspx.cs:行号 30
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Enterprise.Service.Basis.BasePage.OnLoad(EventArgs e) 位置 e:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Service.Basis\BasePage.cs:行号 150
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2016-07-10 23:58:16,680 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
+2016-07-10 23:58:16,720 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
+2016-07-10 23:58:16,730 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
+2016-07-10 23:58:16,757 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/10 23:58:16】成功登录系统!IP:::1>>

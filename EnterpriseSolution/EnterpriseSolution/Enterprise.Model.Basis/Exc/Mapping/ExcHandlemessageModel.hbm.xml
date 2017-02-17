@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Basis" namespace="Enterprise.Model.Basis.Exc">
+    <class name="ExcHandlemessageModel" table="BASIS_EXC_HANDLEMESSAGE">
+        
+			<id name="EXC_MSGID" column="EXC_MSGID" type="string">			</id>
+			<property name="EXC_SENDTIME" column="EXC_SENDTIME" type="DateTime" />
+			<property name="EXC_SENDSTATUS" column="EXC_SENDSTATUS" type="string" />
+			<property name="EXC_MSGRECEIVER" column="EXC_MSGRECEIVER" type="string" />
+			<property name="EXC_MSGTITLE" column="EXC_MSGTITLE" type="string" />
+			<property name="EXC_MSGTEXT" column="EXC_MSGTEXT" type="string" />
+
+    </class>
+</hibernate-mapping>

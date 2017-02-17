@@ -1,0 +1,25 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Project">
+    <class name="ProjectRequirementModel" table="APP_PROJECT_REQUIREMENT">
+        
+			<id name="REQID" column="REQID" type="string">			</id>
+			<property name="REQTYPE" column="REQTYPE" type="int" />
+			<property name="BUDGETARY" column="BUDGETARY" type="decimal" />
+			<property name="PRICE" column="PRICE" type="decimal" />
+			<property name="SUPPLYADDR" column="SUPPLYADDR" type="string" />
+			<property name="GOODSNAME" column="GOODSNAME" type="string" />
+			<property name="MEMO" column="MEMO" type="string" />
+			<property name="KINDID" column="KINDID" type="string" />
+			<property name="AUDITID" column="AUDITID" type="string" />
+			<property name="AUDITDATE" column="AUDITDATE" type="DateTime" />
+			<property name="DELIVERYDATE" column="DELIVERYDATE" type="DateTime" />
+			<property name="AUDITSTATUS" column="AUDITSTATUS" type="int" />
+			<property name="GOODSCOUNT" column="GOODSCOUNT" type="int" />
+			<property name="GOODSUNIT" column="GOODSUNIT" type="string" />
+			<property name="DELIVERYADDR" column="DELIVERYADDR" type="string" />
+			<property name="SUPPLYDATE" column="SUPPLYDATE" type="DateTime" />
+			<property name="PROJID" column="PROJID" type="string" />
+			<property name="GOODSTYPE" column="GOODSTYPE" type="string" />
+
+    </class>
+</hibernate-mapping>

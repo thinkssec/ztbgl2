@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<modes>
+<mode class="module" contentEditable="inherit" attr_prop_attri3="4" attr_prop_attri2="3" attr_prop_attri1="2" id="41" title="市场部采购" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/joinNode.gif" top="183" left="604" zIndex="41" width="50" height="50"/>
+<mode class="module" contentEditable="inherit" attr_prop_attri3="4" attr_prop_attri2="3" attr_prop_attri1="2" id="39" title="总经理审核" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/processNode.gif" top="249" left="423" zIndex="39" width="50" height="50"/>
+<mode class="module" contentEditable="inherit" attr_prop_attri1="2" attr_prop_attri2="3" attr_prop_attri3="4" id="18" title="财务部审核" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/processNode.gif" top="98" left="427" zIndex="18" width="50" height="50"/>
+<mode class="module" contentEditable="inherit" attr_prop_attri1="2" attr_prop_attri2="3" attr_prop_attri3="4" id="16" title="采购申请" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/processNode.gif" top="167" left="264" zIndex="16" width="50" height="50"/>
+<mode class="module" contentEditable="inherit" attr_prop_attri1="2" attr_prop_attri2="3" attr_prop_attri3="4" id="14" title="结束节点" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/endNode.gif" top="185" left="774" zIndex="14" width="50" height="50"/>
+<mode class="module" contentEditable="inherit" attr_prop_attri1="2" attr_prop_attri2="3" attr_prop_attri3="4" id="12" title="开始节点" backImgSrc="file:///F:/我的资料/文档资料/工作流引擎/demo/wf/startNode.gif" top="166" left="101" zIndex="12" width="50" height="50"/>
+<line strokeweight="1.35" strokecolor="black" d="m475 275 L 604 209 z" brokenType="1" contentEditable="inherit" 
+id="line27"  marker-end="url(#arrow)" wBaseMode="module41" wIndex="4" xBaseMode="module39" xIndex="5" attr_prop_attri4="5" attr_prop_attri3="4" attr_prop_attri2="3" attr_prop_attri1="2"/>
+<line strokeweight="1.35" strokecolor="black" d="m316 193 L 423 275 z" brokenType="1" contentEditable="inherit" 
+id="line25"  marker-end="url(#arrow)" wBaseMode="module39" wIndex="4" xBaseMode="module16" xIndex="5" attr_prop_attri4="5" attr_prop_attri3="4" attr_prop_attri2="3" attr_prop_attri1="2"/>
+<line strokeweight="1.35" strokecolor="black" d="M 656 209 L 774 211 z" brokenType="1" contentEditable="inherit" 
+id="line23"  marker-end="url(#arrow)" wBaseMode="module14" wIndex="4" xBaseMode="module41" xIndex="5" attr_prop_attri4="5" attr_prop_attri3="4" attr_prop_attri2="3" attr_prop_attri1="2"/>
+<line strokeweight="1.35" strokecolor="black" d="M 479 124 L 604 209 z" brokenType="1" contentEditable="inherit" 
+id="line21"  marker-end="url(#arrow)" wBaseMode="module41" wIndex="4" xBaseMode="module18" xIndex="5" attr_prop_attri4="5" attr_prop_attri3="4" attr_prop_attri2="3" attr_prop_attri1="2"/>
+<line strokeweight="1.35" strokecolor="black" d="m316 193 L 427 124 z" brokenType="1" contentEditable="inherit" 
+id="line14"  marker-end="url(#arrow)" wBaseMode="module18" wIndex="4" xBaseMode="module16" xIndex="5" attr_prop_attri1="2" attr_prop_attri2="线2" attr_prop_attri3="4" attr_prop_attri4="5"/>
+<line strokeweight="1.35" strokecolor="black" d="m153 192 L 264 193 z" brokenType="1" contentEditable="inherit" 
+id="line12"  marker-end="url(#arrow)" wBaseMode="module16" wIndex="4" xBaseMode="module12" xIndex="5" attr_prop_attri1="线1" attr_prop_attri2="3" attr_prop_attri3="4" attr_prop_attri4="5"/>
+</modes>

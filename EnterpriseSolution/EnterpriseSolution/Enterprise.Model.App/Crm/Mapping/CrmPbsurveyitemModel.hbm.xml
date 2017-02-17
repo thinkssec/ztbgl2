@@ -1,0 +1,11 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Crm">
+    <class name="CrmPbsurveyitemModel" table="APP_CRM_PBSURVEYITEM">
+        
+			<id name="ITEMID" column="ITEMID" type="string">			</id>
+			<property name="ITEMNAME" column="ITEMNAME" type="string" />
+			<property name="DCID" column="DCID" type="string" />
+			<property name="ITEMSCORE" column="ITEMSCORE" type="decimal" />
+
+    </class>
+</hibernate-mapping>

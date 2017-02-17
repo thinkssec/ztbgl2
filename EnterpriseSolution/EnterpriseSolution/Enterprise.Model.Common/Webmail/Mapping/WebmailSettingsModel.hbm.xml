@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Webmail">
+    <class name="WebmailSettingsModel" table="COMMON_WEBMAIL_SETTINGS">
+        
+        <id name="USERID" column="USERID" type="int">			
+            
+        </id>
+        <property name="EMAIL" column="EMAIL" type="string" />
+		<property name="ISREADY" column="ISREADY" type="int" />
+		<property name="SMTPPORT" column="SMTPPORT" type="int" />
+		<property name="LOGINPASSWORD" column="LOGINPASSWORD" type="string" />
+		<property name="LOGINNAME" column="LOGINNAME" type="string" />
+		<property name="SMTPSERVER" column="SMTPSERVER" type="string" />
+		<property name="POPPORT" column="POPPORT" type="int" />
+		<property name="ISENABLE" column="ISENABLE" type="int" />
+		<property name="POPSERVER" column="POPSERVER" type="string" />
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.App" namespace="Enterprise.Model.App.Sbgl">
+    <class name="SbglTzModel" table="APP_SBGL_TZ">
+        
+			<id name="SBBH" column="SBBH" type="string">			</id>
+			<property name="SBMC" column="SBMC" type="string" />
+			<property name="SBLX" column="SBLX" type="string" />
+			<property name="GGXH" column="GGXH" type="string" />
+			<property name="CLPH" column="CLPH" type="string" />
+			<property name="SBYZ" column="SBYZ" type="decimal" />
+			<property name="SBJZ" column="SBJZ" type="decimal" />
+			<property name="AZDD" column="AZDD" type="string" />
+			<property name="CCRQ" column="CCRQ" type="DateTime" />
+			<property name="TCRQ" column="TCRQ" type="DateTime" />
+			<property name="SYDW" column="SYDW" type="string" />
+			<property name="BGR" column="BGR" type="string" />
+			<property name="YXSJLC" column="YXSJLC" type="string" />
+			<property name="DJSJ" column="DJSJ" type="DateTime" />
+			<property name="DJR" column="DJR" type="string" />
+      <property name="SBZT" column="SBZT" type="int" />
+
+    </class>
+</hibernate-mapping>

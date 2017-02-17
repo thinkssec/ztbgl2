@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--By Supcan TreeList -->
+<TreeList>
+  <Properties editAble="false" dataURL="/Modules/App/Project/Sbgl/SbglDataHandler.ashx?type=WXDW"></Properties>
+	<Cols>
+		<Col name="CJBH" width="100">厂家编号</Col>
+		<Col name="CJMC" width="200">厂家名称</Col>
+		<Col name="CJDZ" width="200">厂家地址</Col>
+		<Col name="CJZZ" width="250">厂家资质</Col>
+		<Col name="YHZH" width="150">银行账户</Col>
+		<Col name="LXR" width="80">联系人</Col>
+		<Col name="LXFS" width="120">联系方式</Col>
+		<Col name="DQZT" width="70"  droplistID="ZT"  edittype="droplist" defaultValue="1" >当前状态</Col>
+	</Cols>
+  <DropLists>
+    <DropList id="ZT">
+      <item key="1">有效</item>
+      <item key="0">失效</item>
+    </DropList>
+  </DropLists>
+</TreeList>

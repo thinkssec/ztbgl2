@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  assembly="Enterprise.Model.Common" namespace="Enterprise.Model.Common.Meeting">
+    <class name="MeetingInfoModel" table="COMMON_MEETING_INFO">
+        
+			<id name="MEETINGID" column="MEETINGID" type="int">			</id>
+			<property name="MADDRESS" column="MADDRESS" type="string" />
+			<property name="MCONTENT" column="MCONTENT" type="string" />
+			<property name="MUSER" column="MUSER" type="int" />
+			<property name="MFILES" column="MFILES" type="string" />
+			<property name="MZCR" column="MZCR" type="string" />
+			<property name="MCREATETIME" column="MCREATETIME" type="DateTime" />
+			<property name="MUSERS" column="MUSERS" type="string" />
+			<property name="MDEPARTMENT" column="MDEPARTMENT" type="int" />
+			<property name="MCONTENTRU" column="MCONTENTRU" type="string" />
+			<property name="MTITLERU" column="MTITLERU" type="string" />
+			<property name="MTIME" column="MTIME" type="DateTime" />
+			<property name="MTITLE" column="MTITLE" type="string" />
+			<property name="MUSERID" column="MUSERID" type="int" />
+
+    </class>
+</hibernate-mapping>

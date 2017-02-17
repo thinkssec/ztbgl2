@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36E05532-CE0B-461D-9742-296FEF2FACD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Enterprise.Service.Basis</RootNamespace>
+    <AssemblyName>Enterprise.Service.Basis</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bf\BfBaseService.cs" />
+    <Compile Include="Bf\BfClsmethodsService.cs" />
+    <Compile Include="Bf\BFController.cs" />
+    <Compile Include="Bf\BfFlowpathService.cs" />
+    <Compile Include="Bf\BfMsgService.cs" />
+    <Compile Include="Bf\BfInstancerolesService.cs" />
+    <Compile Include="Bf\BfInstancesService.cs" />
+    <Compile Include="Bf\BfNoderolesService.cs" />
+    <Compile Include="Bf\BfNodesService.cs" />
+    <Compile Include="Bf\BfPublishService.cs" />
+    <Compile Include="Bf\BfRunningService.cs" />
+    <Compile Include="Bf\BfTrustusersService.cs" />
+    <Compile Include="Exc\ExcChecknodesService.cs" />
+    <Compile Include="Exc\ExcCheckrecordService.cs" />
+    <Compile Include="Exc\ExcCheckruleService.cs" />
+    <Compile Include="Exc\ExcEmailService.cs" />
+    <Compile Include="Exc\ExcGradeService.cs" />
+    <Compile Include="Exc\ExcInformService.cs" />
+    <Compile Include="Exc\ExcMessageService.cs" />
+    <Compile Include="Exc\ExcSmsService.cs" />
+    <Compile Include="Message\EmailService.cs" />
+    <Compile Include="Message\MessageFactory.cs" />
+    <Compile Include="Message\IMService.cs" />
+    <Compile Include="Message\MsgService.cs" />
+    <Compile Include="Message\SmsService.cs" />
+    <Compile Include="PermissionConfigLoad.cs" />
+    <Compile Include="PermissionPrincipal.cs" />
+    <Compile Include="PermissionService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rtx\RtxService.cs" />
+    <Compile Include="Sys\MyCacheManager.cs" />
+    <Compile Include="Sys\SysCacherelationService.cs" />
+    <Compile Include="Sys\SysDepartmentService.cs" />
+    <Compile Include="Sys\SysDutyService.cs" />
+    <Compile Include="Sys\SysModuleService.cs" />
+    <Compile Include="Sys\SysRolePermissionService.cs" />
+    <Compile Include="Sys\SysRoleService.cs" />
+    <Compile Include="Sys\SysUserDutyService.cs" />
+    <Compile Include="Sys\SysUserindividService.cs" />
+    <Compile Include="Sys\SysUserLoginService.cs" />
+    <Compile Include="Sys\SysUserPermissionService.cs" />
+    <Compile Include="Sys\SysUserRoleService.cs" />
+    <Compile Include="Sys\SysUserService.cs" />
+    <Compile Include="Sys\SysDictionaryService.cs" />
+    <Compile Include="Sys\SysCacheService.cs" />
+    <Compile Include="Sys\SysTabChangeService.cs" />
+    <Compile Include="Sys\SysVisitLogService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Component.BF\Enterprise.Component.BF.csproj">
+      <Project>{6D4F14DE-9415-41BE-A9B4-9EEC95504506}</Project>
+      <Name>Enterprise.Component.BF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Cache\Enterprise.Component.Cache.csproj">
+      <Project>{E38DDBF0-A978-4E6E-BFAB-15A25B08DE1C}</Project>
+      <Name>Enterprise.Component.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Infrastructure\Enterprise.Component.Infrastructure.csproj">
+      <Project>{A439B7BB-89F3-4BD1-87B8-259300139AFA}</Project>
+      <Name>Enterprise.Component.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.Message\Enterprise.Component.Message.csproj">
+      <Project>{36F9FE2C-8CC1-4116-A208-DDDDFBC0E08B}</Project>
+      <Name>Enterprise.Component.Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.MVC\Enterprise.Component.MVC.csproj">
+      <Project>{89d12f43-df2a-45ce-8013-1376a51f3149}</Project>
+      <Name>Enterprise.Component.MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Component.ORM\Enterprise.Component.ORM.csproj">
+      <Project>{833F8E42-5AB8-499A-91A1-BF39F7BC0F53}</Project>
+      <Name>Enterprise.Component.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Data.Basis\Enterprise.Data.Basis.csproj">
+      <Project>{5CAFD1EB-150F-471B-9F94-211EC1444E21}</Project>
+      <Name>Enterprise.Data.Basis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Enterprise.Model.Basis\Enterprise.Model.Basis.csproj">
+      <Project>{D00F0FA7-8175-40C8-815C-07BED22BE517}</Project>
+      <Name>Enterprise.Model.Basis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

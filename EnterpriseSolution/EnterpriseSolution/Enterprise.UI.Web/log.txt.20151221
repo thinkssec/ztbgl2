@@ -1,9 +1,0 @@
-2015-12-21 09:48:46,035 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2015>>
-2015-12-21 09:48:46,048 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
-2015-12-21 09:48:46,114 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
-2015-12-21 09:48:46,139 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2015/12/21 9:48:46】成功登录系统!IP:::1>>
-2015-12-21 14:46:09,073 [3] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<<<<<<<用户验证无效>>>>>>>
-2015-12-21 14:46:13,018 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2015>>
-2015-12-21 14:46:13,018 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
-2015-12-21 14:46:13,027 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
-2015-12-21 14:46:13,059 [6] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2015/12/21 14:46:13】成功登录系统!IP:::1>>

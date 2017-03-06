@@ -1,4 +1,0 @@
-2016-07-13 06:44:11,405 [10] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<admin---------------@server2016>>
-2016-07-13 06:44:11,421 [10] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<用户admin,AD身份验证通过!>>
-2016-07-13 06:44:11,431 [10] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<True---->>
-2016-07-13 06:44:11,458 [10] WARN  Enterprise.Component.Infrastructure.Debuger [(null)] - Message=<<页面验证：用户【admin】于【2016/7/13 6:44:11】成功登录系统!IP:::1>>

@@ -1,9 +1,0 @@
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\bin\Debug\Enterprise.Component.MVC.dll
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\bin\Debug\Enterprise.Component.MVC.pdb
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\obj\Debug\Enterprise.Component.MVC.dll
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\obj\Debug\Enterprise.Component.MVC.pdb
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Component.MVC\obj\Debug\Enterprise.Component.MVC.csprojResolveAssemblyReference.cache
-E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.MVC\bin\Debug\Enterprise.Component.MVC.dll
-E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.MVC\bin\Debug\Enterprise.Component.MVC.pdb
-E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.MVC\obj\Debug\Enterprise.Component.MVC.dll
-E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Component.MVC\obj\Debug\Enterprise.Component.MVC.pdb

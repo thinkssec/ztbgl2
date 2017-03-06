@@ -1,9 +1,0 @@
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\bin\Debug\Enterprise.Model.Basis.dll
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\bin\Debug\Enterprise.Model.Basis.pdb
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\obj\Debug\Enterprise.Model.Basis.dll
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\obj\Debug\Enterprise.Model.Basis.pdb
-E:\workspace\ztbgl2\EnterpriseSolution\Enterprise.Model.Basis\obj\Debug\Enterprise.Model.Basis.csprojResolveAssemblyReference.cache
-E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Model.Basis\bin\Debug\Enterprise.Model.Basis.dll
-E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Model.Basis\bin\Debug\Enterprise.Model.Basis.pdb
-E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Model.Basis\obj\Debug\Enterprise.Model.Basis.dll
-E:\workspace\新建文件夹\ztbgl2\EnterpriseSolution\EnterpriseSolution\Enterprise.Model.Basis\obj\Debug\Enterprise.Model.Basis.pdb
